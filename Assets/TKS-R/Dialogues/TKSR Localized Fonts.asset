@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0378145877c582d4d91b993a8608ca71, type: 3}
+  m_Name: TKSR Localized Fonts
+  m_EditorClassIdentifier: 
+  defaultFont: {fileID: 12800000, guid: e437a9a3584b3b146b7b2ee83ee06fe8, type: 3}
+  defaultTextMeshProFont: {fileID: 11400000, guid: a18d5cba988c3104ba3372d2b84f2388, type: 2}
+  fontsForLanguages:
+  - language: zh-CN
+    font: {fileID: 12800000, guid: e437a9a3584b3b146b7b2ee83ee06fe8, type: 3}
+    textMeshProFont: {fileID: 11400000, guid: a18d5cba988c3104ba3372d2b84f2388, type: 2}
+    scaleRelativeToInitialFont: 1
+  - language: zh-TW
+    font: {fileID: 12800000, guid: c6715bbb1796ea845b2b83b868892eb5, type: 3}
+    textMeshProFont: {fileID: 11400000, guid: 565af50438f33d449a64148346837d5c, type: 2}
+    scaleRelativeToInitialFont: 1

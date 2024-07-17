@@ -1,0 +1,422 @@
+{
+  "CharacterParam": [
+    {
+      "CharName": "MainPlayer",
+      "Portrait": "Topaz-Fa_1-1",
+      "USD": 50,
+      "LUCK": 45,
+      "INT_V": 50,
+      "MOL_V": 50,
+      "CRG_V": 50,
+      "MED_V": 25
+    },
+    {
+      "CharName": "NanHua",
+      "Portrait": "",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZuoCi",
+      "Portrait": "",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "YuJi",
+      "Portrait": "",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "CangMing",
+      "Portrait": "",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "SiMaYi",
+      "Portrait": "Topaz-Fa_5-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "CaoCao",
+      "Portrait": "Topaz-Fa_3-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "XiaHouDun",
+      "Portrait": "Topaz-Fa_7-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "DianWei",
+      "Portrait": "Topaz-Fa_9-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "XuChu",
+      "Portrait": "Topaz-Fa_11-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhangLiao",
+      "Portrait": "Topaz-Fa_13-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "XunYu",
+      "Portrait": "Topaz-Fa_15-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "JiaXu",
+      "Portrait": "Topaz-Fa_17-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhuGeLiang",
+      "Portrait": "Topaz-Fa_21-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "LiuBei",
+      "Portrait": "Topaz-Fa_19-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "GuanYu",
+      "Portrait": "Topaz-Fa_23-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhangFei",
+      "Portrait": "Topaz-Fa_25-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "HuangZhong",
+      "Portrait": "Topaz-Fa_27-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhaoYun",
+      "Portrait": "Topaz-Fa_29-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "MaChao",
+      "Portrait": "Topaz-Fa_31-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "MaLiang",
+      "Portrait": "Topaz-Fa_33-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhouYu",
+      "Portrait": "Topaz-Fa_37-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "SunQuan",
+      "Portrait": "Topaz-Fa_35-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "GanNing",
+      "Portrait": "Topaz-Fa_39-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "LvMeng",
+      "Portrait": "Topaz-Fa_41-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "TaiShiCi",
+      "Portrait": "Topaz-Fa_43-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "HuangGai",
+      "Portrait": "Topaz-Fa_45-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "LuXun",
+      "Portrait": "Topaz-Fa_47-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "LuSu",
+      "Portrait": "Topaz-Fa_49-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "SunShangXiang",
+      "Portrait": "Topaz-Fa_55-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "LvBu",
+      "Portrait": "Topaz-Fa_51-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "DiaoChan",
+      "Portrait": "Topaz-Fa_53-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "HuoTuo",
+      "Portrait": "Topaz-Fa_57-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "ZhangJiao",
+      "Portrait": "Topaz-Fa_59-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "MengHuo",
+      "Portrait": "Topaz-Fa_61-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    },
+    {
+      "CharName": "Thief",
+      "Portrait": "Topaz-Fa_131-1",
+      "USD": 0,
+      "LUCK": 0,
+      "INT_V": 0,
+      "MOL_V": 0,
+      "CRG_V": 0,
+      "MED_V": 0
+    }
+  ],
+  "JobStartingStats": [
+    {
+      "Name": "JobMainPlayer",
+      "MHP": 55,
+      "MMP": 30,
+      "ATK": 23,
+      "DEF": 18,
+      "MAT": 0,
+      "MDF": 0,
+      "HIT": 25,
+      "EVD": 20,
+      "SPD": 52,
+      "MOV": 2,
+      "RES": 0,
+      "JMP": 2
+    },
+    {
+      "Name": "JobThief",
+      "MHP": 50,
+      "MMP": 20,
+      "ATK": 20,
+      "DEF": 10,
+      "MAT": 0,
+      "MDF": 0,
+      "HIT": 20,
+      "EVD": 15,
+      "SPD": 40,
+      "MOV": 2,
+      "RES": 0,
+      "JMP": 2
+    }
+  ],
+  "JobGrowthStats": [
+    {
+      "Name": "JobMainPlayer",
+      "MHP": "3.8",
+      "MMP": "2.11",
+      "ATK": "2.15",
+      "DEF": "1.8",
+      "MAT": 0,
+      "MDF": 0,
+      "HIT": "2.14",
+      "EVD": "1.6",
+      "SPD": "1"
+    },
+    {
+      "Name": "JobThief",
+      "MHP": "2",
+      "MMP": "1",
+      "ATK": "1",
+      "DEF": "1",
+      "MAT": 0,
+      "MDF": 0,
+      "HIT": "1",
+      "EVD": "1",
+      "SPD": "1"
+    }
+  ]
+}
