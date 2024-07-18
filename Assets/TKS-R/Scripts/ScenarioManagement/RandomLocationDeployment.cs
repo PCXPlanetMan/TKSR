@@ -51,8 +51,6 @@ namespace TKSR
         {
             // Make the functions available to Lua: (Replace these lines with your own.)
             Lua.RegisterFunction(nameof(RandomGenNextLocation), this, SymbolExtensions.GetMethodInfo(() => RandomGenNextLocation()));
-            Lua.RegisterFunction(nameof(GenCangMingInScene), this, SymbolExtensions.GetMethodInfo(() => GenCangMingInScene()));
-
             Lua.RegisterFunction(nameof(AddOne), this, SymbolExtensions.GetMethodInfo(() => AddOne((double)0)));
         }
 
@@ -60,8 +58,6 @@ namespace TKSR
         {
             // Remove the functions from Lua: (Replace these lines with your own.)
             Lua.UnregisterFunction(nameof(RandomGenNextLocation));
-            Lua.UnregisterFunction(nameof(GenCangMingInScene));
-
             Lua.UnregisterFunction(nameof(AddOne));
         }
         
@@ -109,11 +105,6 @@ namespace TKSR
             {
                 Debug.LogError($"[TKSR] Current Locations City of HuaTuo is Not Correct: {string.Join(',', tempLocations)}");
             }
-        }
-
-        public void GenCangMingInScene()
-        {
-            Debug.Log("Gen Cang Ming");
         }
     }
 }

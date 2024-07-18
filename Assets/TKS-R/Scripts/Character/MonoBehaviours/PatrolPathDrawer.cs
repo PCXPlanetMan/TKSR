@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using PixelCrushers.DialogueSystem.Wrappers;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace TKSR
@@ -68,7 +67,7 @@ namespace TKSR
                     var patrolAI = npc.GetComponent<PatrolAI>();
                     if (patrolAI == null)
                     {
-                        patrolAI = npc.AddComponent<PatrolAI>();
+                        patrolAI = npc.gameObject.AddComponent<PatrolAI>();
                     }
 
                     npc.PatrolAI = patrolAI;
