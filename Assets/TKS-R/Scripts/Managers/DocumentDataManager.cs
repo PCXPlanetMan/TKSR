@@ -518,7 +518,7 @@ namespace TKSR
         /// 剧情播放过程中获取物品和其他数据
         /// </summary>
         /// <param name="itemsList">id:count:duration,id:count:duration,...,[GOLD]:count:duration 若某个元素如果是GOLD,则说明是金钱</param>
-        public void TransportDataByTimeline(string itemsList)
+        public void   TransportDataByTimeline(string itemsList)
         {
             if (_gameDocument == null)
             {
