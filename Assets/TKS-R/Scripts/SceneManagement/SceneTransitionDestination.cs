@@ -166,6 +166,11 @@ namespace TKSR
                     if (satisfiedQuest.deployment != null)
                     {
                         Debug.Log($"[TKSR] SceneTransitionDestination = {this.gameObject.name}, Do deployment = {satisfiedQuest.deployment.name} when Quest Found.");
+                        // BUG:Deployment发生在OnEnable,故如果是同一个Deployment需要再次启动只能通过SetActive重复调用实现.
+                        if (satisfiedQuest.deployment.activeInHierarchy == true)
+                        {
+                            satisfiedQuest.deployment.SetActive(false);
+                        }
                         satisfiedQuest.deployment.SetActive(true);
                     }
                     
@@ -176,11 +181,7 @@ namespace TKSR
                         SceneController.Instance.EnableMainPlayerInput(false);
                         SceneController.Instance.EnableMainPlayerPhysicAndGesture(false);
                     }
-                    // else
-                    // {
-                    //     Debug.Log("[TKSR] No Deployment and Timeline. Nobody in this scene now.");
-                    // }
-                
+                    
                     if (satisfiedQuest.OnReachQuest != null)
                         satisfiedQuest.OnReachQuest.Invoke();
                 }

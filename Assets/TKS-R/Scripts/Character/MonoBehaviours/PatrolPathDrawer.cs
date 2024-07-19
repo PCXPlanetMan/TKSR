@@ -33,7 +33,7 @@ namespace TKSR
         public CharacterStateSetter.ParameterSetter[] parameterSetters;
         
 
-        private void Awake()
+        private void OnEnable()
         {
             for (int i = 0; i < parameterSetters.Length; i++)
                 parameterSetters[i].Awake ();

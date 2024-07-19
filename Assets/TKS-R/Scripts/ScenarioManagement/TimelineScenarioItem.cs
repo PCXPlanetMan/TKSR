@@ -699,15 +699,6 @@ namespace TKSR
         public void TimelineEndEventTransition()
         {
             Debug.Log("[TKSR] TimelineEndEventTransition");
-            // if (targetTransPoint != null)
-            // {
-            //     targetTransPoint.pauseSceneLoading = false;
-            //     targetTransPoint.tipsWhenSceneLoading = string.Empty;
-            //     targetTransPoint.Transition();
-            // }
-            //
-            // ClearTimelineStatusData();
-
             m_enumEndStatus = EnumEndStatus.Normal;
         }
         
@@ -717,22 +708,6 @@ namespace TKSR
         /// <param name="withEntryId">剧情Timeline播放完成后的动作,主要用于在剧情完成进行场景切换时,提供Loading显示的提示文字</param>
         public void TimelineEndEventTransition_WithLoadingText(int withEntryId = 0)
         {
-            // if (withEntryId == 0)
-            // {
-            //     Debug.LogWarning("[TKSR] Loading text is empty when timeline is end.");
-            //     TimelineEndEventTransition();
-            //     return;
-            // }
-            //
-            // if (targetTransPoint != null)
-            // {
-            //     targetTransPoint.pauseSceneLoading = true;
-            //     targetTransPoint.tipsWhenSceneLoading = ParseDialogueContentByEntryId(withEntryId);
-            //     targetTransPoint.Transition();
-            // }
-            //
-            // ClearTimelineStatusData();
-
             m_enumEndStatus = EnumEndStatus.WithLoadingText;
             m_EndStatusWithEntryId = withEntryId;
         }
@@ -742,10 +717,6 @@ namespace TKSR
         /// </summary>
         public void TimelineEndEventTransition_WithWhiteFader()
         {
-            // ScreenFader.Instance.loadingImage.color = Color.white;
-            // ScreenFader.Instance.fadeDuration = 2;
-            // TimelineEndEventTransition();
-
             m_enumEndStatus = EnumEndStatus.Fade;
         }
         
@@ -754,11 +725,6 @@ namespace TKSR
         /// </summary>
         public void TimelineEndEventTransition_WithWhiteOnlyFadeOut()
         {
-            // ScreenFader.Instance.loadingCanvasGroup.alpha = 1f;
-            // ScreenFader.Instance.loadingImage.color = Color.white;
-            // ScreenFader.Instance.fadeDuration = 1;
-            // TimelineEndEventTransition();
-
             m_enumEndStatus = EnumEndStatus.FadeOut;
         }
         
