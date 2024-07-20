@@ -151,7 +151,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 21300000, guid: 9d1b88a00b9083e4889a4f3355037704, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1518662647733874f96f1f10c4662d93, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -271,7 +271,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 3891597430719058855}
   maxSpeed: 3.5
+  isMainPlayer: 0
   faceDirection: 3
+  stillKeepAnimation: 0
+  sceneIndependentTimeline: {fileID: 0}
 --- !u!114 &5654155665376792023
 MonoBehaviour:
   m_ObjectHideFlags: 0

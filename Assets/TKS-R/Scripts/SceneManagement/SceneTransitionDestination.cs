@@ -3,8 +3,11 @@ using UnityEditor;
 #endif
 using System.Collections.Generic;
 using System.Linq;
+using PixelCrushers.DialogueSystem;
+using PixelCrushers.DialogueSystem.Wrappers;
 using UnityEngine;
 using UnityEngine.Events;
+using DialogueSystemController = PixelCrushers.DialogueSystem.DialogueSystemController;
 
 namespace TKSR
 {
@@ -172,6 +175,9 @@ namespace TKSR
                             satisfiedQuest.deployment.SetActive(false);
                         }
                         satisfiedQuest.deployment.SetActive(true);
+                        // BUG:当同一个NPC在同一场景不同时期的不同Deploy设置(需要将上一个可用的Deploy Disable),且使用的是同一个Dialogue Asset,则需要设置StopConversation;
+                        // 否则会出现DialogueSystemManager不允许同一时间运行多个Conversation的警告.
+                        DialogueManager.StopAllConversations();
                     }
                     
                     if (satisfiedQuest.timeline != null)

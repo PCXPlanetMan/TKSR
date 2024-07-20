@@ -5323,7 +5323,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_ItemReward
     - title: Entry Count
-      value: 5
+      value: 6
       type: 1
       typeString: CustomFieldType_Number
     - title: Entry 1
@@ -5351,7 +5351,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 3 State
-      value: active
+      value: success
       type: 0
       typeString: CustomFieldType_QuestState
     - title: Entry 2 Description
@@ -5363,7 +5363,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 4 State
-      value: unassigned
+      value: active
       type: 0
       typeString: CustomFieldType_QuestState
     - title: Entry 4
@@ -5375,7 +5375,7 @@ MonoBehaviour:
       type: 0
       typeString: CustomFieldType_Text
     - title: Entry 5 State
-      value: unassigned
+      value: success
       type: 0
       typeString: 
     - title: Entry 5
@@ -5384,6 +5384,18 @@ MonoBehaviour:
       typeString: 
     - title: Entry 5 Description
       value: "\u5728\u5BFB\u627E\u8349\u836F\u7684\u5206\u652F\u4E2D\u4ECE\u82CD\u6E9F\u5904\u5F97\u77E5\u7EBF\u7D22"
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Entry 6 State
+      value: unassigned
+      type: 0
+      typeString: 
+    - title: Entry 6
+      value: 'TaiShiCi Return : Packaging'
+      type: 0
+      typeString: 
+    - title: Entry 6 Description
+      value: "\u624B\u672F\u6210\u529F\u592A\u53F2\u6148\u7B54\u5E94\u56DE\u5F52\u6B63\u5728\u6253\u5305"
       type: 0
       typeString: CustomFieldType_Text
   - id: 29
@@ -136696,9 +136708,2275 @@ MonoBehaviour:
         y: 82.85715
         width: 160
         height: 30
+    - id: 52
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u8001\u592B\u4EBA\u7684\u75C5\u5DF2\u7ECF\u65E0\u5927\u788D\u4E86\uFF0C\r\n\u53EA\u662F\u624B\u672F\u540E\u865A\u5F31\uFF0C\u9700\u8981\u9759\u517B\u51E0\u5929\u3002\r\n\u5982\u679C\u53EF\u4EE5\uFF0C\r\n\u5E94\u8BE5\u7ED9\u5979\u591A\u5403\u4E00\u4E9B\u6709\u8425\u517B\u7684\u98DF\u7269\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u8001\u592B\u4EBA\u7684\u75C5\u5DF2\u7D93\u7121\u5927\u7919\u4E86\uFF0C\r\n\u53EA\u662F\u624B\u8853\u5F8C\u865B\u5F31\uFF0C\u9700\u8981\u975C\u990A\u5E7E\u5929\u3002\r\n\u5982\u679C\u53EF\u4EE5\uFF0C\r\n\u61C9\u8A72\u7D66\u5979\u591A\u5403\u4E00\u4E9B\u6709\u71DF\u990A\u7684\u98DF\u7269\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 52
+        destinationConversationID: 128
+        destinationDialogueID: 53
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 919.0244
+        width: 160
+        height: 30
+    - id: 53
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u5B50\u4E49\u62DC\u8C22\u5148\u751F\u3002\u5148\u751F\u4E4B\u5927\u6069\u5927\u5FB7\uFF0C\u5B50\u4E49\u7EC8\u751F\u96BE\u5FD8\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u5B50\u7FA9\u62DC\u8B1D\u5148\u751F\u3002\u5148\u751F\u4E4B\u5927\u6069\u5927\u5FB7\uFF0C\u5B50\u7FA9\u7D42\u751F\u96E3\u5FD8\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 53
+        destinationConversationID: 128
+        destinationDialogueID: 54
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 969.0244
+        width: 160
+        height: 30
+    - id: 54
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u7531\u4E8E\u6BCD\u4EB2\u67D3\u75BE\u591A\u5E74\uFF0C\r\n\u904D\u5BFB\u826F\u533B\u826F\u836F\u4E4B\u540E\uFF0C\u5BB6\u4E2D\u65E0\u751A\u79EF\u84C4\uFF0C\r\n\u8FD9\u4E00\u70B9\u5C0F\u94B1\u8584\u793C\uFF0C\u8FD8\u8BF7\u5148\u751F\u7B11\u7EB3\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u7531\u65BC\u6BCD\u89AA\u67D3\u75BE\u591A\u5E74\uFF0C\r\n\u904D\u5C0B\u826F\u91AB\u826F\u85E5\u4E4B\u5F8C\uFF0C\u5BB6\u4E2D\u7121\u751A\u7A4D\u84C4\uFF0C\r\n\u9019\u4E00\u9EDE\u5C0F\u9322\u8584\u79AE\uFF0C\u9084\u8ACB\u5148\u751F\u7B11\u7D0D\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 54
+        destinationConversationID: 128
+        destinationDialogueID: 55
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1019.0244
+        width: 160
+        height: 30
+    - id: 55
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u9601\u4E0B\u5F85\u4EB2\u81F3\u5B5D\uFF0C\u534E\u67D0\u4E0D\u6536\u4F60\u7684\u770B\u8BCA\u8D39\uFF0C\r\n\u4F60\u81EA\u5DF1\u7559\u7740\uFF0C\u4E3A\u6BCD\u4EB2\u591A\u4E70\u70B9\u8865\u54C1\u5427\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u95A3\u4E0B\u5F85\u89AA\u81F3\u5B5D\uFF0C\u83EF\u67D0\u4E0D\u6536\u4F60\u7684\u770B\u8A3A\u8CBB\uFF0C\r\n\u4F60\u81EA\u5DF1\u7559\u8457\uFF0C\u70BA\u6BCD\u89AA\u591A\u8CB7\u9EDE\u88DC\u54C1\u5427\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 55
+        destinationConversationID: 128
+        destinationDialogueID: 56
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1069.0244
+        width: 160
+        height: 30
+    - id: 56
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u91D1\u94B1\u5FAE\u8584\uFF0C\r\n\u5374\u662F\u5B50\u4E49\u7684\u4E00\u70B9\u8BDA\u610F\uFF0C\r\n\u8FD8\u8BF7\u5148\u751F\u52FF\u5374\u662F\u5E78\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u91D1\u9322\u5FAE\u8584\uFF0C\r\n\u537B\u662F\u5B50\u7FA9\u7684\u4E00\u9EDE\u8AA0\u610F\uFF0C\r\n\u9084\u8ACB\u5148\u751F\u52FF\u537B\u662F\u5E78\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 56
+        destinationConversationID: 128
+        destinationDialogueID: 57
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1119.0244
+        width: 160
+        height: 30
+    - id: 57
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u4F60\u5BB6\u4E2D\u60C5\u51B5\u4E5F\u4E0D\u592A\u597D\uFF0C\r\n\u534E\u67D0\u4E0D\u80FD\u6536\u8FD9\u4EFD\u8C22\u91D1\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u4F60\u5BB6\u4E2D\u60C5\u6CC1\u4E5F\u4E0D\u592A\u597D\uFF0C\r\n\u83EF\u67D0\u4E0D\u80FD\u6536\u9019\u4EFD\u8B1D\u91D1\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 57
+        destinationConversationID: 128
+        destinationDialogueID: 58
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1169.0244
+        width: 160
+        height: 30
+    - id: 58
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u8FD9......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u9019......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 58
+        destinationConversationID: 128
+        destinationDialogueID: 59
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1219.0244
+        width: 160
+        height: 30
+    - id: 59
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u4E0D\u7136\u8FD9\u6837\u5427\u3002\r\n\u5B50\u4E49\u5144\uFF0C\u8FD9\u4E9B\u94B1\u4F60\u6536\u4E0B\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u4E0D\u7136\u9019\u6A23\u5427\u3002\r\n\u5B50\u7FA9\u5144\uFF0C\u9019\u4E9B\u9322\u4F60\u6536\u4E0B\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 59
+        destinationConversationID: 128
+        destinationDialogueID: 60
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1269.0244
+        width: 160
+        height: 30
+    - id: 60
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u8FD9......\u8FD9\u4E48\u591A\u94B1\uFF0C\r\n\u6211\u4E00\u5BB6\u5DF2\u6DF1\u53D7\u58EE\u58EB\u4E4B\u9AD8\u4E49\uFF0C\r\n\u600E\u80FD\u518D\u62FF\u60A8\u7684\u94B1\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u9019......\u9019\u9EBC\u591A\u9322\uFF0C\r\n\u6211\u4E00\u5BB6\u5DF2\u6DF1\u53D7\u58EF\u58EB\u4E4B\u9AD8\u7FA9\uFF0C\r\n\u600E\u80FD\u518D\u62FF\u60A8\u7684\u9322\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 60
+        destinationConversationID: 128
+        destinationDialogueID: 61
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1319.0244
+        width: 160
+        height: 30
+    - id: 61
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6211\u8FD9\u4E5F\u4E0D\u662F\u9001\u4F60\u7684\uFF0C\u800C\u662F\u4E00\u77F3\u4E09\u9E1F\u4E4B\u8BA1\uFF0C\r\n\u5982\u679C\u5B50\u4E49\u63A5\u53D7\uFF0C\u4E8E\u6211\u7B49\u90FD\u6709\u5927\u5927\u7684\u597D\u5904\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6211\u9019\u4E5F\u4E0D\u662F\u9001\u4F60\u7684\uFF0C\u800C\u662F\u4E00\u77F3\u4E09\u9CE5\u4E4B\u8A08\uFF0C\r\n\u5982\u679C\u5B50\u7FA9\u63A5\u53D7\uFF0C\u65BC\u6211\u7B49\u90FD\u6709\u5927\u5927\u7684\u597D\u8655\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 61
+        destinationConversationID: 128
+        destinationDialogueID: 62
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1369.0244
+        width: 160
+        height: 30
+    - id: 62
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u4E00\u77F3\u4E09\u9E1F\u4E4B\u8BA1\uFF1F\u5728\u4E0B\u4E0D\u660E\u767D\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u4E00\u77F3\u4E09\u9CE5\u4E4B\u8A08\uFF1F\u5728\u4E0B\u4E0D\u660E\u767D\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 62
+        destinationConversationID: 128
+        destinationDialogueID: 63
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1419.0244
+        width: 160
+        height: 30
+    - id: 63
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u8FD9\u4E9B\u94B1\u662F\u6211\u4EE3\u5434\u56FD\u519B\u5E08\u5468\u745C\u8F6C\u8D60\u4E0E\u4F60\u7684\uFF0C\r\n\u5468\u745C\u5927\u4EBA\u5BF9\u9601\u4E0B\u6155\u540D\u5DF2\u4E45\uFF0C\r\n\u4E00\u76F4\u5E0C\u671B\u9601\u4E0B\u6295\u5954\u5434\u56FD\u53D1\u6325\u672C\u9886\uFF0C\r\n\u4E3A\u5E73\u5B9A\u5929\u4E0B\u4E71\u4E16\u5171\u5C3D\u5FC3\u529B\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u9019\u4E9B\u9322\u662F\u6211\u4EE3\u5433\u570B\u8ECD\u5E2B\u5468\u745C\u8F49\u8D08\u8207\u4F60\u7684\uFF0C\r\n\u5468\u745C\u5927\u4EBA\u5C0D\u95A3\u4E0B\u6155\u540D\u5DF2\u4E45\uFF0C\r\n\u4E00\u76F4\u5E0C\u671B\u95A3\u4E0B\u6295\u5954\u5433\u570B\u767C\u63EE\u672C\u9818\uFF0C\r\n\u70BA\u5E73\u5B9A\u5929\u4E0B\u4E82\u4E16\u5171\u76E1\u5FC3\u529B\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 63
+        destinationConversationID: 128
+        destinationDialogueID: 64
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1469.0244
+        width: 160
+        height: 30
+    - id: 64
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u5B50\u4E49\u5982\u679C\u613F\u610F\u6536\u4E0B\u8FD9\u70B9\u94B1\uFF0C\r\n\u5219\u53EF\u4EE5\u89E3\u9664\u5BB6\u4E2D\u7684\u56F0\u987F\uFF0C\r\n\u4E3A\u8001\u592B\u4EBA\u6DFB\u8D2D\u8865\u54C1\uFF0C\u6B64\u4E3A\u300E\u4E00\u9E1F\u300F\u4E5F\uFF1B"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u5B50\u7FA9\u5982\u679C\u9858\u610F\u6536\u4E0B\u9019\u9EDE\u9322\uFF0C\r\n\u5247\u53EF\u4EE5\u89E3\u9664\u5BB6\u4E2D\u7684\u56F0\u9813\uFF0C\r\n\u70BA\u8001\u592B\u4EBA\u6DFB\u8CFC\u88DC\u54C1\uFF0C\u6B64\u70BA\u300E\u4E00\u9CE5\u300F\u4E5F\uFF1B"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 64
+        destinationConversationID: 128
+        destinationDialogueID: 65
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1519.0244
+        width: 160
+        height: 30
+    - id: 65
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u534E\u5148\u751F\u4E5F\u5C31\u4E0D\u80FD\u63A8\u8F9E\u5B50\u4E49\u7684\u8BDA\u610F\u9988\u5949\uFF0C\r\n\u6B64\u4E3A\u300E\u4E8C\u9E1F\u300F\u4E5F\uFF1B"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u83EF\u5148\u751F\u4E5F\u5C31\u4E0D\u80FD\u63A8\u8FAD\u5B50\u7FA9\u7684\u8AA0\u610F\u993D\u5949\uFF0C\r\n\u6B64\u70BA\u300E\u4E8C\u9CE5\u300F\u4E5F\uFF1B"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 65
+        destinationConversationID: 128
+        destinationDialogueID: 66
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1569.0244
+        width: 160
+        height: 30
+    - id: 66
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u800C\u5176\u540E\u5B50\u4E49\u6295\u5954\u5434\u56FD\u5EFA\u4E1A\uFF0C\r\n\u6211\u4E5F\u80FD\u5B8C\u6210\u5468\u745C\u5927\u4EBA\u6258\u4ED8\u7684\u4EFB\u52A1\uFF0C\r\n\u6B64\u4E3A\u300E\u4E09\u9E1F\u300F\u4E5F\u3002\u8FD9\u5C82\u4E0D\u662F\u4E00\u77F3\u4E09\u9E1F\u4E4B\u8BA1\u5417\uFF1F"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u800C\u5176\u5F8C\u5B50\u7FA9\u6295\u5954\u5433\u570B\u5EFA\u696D\uFF0C\r\n\u6211\u4E5F\u80FD\u5B8C\u6210\u5468\u745C\u5927\u4EBA\u8A17\u4ED8\u7684\u4EFB\u52D9\uFF0C\r\n\u6B64\u70BA\u300E\u4E09\u9CE5\u300F\u4E5F\u3002\u9019\u8C48\u4E0D\u662F\u4E00\u77F3\u4E09\u9CE5\u4E4B\u8A08\u55CE\uFF1F"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 66
+        destinationConversationID: 128
+        destinationDialogueID: 67
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1619.0244
+        width: 160
+        height: 30
+    - id: 67
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u5982\u6B64\u751A\u597D\uFF01\u6211\u8FD9\u4F4D\u5C0F\u5144\u5F1F\u6DF1\u8C0B\u8FDC\u8651\uFF0C\r\n\u4E3A\u592A\u53F2\u6148\u58EE\u58EB\u627E\u5230\u53D1\u6325\u4E00\u8EAB\u672C\u9886\u7684\u5730\u65B9\uFF0C\r\n\u81F4\u529B\u4E8E\u5E73\u5B9A\u5929\u4E0B\u4E71\u4E16\uFF0C\u9601\u4E0B\u53EF\u4E0D\u8981\u63A8\u8F9E\u624D\u597D\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u5982\u6B64\u751A\u597D\uFF01\u6211\u9019\u4F4D\u5C0F\u5144\u5F1F\u6DF1\u8B00\u9060\u616E\uFF0C\r\n\u70BA\u592A\u53F2\u6148\u58EF\u58EB\u627E\u5230\u767C\u63EE\u4E00\u8EAB\u672C\u9818\u7684\u5730\u65B9\uFF0C\r\n\u81F4\u529B\u65BC\u5E73\u5B9A\u5929\u4E0B\u4E82\u4E16\uFF0C\u95A3\u4E0B\u53EF\u4E0D\u8981\u63A8\u8FAD\u624D\u597D\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 67
+        destinationConversationID: 128
+        destinationDialogueID: 68
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1669.0244
+        width: 160
+        height: 30
+    - id: 68
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u627F\u8499\u4E24\u4F4D\u5982\u6B64\u5927\u6069\uFF0C\r\n\u5B50\u4E49\u672C\u8BE5\u4E49\u65E0\u53CD\u987E\u5730\u7B54\u5E94\u624D\u662F\uFF0C\r\n\u552F\u6BCD\u4EB2\u4ECD\u5728\uFF0C\u5B50\u4E49\u5B9E\u5728\u4E0D\u80FD\u8FDC\u79BB......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u627F\u8499\u5169\u4F4D\u5982\u6B64\u5927\u6069\uFF0C\r\n\u5B50\u7FA9\u672C\u8A72\u7FA9\u7121\u53CD\u9867\u5730\u7B54\u61C9\u624D\u662F\uFF0C\r\n\u552F\u6BCD\u89AA\u4ECD\u5728\uFF0C\u5B50\u7FA9\u5BE6\u5728\u4E0D\u80FD\u9060\u96E2......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 68
+        destinationConversationID: 128
+        destinationDialogueID: 69
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1719.0244
+        width: 160
+        height: 30
+    - id: 69
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6148\u513F......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6148\u5152......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 69
+        destinationConversationID: 128
+        destinationDialogueID: 70
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1769.0244
+        width: 160
+        height: 30
+    - id: 70
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6BCD\u4EB2\uFF01\u6BCD\u4EB2\u60A8\u9192\u5566\uFF01"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6BCD\u89AA\uFF01\u6BCD\u89AA\u60A8\u9192\u5566\uFF01"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 70
+        destinationConversationID: 128
+        destinationDialogueID: 71
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1819.0244
+        width: 160
+        height: 30
+    - id: 71
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6148\u513F......\u4E24\u4F4D\u5927\u6069\u4EBA\u8BF4\u7684\u6CA1\u9519......\r\n\u7537\u513F\u5FD7\u5728\u56DB\u65B9\uFF0C\r\n\u4E0D\u8981\u56E0\u4E3A\u6211\u800C\u6D6A\u8D39\u4E86\u4F60\u7684\u4E00\u8EAB\u6280\u827A......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6148\u5152......\u5169\u4F4D\u5927\u6069\u4EBA\u8AAA\u7684\u6C92\u932F......\r\n\u7537\u5152\u5FD7\u5728\u56DB\u65B9\uFF0C\r\n\u4E0D\u8981\u56E0\u70BA\u6211\u800C\u6D6A\u8CBB\u4E86\u4F60\u7684\u4E00\u8EAB\u6280\u85DD......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 71
+        destinationConversationID: 128
+        destinationDialogueID: 72
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1869.0244
+        width: 160
+        height: 30
+    - id: 72
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u627F\u8499\u533B\u751F\u5999\u624B\u56DE\u6625......\r\n\u6211\u73B0\u4ECA\u5DF2\u65E0\u5927\u788D\uFF0C\u4F60\u5C31\u53BB\u5EFA\u4E1A\uFF0C\r\n\u597D\u597D\u505A\u4E00\u756A\u529F\u4E1A\u5427\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u627F\u8499\u91AB\u751F\u5999\u624B\u56DE\u6625......\r\n\u6211\u73FE\u4ECA\u5DF2\u7121\u5927\u7919\uFF0C\u4F60\u5C31\u53BB\u5EFA\u696D\uFF0C\r\n\u597D\u597D\u505A\u4E00\u756A\u529F\u696D\u5427\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 72
+        destinationConversationID: 128
+        destinationDialogueID: 73
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1919.0244
+        width: 160
+        height: 30
+    - id: 73
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6BCD\u4EB2......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6BCD\u89AA......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 73
+        destinationConversationID: 128
+        destinationDialogueID: 74
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 1969.0244
+        width: 160
+        height: 30
+    - id: 74
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u542C\u5A18\u7684\u8BDD......\r\n\u5C06\u4E00\u5DF1\u4E4B\u5B5D\u5FC3\uFF0C\r\n\u8F6C\u4E3A\u5BF9\u56FD\u5BB6\u793E\u4F1A\u7684\u5927\u4EC1\u5927\u7231\uFF0C\r\n\u8FD9\u6837\u5A18\u624D\u4F1A\u89C9\u5F97\u6B23\u6170\u554A......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u807D\u5A18\u7684\u8A71......\r\n\u5C07\u4E00\u5DF1\u4E4B\u5B5D\u5FC3\uFF0C\r\n\u8F49\u70BA\u5C0D\u570B\u5BB6\u793E\u6703\u7684\u5927\u4EC1\u5927\u611B\uFF0C\r\n\u9019\u6A23\u5A18\u624D\u6703\u89BA\u5F97\u6B23\u6170\u554A......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 74
+        destinationConversationID: 128
+        destinationDialogueID: 75
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2019.0244
+        width: 160
+        height: 30
+    - id: 75
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u662F\uFF0C\u6BCD\u4EB2\u3002\r\n\u5F85\u59B3\u4F11\u517B\u51E0\u5929\u4E4B\u540E\uFF0C\u5B69\u513F\u5C31\u524D\u5F80\u5EFA\u4E1A\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u662F\uFF0C\u6BCD\u89AA\u3002\r\n\u5F85\u59B3\u4F11\u990A\u5E7E\u5929\u4E4B\u5F8C\uFF0C\u5B69\u5152\u5C31\u524D\u5F80\u5EFA\u696D\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 75
+        destinationConversationID: 128
+        destinationDialogueID: 76
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2069.0244
+        width: 160
+        height: 30
+    - id: 76
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 95
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u597D......\u597D\u5B69\u5B50......"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u597D......\u597D\u5B69\u5B50......"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 76
+        destinationConversationID: 128
+        destinationDialogueID: 77
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2119.0244
+        width: 160
+        height: 30
+    - id: 77
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u96BE\u5F97\u592A\u53F2\u592B\u4EBA\u5982\u6B64\u6DF1\u660E\u5927\u4E49\uFF0C\r\n\u8FD9\u6837\u4E00\u5207\u5C31\u5706\u6EE1\u89E3\u51B3\u4E86\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u96E3\u5F97\u592A\u53F2\u592B\u4EBA\u5982\u6B64\u6DF1\u660E\u5927\u7FA9\uFF0C\r\n\u9019\u6A23\u4E00\u5207\u5C31\u5713\u6EFF\u89E3\u6C7A\u4E86\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 77
+        destinationConversationID: 128
+        destinationDialogueID: 78
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2169.0244
+        width: 160
+        height: 30
+    - id: 78
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u611F\u8C22\u4E8C\u4F4D\u9AD8\u4E49\uFF0C\r\n\u5B50\u4E49\u6570\u65E5\u540E\u5C31<color=#FF0000>\u524D\u5F80\u5EFA\u4E1A</color>\uFF0C\r\n\u6211\u4EEC\u4E8E\u5EFA\u4E1A\u518D\u89C1\u5427\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u611F\u8B1D\u4E8C\u4F4D\u9AD8\u7FA9\uFF0C\r\n\u5B50\u7FA9\u6578\u65E5\u5F8C\u5C31<color=#FF0000>\u524D\u5F80\u5EFA\u696D</color>\uFF0C\r\n\u6211\u5011\u65BC\u5EFA\u696D\u518D\u898B\u5427\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 78
+        destinationConversationID: 128
+        destinationDialogueID: 79
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2219.0244
+        width: 160
+        height: 30
+    - id: 79
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u5C4A\u65F6\u5982\u679C\u6709\u9700\u8981\u5B50\u4E49\u5E2E\u52A9\u7684\u5730\u65B9\uFF0C\r\n\u5B50\u4E49\u8D74\u6C64\u8E48\u706B\u3001\u5728\u6240\u4E0D\u8F9E\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u5C46\u6642\u5982\u679C\u6709\u9700\u8981\u5B50\u7FA9\u5E6B\u52A9\u7684\u5730\u65B9\uFF0C\r\n\u5B50\u7FA9\u8D74\u6E6F\u8E48\u706B\u3001\u5728\u6240\u4E0D\u8FAD\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 79
+        destinationConversationID: 128
+        destinationDialogueID: 80
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2269.0244
+        width: 160
+        height: 30
+    - id: 80
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u597D\uFF0C\u5982\u679C\u6709\u9700\u8981\u4F60\u7684\u5730\u65B9\uFF0C\r\n\u6211\u4E00\u5B9A\u4F1A\u5230\u5EFA\u4E1A\u627E\u4F60\u7684\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u597D\uFF0C\u5982\u679C\u6709\u9700\u8981\u4F60\u7684\u5730\u65B9\uFF0C\r\n\u6211\u4E00\u5B9A\u6703\u5230\u5EFA\u696D\u627E\u4F60\u7684\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 80
+        destinationConversationID: 128
+        destinationDialogueID: 81
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2319.0244
+        width: 160
+        height: 30
+    - id: 81
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u6211\u770B\u6B64\u95F4\u4E8B\u60C5\u5DF2\u4E86\uFF0C\u8001\u592B\u4E5F\u8BE5\u544A\u9000\u4E86\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u6211\u770B\u6B64\u9593\u4E8B\u60C5\u5DF2\u4E86\uFF0C\u8001\u592B\u4E5F\u8A72\u544A\u9000\u4E86\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 81
+        destinationConversationID: 128
+        destinationDialogueID: 82
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2369.0244
+        width: 160
+        height: 30
+    - id: 82
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u5B50\u4E49\u9001\u534E\u5927\u592B\u3002"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u5B50\u7FA9\u9001\u83EF\u5927\u592B\u3002"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 128
+        originDialogueID: 82
+        destinationConversationID: 128
+        destinationDialogueID: 83
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2419.0244
+        width: 160
+        height: 30
+    - id: 83
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: "\u4E0D\u7528\u4E86\uFF0C\u544A\u8F9E\uFF01"
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: "\u4E0D\u7528\u4E86\uFF0C\u544A\u8FAD\uFF01"
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 128
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 240.73166
+        y: 2469.0244
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
-    canvasZoom: 0.5800002
+    canvasScrollPosition: {x: 0, y: 1739.24}
+    canvasZoom: 0.6700001
   - id: 129
     fields:
     - title: Title
@@ -137300,6 +139578,77 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 129
+        originDialogueID: 7
+        destinationConversationID: 129
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 'SetQuestEntryState("Wu Return : TaiShiCi", 4, "success")'
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 20
+        y: 330
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 93
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 94
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Response Menu Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Portraits Visible
+        value: True
+        type: 2
+        typeString: CustomFieldType_Boolean
+      - title: zh-TW
+        value: 
+        type: 4
+        typeString: CustomFieldType_Localization
+      - title: EventGuid
+        value: 087530a4-0dfd-4ffe-a3e9-bb29047480dc
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 129
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
@@ -137309,7 +139658,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 20
-        y: 330
+        y: 380
         width: 160
         height: 30
     entryGroups: []

@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  debugDescription: 
+  debugDescription: "\u8BB8\u891A\u7B54\u5E94\u56DE\u5F52\u6B63\u5728\u6253\u5305,\u4E3B\u89D2\u51FA\u8BB8\u5BB6\u6751\u540E,\u8BB8\u891A\u6B63\u5F0F\u56DE\u5F52"
   listQuestStateItemsCondition:
   - questName: 'Wei Return : XuChu'
     questState: 2
@@ -1937,13 +1937,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 252807664}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &252807662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 252807661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &252807663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 252807661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &252807664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252807663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u592A\u53F2\u6148\u6B63\u5728\u6253\u5305,\u4E3B\u89D2\u51FA\u5317\u6D77\u540E,\u592A\u53F2\u6148\u6B63\u5F0F\u56DE\u5F52"
+  listQuestStateItemsCondition:
+  - questName: 'Wu Return : TaiShiCi'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'TaiShiCi Return : Packaging'
+    questEntryState: 2
+  listQuestStateItemsResult:
+  - questName: 'Wu Return : TaiShiCi'
+    questState: 4
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'TaiShiCi Return : Packaging'
+    questEntryState: 4
 --- !u!1 &255091530
 GameObject:
   m_ObjectHideFlags: 0
