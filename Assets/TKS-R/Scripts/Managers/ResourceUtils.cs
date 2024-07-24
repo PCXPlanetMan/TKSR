@@ -83,6 +83,7 @@ namespace TKSR
         public static readonly string I2FORMAT_GOT_MONEY = "Format/GotGolds";
         public static readonly string I2FORMAT_GOT_ITEM = "Format/GotItem";
         public static readonly string I2FORMAT_GOLD_NOT_ENOUGH = "Format/GoldsNotEnough";
+        public static readonly string I2FORMAT_QUEST_LIUCONG_TOILET_TIME = "Format/QuestLiuCong_ToiletTime";
         
         public static readonly string I2FORMAT_BATTLE_CHAR_CATEGORY = "Battle/Characters/";
         public static readonly string I2FORMAT_BATTLE_ABILITY_CATEGORY = "Battle/Ability/";

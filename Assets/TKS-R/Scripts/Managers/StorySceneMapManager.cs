@@ -120,9 +120,6 @@ namespace TKSR
                     GameUI.Instance.toastPanel.ShowToastNotEnoughMoney(goldAmount, showDuration);
                 }
             }
-            
         }
-
-        
     }
 }

@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -828,7 +827,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: ChengDu/ChengDuMedic/DailyTalk_CityChengDuMedic_MedicOldMan
+  conversation: MedicStore/DailyTalk_MedicOldMan
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -1170,19 +1169,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugDescription: 
   listQuestStateItemsCondition: []
   listQuestEntryStateItemsCondition:
   - questEntryName: 'XuChu Return : XuChu To Temple'
     questEntryState: 2
-    questEntryConditionTrue: 1
   listQuestStateItemsResult: []
   listQuestEntryStateItemsResult:
   - questEntryName: 'XuChu Return : XuChu To Temple'
     questEntryState: 4
-    questEntryConditionTrue: 0
   - questEntryName: 'XuChu Return : XuChu Be Poisoned'
     questEntryState: 2
-    questEntryConditionTrue: 0
 --- !u!1 &1493723967
 GameObject:
   m_ObjectHideFlags: 0

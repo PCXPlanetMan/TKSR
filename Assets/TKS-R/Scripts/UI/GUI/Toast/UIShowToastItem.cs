@@ -50,6 +50,17 @@ namespace TKSR
             var localManager = toastContent.GetComponent<LocalizationParamsManager>();
             localManager.SetParameterValue(ResourceUtils.I2PARAM_FORMAT_GOLDCOUNT, gold.ToString());
         }
+        
+        public void DisplayToast(string strI2Format, float showDuration)
+        {
+            m_toastShowDuration = showDuration;
+            gameObject.SetActive(true);
+            m_timeTick = 0f;
+            isPop = true;
+
+            strI2Format = "Format/" + strI2Format;
+            toastContent.gameObject.GetComponent<Localize>().SetTerm(strI2Format);
+        }
 
         private float m_timeTick = 0f;
 

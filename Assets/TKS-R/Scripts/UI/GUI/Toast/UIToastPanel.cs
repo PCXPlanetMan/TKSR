@@ -70,8 +70,20 @@ namespace TKSR
                 itemToast.DisplayToastNotEnoughGoldWarning(gold, showDuration);
             else if (gold < 0)
             {
-                
+                Debug.LogError("[TKSR] Gold is negative.");
             }
+        }
+        
+        public void ShowToastFixedFormation(string strContent, float showDuration)
+        {
+            var itemToast = PopToastItem();
+            if (itemToast == null)
+            {
+                Debug.LogError("Want to show toast but there is no any toast ui existed.");
+                return;
+            }
+
+            itemToast.DisplayToast(strContent, showDuration);
         }
 
         private UIShowToastItem PopToastItem()

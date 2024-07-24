@@ -513,8 +513,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
-  m_Size: {x: 0.7, y: 2}
+  m_Offset: {x: 0, y: 1.1}
+  m_Size: {x: 0.7, y: 2.2}
   m_Direction: 0
 --- !u!114 &8591970395009396358
 MonoBehaviour:
@@ -542,7 +542,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 507392113265590011}
   maxSpeed: 3.5
+  isMainPlayer: 0
   faceDirection: 3
+  stillKeepAnimation: 0
+  sceneIndependentTimeline: {fileID: 0}
 --- !u!114 &1178734777392490651
 MonoBehaviour:
   m_ObjectHideFlags: 0

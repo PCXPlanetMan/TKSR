@@ -17317,13 +17317,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2039183270}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &2039183268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 2039183267}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2039183269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 2039183267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2039183270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039183269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u4E3B\u89D2\u79BB\u5F00\u8944\u9633\u540E,\u9A6C\u826F\u56DE\u5F52"
+  listQuestStateItemsCondition:
+  - questName: 'Shu Return : MaLiang'
+    questState: 4
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'MaLiang Return : Packaging'
+    questEntryState: 2
+  listQuestStateItemsResult:
+  - questName: 'Shu Return : MaLiang'
+    questState: 4
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'MaLiang Return : Packaging'
+    questEntryState: 4
 --- !u!1001 &2046873164
 PrefabInstance:
   m_ObjectHideFlags: 0

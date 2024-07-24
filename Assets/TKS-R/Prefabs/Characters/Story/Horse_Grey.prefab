@@ -387,7 +387,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 963836518345486060}
   maxSpeed: 3.5
+  isMainPlayer: 0
   faceDirection: 3
+  stillKeepAnimation: 0
+  sceneIndependentTimeline: {fileID: 0}
 --- !u!114 &4474425337387588895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   once: 0
-  conversation: Horse_Barks
+  conversation: ChangSha/ChangShaBarn/Horse_Barks
   condition:
     luaConditions: []
     questConditions: []

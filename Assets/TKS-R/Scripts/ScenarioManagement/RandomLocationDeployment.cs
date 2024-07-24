@@ -59,6 +59,7 @@ namespace TKSR
             // Make the functions available to Lua: (Replace these lines with your own.)
             Lua.RegisterFunction(nameof(RandomGenNextLocation), this, SymbolExtensions.GetMethodInfo(() => RandomGenNextLocation(true)));
             Lua.RegisterFunction(nameof(HuaTuoReturnToRealNextLocation), this, SymbolExtensions.GetMethodInfo(() => HuaTuoReturnToRealNextLocation()));
+            Lua.RegisterFunction(nameof(SaveItemsToDialogue), this, SymbolExtensions.GetMethodInfo(() => SaveItemsToDialogue(null)));
         }
 
         void OnDisable()
@@ -66,6 +67,7 @@ namespace TKSR
             // Remove the functions from Lua: (Replace these lines with your own.)
             Lua.UnregisterFunction(nameof(RandomGenNextLocation));
             Lua.UnregisterFunction(nameof(HuaTuoReturnToRealNextLocation));
+            Lua.UnregisterFunction(nameof(SaveItemsToDialogue));
         }
         
         // [QuestName]
@@ -154,6 +156,11 @@ namespace TKSR
             {
                 Debug.LogError("[TKSR] Not found a valid next random city for HuaTuo.");
             }
+        }
+
+        public void SaveItemsToDialogue(string strItemData)
+        {
+            DocumentDataManager.Instance.TransportDataByTimeline(strItemData);
         }
     }
 }

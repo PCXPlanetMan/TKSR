@@ -938,6 +938,34 @@ namespace TKSR
                 m_VirtualSelector.ShowResponses(listResponse.ToArray(), this);
             }
         }
+
+        /// <summary>
+        /// 在剧情播放的时候,显示一些剧情中需要的Text
+        /// </summary>
+        /// <param name="strI2ContentParam"></param>
+        public void TimelineShowScenarioText(string strI2ContentParam)
+        {
+            if (!string.IsNullOrEmpty(strI2ContentParam))
+            {
+                var contentData = strI2ContentParam.Split(':');
+                float showDuration = 0f;
+                string strI2Content = null;
+                if (contentData.Length > 0)
+                {
+                    strI2Content = contentData[0];
+                }
+
+                if (contentData.Length > 1)
+                {
+                    if (float.TryParse(contentData[1], out float duration))
+                    {
+                        showDuration = duration;
+                    }
+                }
+
+                GameUI.Instance.toastPanel.ShowToastFixedFormation(strI2Content, showDuration);
+            }
+        }
         #endregion
 
         private void ClearTimelineStatusData()
