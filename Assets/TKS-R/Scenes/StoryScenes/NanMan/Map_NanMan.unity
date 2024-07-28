@@ -310,16 +310,26 @@ MonoBehaviour:
   targetPatrolMode: 0
   patrolDelay: 0
   patrolPathNodes: []
-  animator: {fileID: 0}
-  setState: 0
-  animatorStateName: 
-  setParameters: 0
-  parameterSetters: []
---- !u!1 &144874541 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
-  m_PrefabInstance: {fileID: 1339599813}
-  m_PrefabAsset: {fileID: 0}
+  animator: {fileID: 1573680392}
+  setState: 1
+  animatorStateName: Standing
+  setParameters: 1
+  parameterSetters:
+  - parameterName: Standing
+    parameterType: 0
+    boolValue: 1
+    floatValue: 0
+    intValue: 0
+  - parameterName: Saying
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+  - parameterName: Drinking
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
 --- !u!1 &234142904
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,11 +598,26 @@ MonoBehaviour:
   targetPatrolMode: 0
   patrolDelay: 0
   patrolPathNodes: []
-  animator: {fileID: 0}
-  setState: 0
-  animatorStateName: 
-  setParameters: 0
-  parameterSetters: []
+  animator: {fileID: 1310874244}
+  setState: 1
+  animatorStateName: Standing
+  setParameters: 1
+  parameterSetters:
+  - parameterName: Standing
+    parameterType: 0
+    boolValue: 1
+    floatValue: 0
+    intValue: 0
+  - parameterName: Saying
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+  - parameterName: Drinking
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
 --- !u!1001 &455068581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1580,6 +1605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaredheadedRareRaceMan_1
       objectReference: {fileID: 0}
+    - target: {fileID: 2119286974209089144, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447644719629509455, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+      propertyPath: actor
+      value: BaredheadedRareRaceMan_1
+      objectReference: {fileID: 0}
     - target: {fileID: 5410799846170600559, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.14
@@ -1818,37 +1851,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1339599817}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
 --- !u!4 &1339599814 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
   m_PrefabInstance: {fileID: 1339599813}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1339599817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144874541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questDescription: 
-  listQuestStateItems: []
-  listQuestEntryStateItems: []
-  timeline: {fileID: 0}
-  deployment: {fileID: 0}
-  OnReachQuest:
-    m_PersistentCalls:
-      m_Calls: []
-  dlgActor: {fileID: 0}
 --- !u!1 &1357777562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,6 +1889,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1361589523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1556986684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1370855993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2139,7 +2153,7 @@ PrefabInstance:
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
-      objectReference: {fileID: 1310874244}
+      objectReference: {fileID: 1573680392}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[5].value
       value: 
@@ -2279,10 +2293,10 @@ PrefabInstance:
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: attachedPathNodes
       value: 
-      objectReference: {fileID: 2078133114}
+      objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: debugScenarioDesc
-      value: "\u5218\u8868\u8C08\u8BDD\u540E\u8FDB\u5165\u5218\u742E\u623F\u95F4"
+      value: "\u9996\u6B21\u8FDB\u5165\u5357\u86EE\u6751\u5E84\u770B\u89C1\u5B5F\u83B7\u4E3E\u4E8B"
       objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: toBattleSceneName
@@ -2290,7 +2304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: finishTransitionType
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: Characters.Array.size
@@ -2314,7 +2328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: attachedColliders.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: Characters.Array.data[0].Char
@@ -2439,6 +2453,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7466665383472404574, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
   m_PrefabInstance: {fileID: 1370855993}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1370855996 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8505893926411580741, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
+  m_PrefabInstance: {fileID: 1370855993}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370855995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 694779753900ef24b902cf3bb7d32f1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1386579439
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2907,11 +2932,26 @@ MonoBehaviour:
   targetPatrolMode: 0
   patrolDelay: 0
   patrolPathNodes: []
-  animator: {fileID: 0}
-  setState: 0
-  animatorStateName: 
-  setParameters: 0
-  parameterSetters: []
+  animator: {fileID: 1903837969}
+  setState: 1
+  animatorStateName: Standing
+  setParameters: 1
+  parameterSetters:
+  - parameterName: Standing
+    parameterType: 0
+    boolValue: 1
+    floatValue: 0
+    intValue: 0
+  - parameterName: Saying
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
+  - parameterName: Drinking
+    parameterType: 0
+    boolValue: 0
+    floatValue: 0
+    intValue: 0
 --- !u!1 &1493723967
 GameObject:
   m_ObjectHideFlags: 0
@@ -3151,13 +3191,67 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986689}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986688}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1556986684}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556986688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361589523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u9996\u6B21\u770B\u5230\u5B5F\u83B7\u4E0E\u624B\u4E0B\u6B22\u547C"
+  listQuestStateItems:
+  - questName: 'Other Return : MengHuo'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'MengHuo Return : Fight 1'
+    questEntryState: 2
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1556986689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361589523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u9996\u6B21\u8FDB\u5165\u5357\u86EE\u6751\u5E84"
+  listQuestStateItems:
+  - questName: 'Other Return : MengHuo'
+    questState: 1
+  listQuestEntryStateItems: []
+  timeline: {fileID: 1370855996}
+  deployment: {fileID: 0}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1001 &1573680384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3169,6 +3263,10 @@ PrefabInstance:
     - target: {fileID: 2119286974209089144, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
       propertyPath: m_Name
       value: BaredheadedRareRaceMan
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119286974209089144, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5410799846170600559, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3223,6 +3321,11 @@ Transform:
 --- !u!1 &1573680386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2119286974209089144, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+  m_PrefabInstance: {fileID: 1573680384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1573680392 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8226621847245785357, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
   m_PrefabInstance: {fileID: 1573680384}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1593925742
@@ -3793,6 +3896,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BaredheadedRareRaceMan_2
       objectReference: {fileID: 0}
+    - target: {fileID: 2119286974209089144, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447644719629509455, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
+      propertyPath: actor
+      value: BaredheadedRareRaceMan_2
+      objectReference: {fileID: 0}
     - target: {fileID: 5410799846170600559, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.98
@@ -4189,6 +4300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MengHuo
       objectReference: {fileID: 0}
+    - target: {fileID: 547903592200822577, guid: b298d86795a658e469ef2d46dc60618b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4726875708418172969, guid: b298d86795a658e469ef2d46dc60618b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.48
@@ -4263,6 +4378,10 @@ PrefabInstance:
     - target: {fileID: 3358389228788285526, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_Name
       value: MainPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 3358389228788285526, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.x
