@@ -110,6 +110,7 @@ namespace TKSR
         public override void HideImmediate()
         {
             //base.HideImmediate();
+            m_isInTimelineDialogue = false;
             if (m_chatProcesser != null)  m_chatProcesser.enabled = false;
             if (chatBubble != null) chatBubble.gameObject.SetActive(false);
         }
