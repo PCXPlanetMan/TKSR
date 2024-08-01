@@ -127,7 +127,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugUpdateDocumentGolden(newGold);
+#endif
         }
     }
     
@@ -135,7 +137,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugUpdateDocumentIntelligence(newIntelligence);
+#endif
         }
     }
     
@@ -143,7 +147,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugUpdateDocumentMorality(newIntelligence);
+#endif
         }
     }
     
@@ -151,7 +157,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugUpdateDocumentCourage(newIntelligence);
+#endif
         }
     }
 
@@ -166,7 +174,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugAddItemToPackage(nItemID, nItemCount);
+#endif
         }
     }
 
@@ -174,7 +184,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugAddAllSchemaItems();
+#endif
         }
     }
     
@@ -182,7 +194,9 @@ public class DebugGameDataWindow : EditorWindow
     {
         if (Application.isPlaying)
         {
+#if TKSR_DEV
             DocumentDataManager.Instance.DebugAddAllDialogueNotes();
+#endif
         }
     }
 }

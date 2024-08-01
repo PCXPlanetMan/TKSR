@@ -18,7 +18,7 @@ namespace TKSR
         // Update is called once per frame
         void Update()
         {
-#if UNITY_EDITOR || TKSR_DEV
+#if UNITY_EDITOR && TKSR_DEV
             if (TimelineScenarioItem.s_IsDialogAutoInTimeline)
             {
                 if (!string.IsNullOrEmpty(infoText.text))

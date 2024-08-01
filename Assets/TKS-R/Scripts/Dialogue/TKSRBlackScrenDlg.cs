@@ -39,7 +39,7 @@ namespace TKSR
 		{
 			if (m_isInBlack)
 			{
-#if UNITY_EDITOR || TKSR_DEV
+#if UNITY_EDITOR && TKSR_DEV
 				if (TimelineScenarioItem.s_IsDialogAutoInTimeline)
 				{
 					HideBlack();

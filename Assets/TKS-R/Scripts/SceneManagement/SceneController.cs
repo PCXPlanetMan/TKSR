@@ -209,7 +209,7 @@ namespace TKSR
             // [TKSR] 有时候会用Loading界面模拟剧情切换中间过滤状态
             while (!string.IsNullOrEmpty(strPauseSceneLoading))
             {
-#if UNITY_EDITOR || TKSR_DEV
+#if UNITY_EDITOR && TKSR_DEV
                 if (TimelineScenarioItem.s_IsDialogAutoInTimeline)
                 {
                     break;
