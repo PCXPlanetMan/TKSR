@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -419,6 +418,10 @@ PrefabInstance:
       propertyPath: destinationTag
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: defaultDeployment
+      value: 
+      objectReference: {fileID: 1391326681}
     - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: transitioningGameObject
       value: 
@@ -1695,6 +1698,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: defaultDeployment
+      value: 
+      objectReference: {fileID: 1391326681}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: transitioningGameObject
       value: 
       objectReference: {fileID: 1324802681}
@@ -2033,6 +2040,10 @@ PrefabInstance:
       propertyPath: destinationTag
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: defaultDeployment
+      value: 
+      objectReference: {fileID: 1391326681}
     - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: transitioningGameObject
       value: 
