@@ -81,6 +81,7 @@ namespace TKSR
                         patrolAI.patrolPathNodes = patrolPathNodes.ToList();
                         patrolAI.animStateName = null;
                         patrolAI.animStateParams = null;
+                        npc.MakeCharacterStaticIdle();
                         patrolAI.ChangePatrolStatus(PatrolStatus.Static);
                     }
                     else

@@ -10619,13 +10619,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1129811408}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1129811406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1129811405}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1129811407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1129811405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129811408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129811407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u5415\u8499\u6253\u5305\u7ED3\u675F\u56DE\u5F52\u5434\u56FD"
+  listQuestStateItemsCondition:
+  - questName: 'Wu Return : LvMeng'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'LvMeng Return : Packaging'
+    questEntryState: 2
+  listQuestStateItemsResult:
+  - questName: 'Wu Return : LvMeng'
+    questState: 4
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'LvMeng Return : Packaging'
+    questEntryState: 4
 --- !u!1001 &1132254076
 PrefabInstance:
   m_ObjectHideFlags: 0
