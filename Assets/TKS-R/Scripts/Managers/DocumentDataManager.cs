@@ -359,6 +359,37 @@ namespace TKSR
             return info;
         }
 
+        public void LevelupMainPlayer(int newLevel)
+        {
+            var charInfo = GenGameCharInfoFromSchema(ResourceUtils.MAINROLE_NAME, newLevel);
+            _gameDocument.MainRoleInfo = charInfo;
+
+            // TODO:专门用于激活武陵城黄盖/吕蒙任务
+            SpecialCheckWuLingQuest();
+        }
+
+        private void SpecialCheckWuLingQuest()
+        {
+            if (_gameDocument.MainRoleInfo.Level >= 10)
+            {
+                string strWuLingQuest = "Wu Return : HuangGai";
+                var questState = QuestLog.GetQuestState(strWuLingQuest);
+                if ((questState & QuestState.Unassigned) == QuestState.Unassigned)
+                {
+                    QuestLog.SetQuestState(strWuLingQuest, QuestState.Active);
+                    Debug.Log("[TKSR] MainPlayer level up greater than 10, Make WuLing City HuangGai Quest active.");
+                }
+                strWuLingQuest = "Wu Return : LvMeng";
+                questState = QuestLog.GetQuestState(strWuLingQuest);
+                if ((questState & QuestState.Unassigned) == QuestState.Unassigned)
+                {
+                    QuestLog.SetQuestState(strWuLingQuest, QuestState.Active);
+                    Debug.Log("[TKSR] MainPlayer level up greater than 10, Make WuLing City LvMeng Quest active.");
+                }
+            }
+            
+        }
+
         public GameDocument GetCurrentDocument()
         {
             if (_gameDocument == null)
@@ -703,6 +734,11 @@ namespace TKSR
         
         
         #if TKSR_DEV && UNITY_EDITOR
+        public void DebugUpdateMainPlayerLevel(int newLevel)
+        {
+            LevelupMainPlayer(newLevel);
+        }
+
         public void DebugAddAllSchemaItems()
         {
             int defaultCount = 1;

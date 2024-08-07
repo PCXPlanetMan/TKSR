@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LvMengMother
+  m_Controller: {fileID: 9100000, guid: 46f3c8137b39aeb42ba490ea328e0bcc, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 76cea44b21d24f740a5f00f440fefbcd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1faffeb79b0c9345a4aae256403cce1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dcd76d411e22b684e808d44685412033, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3d34c006bf5003e42925a270785ea18b, type: 2}

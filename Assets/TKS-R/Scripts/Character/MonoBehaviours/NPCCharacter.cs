@@ -150,6 +150,7 @@ namespace TKSR
         
         public void UpdateFacingToMainPlayerForDialogue(bool idle = false)
         {
+            Debug.Log($"[TKSR] UpdateFacingToMainPlayerForDialogue({idle})");
             EnumFaceDirection faceDirection = CharacterController2D.VectorToQuadDirection(
                 PlayerCharacter.PlayerInstance.Controller2D.Rigidbody2D.position - Controller2D.Rigidbody2D.position);
             

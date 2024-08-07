@@ -120,6 +120,9 @@ public class DebugGameDataWindow : EditorWindow
         if (Application.isPlaying)
         {
             lv = lv > 0 ? lv : 1;
+#if TKSR_DEV
+            DocumentDataManager.Instance.DebugUpdateMainPlayerLevel(lv);
+#endif
         }
     }
 
