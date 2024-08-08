@@ -444,7 +444,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 8615446306867047420}
   maxSpeed: 3.5
-  faceDirection: 5
+  isMainPlayer: 0
+  faceDirection: 3
+  stillKeepAnimation: 0
+  sceneIndependentTimeline: {fileID: 0}
 --- !u!114 &2956315495434539207
 MonoBehaviour:
   m_ObjectHideFlags: 0
