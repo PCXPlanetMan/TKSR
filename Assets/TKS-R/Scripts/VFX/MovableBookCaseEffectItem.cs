@@ -18,6 +18,18 @@ namespace TKSR
 
         public override void PlayEffect(string strEffectExtraParam = null)
         {
+            int paramHash = Animator.StringToHash(strEffectExtraParam);
+            if (paramHash == m_HashAnimOpenedParam)
+            {
+                BookCaseOpened();
+                return;
+            }
+            else if (paramHash == m_HashAnimClosedParam)
+            {
+                BookCaseClosed();
+                return;
+            }
+
             base.PlayEffect();
             
             foreach (var effect in EffectList)

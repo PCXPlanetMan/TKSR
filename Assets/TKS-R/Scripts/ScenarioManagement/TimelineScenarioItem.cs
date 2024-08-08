@@ -793,7 +793,7 @@ namespace TKSR
         /// <summary>
         /// 在剧情中直接获取NPC给予的物品列表
         /// </summary>
-        /// <param name="itemsList">id:count,id:count,...,[GOLD]:count 最后一个元素如果是GOLD,则说明是金钱</param>
+        /// <param name="itemsList">id:count:duration,id:count:duration,...,[GOLD]:count:duration 最后一个元素如果是GOLD,则说明是金钱</param>
         public void TimelineTransportSomethings(string itemsList)
         {
             if (string.IsNullOrEmpty(itemsList))
