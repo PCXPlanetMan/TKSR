@@ -20,7 +20,8 @@ namespace TKSR
 
         public TKSRBlackScrenDlg screenDlg;
         public TKSRBlackScrenDlg screenDlgPrefab;
-        
+        public bool halfBlack = false; // [TKSR] TODO:专用于做对话黑屏衔接(例如在对话中显示半黑屏,然后进入剧情显示另一半黑屏。北平赵云化妆)
+
         public bool isSpeaking { get; private set; }
 
         protected override void Awake()

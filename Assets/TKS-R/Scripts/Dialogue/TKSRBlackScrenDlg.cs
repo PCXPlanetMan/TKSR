@@ -43,7 +43,11 @@ namespace TKSR
 				if (TimelineScenarioItem.s_IsDialogAutoInTimeline)
 				{
 					HideBlack();
-					return;
+                    if (parentPanel && parentPanel.halfBlack)
+                    {
+						AnimationReturnFinished();
+                    }
+                    return;
 				}
 #endif
 				
@@ -57,7 +61,11 @@ namespace TKSR
 #endif
 				{
 					HideBlack();
-				}
+                    if (parentPanel && parentPanel.halfBlack)
+                    {
+                        AnimationReturnFinished();
+                    }
+                }
 			}
 		}
 		
@@ -68,6 +76,7 @@ namespace TKSR
 
 			if (parentPanel)
 			{
+				Debug.Log("[TKSR] DoTeleportMainPlayer");
 				parentPanel.DoTeleportMainPlayer();
 			}
 		}
@@ -89,8 +98,8 @@ namespace TKSR
 
 		public void HideBlack()
 		{
-			m_isInBlack = false;
-			m_Animator.SetBool(m_HashBlackPara, false);
-		}
+            m_isInBlack = false;
+            m_Animator.SetBool(m_HashBlackPara, false);
+        }
 	}
 }

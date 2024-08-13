@@ -19,7 +19,9 @@ namespace TKSR
             EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(TKSRBlackScreenSubtitlePanel.canvas)));
             EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(TKSRBlackScreenSubtitlePanel.screenDlg)));
             EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(TKSRBlackScreenSubtitlePanel.screenDlgPrefab)));
-            
+            EditorGUILayout.PropertyField(serializedObject.FindProperty(nameof(TKSRBlackScreenSubtitlePanel.halfBlack)));
+
+
             serializedObject.ApplyModifiedProperties();
         }
     }
