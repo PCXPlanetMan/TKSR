@@ -1228,6 +1228,7 @@ Configs/Items/Weapons/ZiYuDao_Desc,Text,,"以紫玉髓为材质所打造而成�
 Format/GoldsNotEnough,Text,,你身上的钱不够 {[GoldCount]} 两,你身上的錢不夠 {[GoldCount]} 兩
 Format/GotGolds,Text,,<color=#00FF00>得到银两</color><color=#FF0000>   {[GoldCount]}   </color><color=#00FF00>两</color>,<color=#00FF00>得到銀兩</color><color=#FF0000>   {[GoldCount]}   </color><color=#00FF00>兩</color>
 Format/GotItem,Text,,<color=#00FF00>得到</color><color=#FF0000>    {[ItemName]}</color>,<color=#00FF00>得到</color><color=#FF0000>    {[ItemName]}</color>
+Format/QuestLiuCong_ToiletTime,Text,,<color=#00FF00>几分钟过去........</color>,<color=#00FF00>幾分鐘過去........</color>
 ScenesNames/Map_BigMap,Text,,大地图,大地圖
 ScenesNames/Map_RoomNanHua,Text,,南华老仙的小屋,南華老仙的小屋
 ScenesNames/Map_RoomYingXiongTai,Text,,英雄亭外,英雄亭外
