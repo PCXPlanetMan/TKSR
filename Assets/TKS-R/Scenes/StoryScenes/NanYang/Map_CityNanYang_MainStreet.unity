@@ -301,7 +301,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMeng
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_SoldierHelmet
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -463,7 +463,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMeng
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_PigtailBoy
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -1428,7 +1428,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMeng
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_Lady
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -1983,7 +1983,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMengMother
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_GrandMa
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -2118,6 +2118,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 606897856451638651, guid: 02cadbe8418d7bc41b827e94624355a1, type: 3}
   m_PrefabInstance: {fileID: 1178853168}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1178853171 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8724034411708709510, guid: 02cadbe8418d7bc41b827e94624355a1, type: 3}
+  m_PrefabInstance: {fileID: 1178853168}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178853170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f5c5dc41feb74286c4dd279b093a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1195195236
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,7 +2621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1391326682
 Transform:
   m_ObjectHideFlags: 0
@@ -3014,6 +3025,83 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &1496660590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1496660592}
+  - component: {fileID: 1496660591}
+  m_Layer: 0
+  m_Name: Dialogue System Scene Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1496660591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496660590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca55201633b97d3408f439eb84ecb249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueEntrySceneEvents:
+  - guid: 7f9120df-799a-47f9-b5f9-f2e484e44487
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1946301972}
+          m_TargetAssemblyTypeName: TKSR.NPCCharacter, Assembly-CSharp
+          m_MethodName: UpdateFacingDirectionForDialogue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - guid: 8a90d5aa-bcc7-41d3-9a8f-7fa3ce629da6
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1178853171}
+          m_TargetAssemblyTypeName: TKSR.NPCCharacter, Assembly-CSharp
+          m_MethodName: UpdateFacingDirectionForDialogue
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!4 &1496660592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496660590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1512380433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3807,7 +3895,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMeng
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_GrandPa
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -4444,6 +4532,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8642419191187434072, guid: 251e0ba734064954aa2051c6cbc11647, type: 3}
   m_PrefabInstance: {fileID: 1946301969}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1946301972 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4683521831960361537, guid: 251e0ba734064954aa2051c6cbc11647, type: 3}
+  m_PrefabInstance: {fileID: 1946301969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946301971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f5c5dc41feb74286c4dd279b093a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1952048115
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,7 +4793,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMeng
+  conversation: NanYang/NanYangMainStreet/DailyTalk_NanYangMainStreet_OldWoman
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -4948,3 +5047,4 @@ SceneRoots:
   - {fileID: 1596548707}
   - {fileID: 1462319319}
   - {fileID: 1763149380}
+  - {fileID: 1496660592}
