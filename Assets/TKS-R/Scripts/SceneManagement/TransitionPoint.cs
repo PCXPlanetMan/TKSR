@@ -133,6 +133,17 @@ namespace TKSR
             }
             else if (transitionType == TransitionType.DifferentZone)
             {
+                // [TKSR] 南阳城入口检测
+                if (newSceneName.StartsWith("NanYang"))
+                {
+                    var questSetter = this.gameObject.GetComponent<NanYangQuestSetter>();
+                    if (questSetter != null)
+                    {
+                        questSetter.TryToChangeQuestsStatus();
+                    }
+                }
+
+
                 SceneController.TransitionToScene (this);
             }
         }

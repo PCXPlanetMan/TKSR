@@ -15,6 +15,7 @@ public class DebugGameDataWindow : EditorWindow
     private string intelligence;
     private string morality;
     private string courage;
+    private string taskRatio;
 
 
     [MenuItem("Tools/TKS-R/Debug Game Window")]
@@ -55,6 +56,9 @@ public class DebugGameDataWindow : EditorWindow
         GUILayout.Space(10);
         itemID = EditorGUILayout.TextField("包裹物品ID", itemID);
         itemCount = EditorGUILayout.TextField("物品数量", itemCount);
+
+        GUILayout.Space(10);
+        taskRatio = EditorGUILayout.TextField("完成任务数", taskRatio);
 
         if (GUILayout.Button("Done"))
         {
@@ -100,6 +104,12 @@ public class DebugGameDataWindow : EditorWindow
                 int id = int.Parse(itemID);
                 int count = int.Parse(itemCount);
                 DoneAddItemToPacket(id, count);
+            }
+
+            if (!string.IsNullOrEmpty(taskRatio))
+            {
+                float ratio = float.Parse(taskRatio);
+                DoneUpdateTaskRatio(ratio);
             }
         }
 
@@ -179,6 +189,16 @@ public class DebugGameDataWindow : EditorWindow
         {
 #if TKSR_DEV
             DocumentDataManager.Instance.DebugAddItemToPackage(nItemID, nItemCount);
+#endif
+        }
+    }
+
+    private void DoneUpdateTaskRatio(float ratio)
+    {
+        if (Application.isPlaying)
+        {
+#if TKSR_DEV
+            DocumentDataManager.Instance.DebugUpdateTaskRatio(ratio);
 #endif
         }
     }

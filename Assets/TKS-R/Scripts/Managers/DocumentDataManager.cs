@@ -791,7 +791,12 @@ namespace TKSR
         {
             UpdateGameItemCount(itemID, itemCount);
         }
-        #endif
+
+        public void DebugUpdateTaskRatio(float ratio)
+        {
+            m_debugCompletedTaskRatio = ratio;
+        }
+#endif
 
         private GameCharDisplayInfo FindCharInfoFromCandidates(string charName)
         {
@@ -940,5 +945,36 @@ namespace TKSR
 
             return inTeam;
         }
+
+        // 用于统计完成任务比率,实际上就是完成的任务数目/总任务数目
+        // 原版游戏中是大于25%就触发南阳任务,这里假设大于15个完成的任务就可以开启
+        public float GetTaskCompletedRatio()
+        {
+            var allQuests = QuestLog.GetAllQuests(QuestState.Unassigned | QuestState.Active | QuestState.Success | QuestState.Failure | QuestState.Grantable);
+            var allCompletedQuests = QuestLog.GetAllQuests(QuestState.Success);
+            int allQuestsCnt = allQuests.Length;
+            int allCompletedQuestsCnt = allCompletedQuests.Length;
+            Debug.Log($"[TKSR] Quest Completed Ratio = {allCompletedQuestsCnt} / {allQuestsCnt}");
+            float ratio = allCompletedQuestsCnt * 1f / allQuestsCnt;
+
+#if TKSR_DEV && UNITY_EDITOR
+            if (m_debugCompletedTaskRatio > 0f && m_debugCompletedTaskRatio <= 1f)
+            {
+                ratio = m_debugCompletedTaskRatio;
+            }
+#endif
+            return ratio;
+        }
+
+        public int GetTaskCompletedCnt()
+        {
+            var allCompletedQuests = QuestLog.GetAllQuests(QuestState.Success);
+            int allCompletedQuestsCnt = allCompletedQuests.Length;
+            return allCompletedQuestsCnt;
+        }
+
+#if TKSR_DEV && UNITY_EDITOR
+        private float m_debugCompletedTaskRatio = 0f;
+#endif
     }
 }

@@ -1867,13 +1867,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1110567186}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1110567184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1110567183}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1110567185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1110567183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1110567186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110567185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6FC0\u6D3B\u8D3E\u8BE9\u4EFB\u52A1\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 1
+  listQuestEntryStateItems: []
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1 &1129815648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,13 +2301,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1206884137}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1206884135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1206884134}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206884136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1206884134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1206884137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206884136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6FC0\u6D3B\u8D3E\u8BE9\u4EFB\u52A1\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 1
+  listQuestEntryStateItems: []
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1001 &1258941970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2616,12 +2678,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1391326682}
   m_Layer: 0
-  m_Name: DeployPeople
+  m_Name: DeployPeopleBeforeActive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1391326682
 Transform:
   m_ObjectHideFlags: 0
@@ -3777,13 +3839,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543587617}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1543587615 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1543587614}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1543587616 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1543587614}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1543587617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543587616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6FC0\u6D3B\u8D3E\u8BE9\u4EFB\u52A1\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 1
+  listQuestEntryStateItems: []
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1 &1543609794
 GameObject:
   m_ObjectHideFlags: 0
@@ -4027,13 +4120,44 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986687}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1556986684}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1556986686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1556986684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556986687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6FC0\u6D3B\u8D3E\u8BE9\u4EFB\u52A1\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 1
+  listQuestEntryStateItems: []
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1001 &1596548707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5045,6 +5169,6 @@ SceneRoots:
   - {fileID: 2035646390}
   - {fileID: 818549346}
   - {fileID: 1596548707}
+  - {fileID: 1496660592}
   - {fileID: 1462319319}
   - {fileID: 1763149380}
-  - {fileID: 1496660592}

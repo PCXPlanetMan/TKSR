@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 760789773}
   - component: {fileID: 760789772}
   m_Layer: 0
-  m_Name: PathNodes_LvMeng
+  m_Name: PathNodes_SoldierRoundHat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -759,25 +759,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20d9e1ded99debd498762d2a78b428ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetCharacter: {fileID: 0}
+  targetCharacter: {fileID: 1809133046}
   initDeployPosition: {fileID: 0}
-  targetFace: 1
+  targetFace: 5
   targetPatrolMode: 0
   patrolDelay: 0
   patrolPathNodes: []
-  animator: {fileID: 0}
+  animator: {fileID: 1809133052}
   setState: 1
   animatorStateName: Standing
   setParameters: 1
   parameterSetters:
-  - parameterName: Saying
-    parameterType: 0
-    boolValue: 0
-    floatValue: 0
-    intValue: 0
   - parameterName: Standing
     parameterType: 0
     boolValue: 1
+    floatValue: 0
+    intValue: 0
+  - parameterName: Saying
+    parameterType: 0
+    boolValue: 0
     floatValue: 0
     intValue: 0
   - parameterName: Drinking
@@ -928,179 +928,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c48d4101c920ef47a787da13f097d90, type: 3}
---- !u!1 &1129815648
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1129815649}
-  - component: {fileID: 1129815652}
-  - component: {fileID: 1129815651}
-  - component: {fileID: 1129815650}
-  m_Layer: 0
-  m_Name: PathNodes_LvMengMother
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1129815649
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129815648}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.72, y: 0.28, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1391326682}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1129815650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129815648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  overrideName: 
-  overrideUseMessage: 
-  maxUseDistance: 100
-  events:
-    onSelect:
-      m_PersistentCalls:
-        m_Calls: []
-    onDeselect:
-      m_PersistentCalls:
-        m_Calls: []
-    onUse:
-      m_PersistentCalls:
-        m_Calls: []
---- !u!114 &1129815651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129815648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: 32
-  condition:
-    luaConditions: []
-    questConditions: []
-    acceptedTags: []
-    acceptedGameObjects: []
-    luaWizardIndex: -1
-    lastEvaluationValue: 0
-  setQuestState: 1
-  questName: 
-  questState: 0
-  setQuestEntryState: 0
-  questEntryNumber: 1
-  questEntryState: 0
-  setAnotherQuestEntryState: 0
-  anotherQuestEntryNumber: 1
-  anotherQuestEntryState: 0
-  luaCode: 
-  sequence: 
-  sequenceSpeaker: {fileID: 0}
-  sequenceListener: {fileID: 0}
-  waitOneFrameOnStartOrEnable: 1
-  alertMessage: 
-  textTable: {fileID: 0}
-  alertDuration: 0
-  sendMessages: []
-  barkSource: 0
-  barkConversation: 
-  barkEntryID: -1
-  barkEntryTitle: 
-  barkText: 
-  barkTextSequence: 
-  barker: {fileID: 0}
-  barkTarget: {fileID: 0}
-  barkOrder: 0
-  allowBarksDuringConversations: 0
-  skipBarkIfNoValidEntries: 0
-  cacheBarkLines: 0
-  conversation: WuLing/WuLingLvMengRoom/DailyTalk_WuLingLvMengRoom_LvMengMother
-  conversationConversant: {fileID: 0}
-  conversationActor: {fileID: 0}
-  startConversationEntryID: -1
-  startConversationEntryTitle: 
-  exclusive: 0
-  replace: 0
-  queue: 0
-  skipIfNoValidEntries: 0
-  preventRestartOnSameFrameEnded: 0
-  stopConversationOnTriggerExit: 0
-  stopConversationIfTooFar: 0
-  maxConversationDistance: 5
-  monitorConversationDistanceFrequency: 1
-  showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
-  setActiveActions: []
-  setEnabledActions: []
-  setAnimatorStateActions: []
-  onExecute:
-    m_PersistentCalls:
-      m_Calls: []
-  useConversationTitlePicker: 1
-  useBarkTitlePicker: 1
-  useQuestNamePicker: 1
-  selectedDatabase: {fileID: 11400000, guid: 11f871c0d2b38944782575520803085f, type: 2}
---- !u!114 &1129815652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129815648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20d9e1ded99debd498762d2a78b428ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetCharacter: {fileID: 0}
-  initDeployPosition: {fileID: 0}
-  targetFace: 5
-  targetPatrolMode: 0
-  patrolDelay: 0
-  patrolPathNodes: []
-  animator: {fileID: 0}
-  setState: 1
-  animatorStateName: Saying
-  setParameters: 1
-  parameterSetters:
-  - parameterName: Saying
-    parameterType: 0
-    boolValue: 1
-    floatValue: 0
-    intValue: 0
-  - parameterName: Standing
-    parameterType: 0
-    boolValue: 0
-    floatValue: 0
-    intValue: 0
-  - parameterName: Drinking
-    parameterType: 0
-    boolValue: 0
-    floatValue: 0
-    intValue: 0
 --- !u!1001 &1151451641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1449,7 +1276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1391326682}
   m_Layer: 0
-  m_Name: DeployLvMengFamily
+  m_Name: DeployCityGateGuard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1468,7 +1295,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1129815649}
   - {fileID: 760789771}
   m_Father: {fileID: 2035646390}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1490,11 +1316,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219791922194310220, guid: c7a7dc6e38ec8934b9f6cef0d7561a4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 5219791922194310220, guid: c7a7dc6e38ec8934b9f6cef0d7561a4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.31
+      value: -2.12
       objectReference: {fileID: 0}
     - target: {fileID: 5219791922194310220, guid: c7a7dc6e38ec8934b9f6cef0d7561a4b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2487,13 +2313,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986687}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1556986684}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1556986686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1556986684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556986687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u5927\u5730\u56FE\u5357\u9633\u5165\u53E3\u68C0\u6D4B\u4E86\u8D3E\u8BE9\u4EFB\u52A1\u88AB\u6FC0\u6D3B"
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'JiaXu Return : Enter Into NanYang'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 0}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1001 &1596548707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2755,6 +2614,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1 &1809133046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3555171881017685474, guid: c7a7dc6e38ec8934b9f6cef0d7561a4b, type: 3}
+  m_PrefabInstance: {fileID: 1432429609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1809133052 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5694519822050920499, guid: c7a7dc6e38ec8934b9f6cef0d7561a4b, type: 3}
+  m_PrefabInstance: {fileID: 1432429609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1830442382
 GameObject:
   m_ObjectHideFlags: 0
