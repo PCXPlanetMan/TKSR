@@ -120,20 +120,25 @@ namespace TKSR
                 if (animator != null)
                 {
                     Debug.Log($"[TKSR] {index} binding.sourceObject.name = {binding.sourceObject.name}, animator.name = {animator.name}");
-                    if (animator.gameObject.CompareTag("NPC") && animator.gameObject.GetComponent<HideCharacter>() == null) // 排除HideActor的影响
+                    if (animator.gameObject.CompareTag("NPC")) 
                     {
-                        animator.gameObject.SetActive(true);
-                        if (!m_dictCharacters.ContainsKey(animator.name))
+                        var hideChar = animator.gameObject.GetComponent<HideCharacter>();
+                        if (hideChar == null || hideChar.IsUsedInDlg) // 默认排除HideActor的影响,除非设置了IsUsedInDlg
                         {
-                            m_dictCharacters.Add(animator.name, new TimelineCharData()
+                            animator.gameObject.SetActive(true);
+                            if (!m_dictCharacters.ContainsKey(animator.name))
                             {
-                                CharGo = animator.gameObject,
-                                InitColliderEnabled =  animator.gameObject.GetComponent<Collider2D>().enabled
-                            });
+                                m_dictCharacters.Add(animator.name, new TimelineCharData()
+                                {
+                                    CharGo = animator.gameObject,
+                                    InitColliderEnabled = animator.gameObject.GetComponent<Collider2D>().enabled
+                                });
 
-                            // [TKSR] 剧情中的对象最好能关闭Collider2D,这样才能在Tween Track中正确控制对象的移动
-                            animator.gameObject.GetComponent<Collider2D>().enabled = false;
+                                // [TKSR] 剧情中的对象最好能关闭Collider2D,这样才能在Tween Track中正确控制对象的移动
+                                animator.gameObject.GetComponent<Collider2D>().enabled = false;
+                            }
                         }
+                        
                     }
                 }
                 
@@ -449,17 +454,21 @@ namespace TKSR
                     if (!string.IsNullOrEmpty(actor.Name))
                     {
                         string subtitleText = entry.subtitleText;
-                        if (string.IsNullOrEmpty(subtitleText))
+                        if (string.IsNullOrEmpty(subtitleText) && string.IsNullOrEmpty(entry.Sequence))
                         {
-                            Debug.LogError($"[TKSR] Empty dialogue content with entryId = {entryId} in {m_curConversation.Name}");
+                            Debug.LogError($"[TKSR] Empty dialogue content and sequence with entryId = {entryId} in {m_curConversation.Name}");
                         }
 
                         var dialogue = TryGetChatBubbleByName(actor.Name);
                         if (dialogue != null)
                         {
-                            var localizedText = DialogueManager.GetLocalizedText(subtitleText);
-                            var formattedText = FormattedText.Parse(localizedText, db.emphasisSettings);
-                            dialogue.ShowSubtitleByTimeline(actorDisplayName, formattedText.text, actorPortrait);
+                            if (!string.IsNullOrEmpty(subtitleText))
+                            {
+                                var localizedText = DialogueManager.GetLocalizedText(subtitleText);
+                                var formattedText = FormattedText.Parse(localizedText, db.emphasisSettings);
+                                dialogue.ShowSubtitleByTimeline(actorDisplayName, formattedText.text, actorPortrait);
+                            }
+                            
 
                             // [TKSR] 注意顺序:先模拟执行Lua再调用事件
                             if (!string.IsNullOrEmpty(entry.userScript))

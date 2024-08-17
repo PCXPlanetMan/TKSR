@@ -7,6 +7,8 @@ namespace TKSR
 {
     public class HideCharacter : NPCCharacter
     {
+        public bool IsUsedInDlg = false;
+
         private Collider2D m_hideCollider;
         protected override void Awake()
         {

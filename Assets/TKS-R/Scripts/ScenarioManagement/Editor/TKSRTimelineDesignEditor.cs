@@ -7,6 +7,7 @@ using NUnit.Framework.Constraints;
 using TKSR;
 using zFramework.Extension;
 using Object = UnityEngine.Object;
+using UnityEditor.SceneManagement;
 
 public static class TKSRTimelineDesignEditor 
 {
@@ -18,7 +19,8 @@ public static class TKSRTimelineDesignEditor
 		{
 			character.gameObject.SetActive(true);
 		}
-	}
+        EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
+    }
 	
 	[MenuItem("Tools/TKS-R/All Characters Hide")]
 	public static void EditorMakeAllCharactersHide()
@@ -28,5 +30,7 @@ public static class TKSRTimelineDesignEditor
 		{
 			character.gameObject.SetActive(false);
 		}
+
+        EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
 	}
 }

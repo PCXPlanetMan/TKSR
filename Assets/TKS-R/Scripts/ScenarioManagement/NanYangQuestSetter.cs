@@ -16,10 +16,6 @@ namespace TKSR
 
         private readonly float THRESHOLD_OF_MAX_COMPLETED_TASKS_RATIO = 0.25f;
 
-        protected virtual void Awake()
-        {
-            TryToChangeQuestsStatus();
-        }
 
         public void TryToChangeQuestsStatus()
         {

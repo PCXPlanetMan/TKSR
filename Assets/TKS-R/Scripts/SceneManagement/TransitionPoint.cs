@@ -136,6 +136,7 @@ namespace TKSR
                 // [TKSR] 南阳城入口检测
                 if (newSceneName.StartsWith("NanYang"))
                 {
+                    Debug.Log("[TKSR] This is NanYang City.");
                     var questSetter = this.gameObject.GetComponent<NanYangQuestSetter>();
                     if (questSetter != null)
                     {
