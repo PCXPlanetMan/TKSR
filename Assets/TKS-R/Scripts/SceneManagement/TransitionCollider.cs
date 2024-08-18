@@ -59,10 +59,9 @@ namespace TKSR
         {
             if (other.CompareTag("Player"))
             {
+                Transition();
                 m_TransitioningGameObjectPresent = true;
             }
-
-            Transition();
         }
 
         void OnTriggerExit2D (Collider2D other)
@@ -75,7 +74,7 @@ namespace TKSR
         
         public void Transition()
         {
-            if(!m_TransitioningGameObjectPresent)
+            if(m_TransitioningGameObjectPresent)
                 return;
             
             

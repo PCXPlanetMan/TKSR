@@ -299,6 +299,7 @@ namespace TKSR
                         Debug.LogError("[TKSR] Transition to battle scene, but no battle scene name.");
                         return;
                     }
+                    Debug.Log($"[TKSR] Timeline End and Jump to Battle : {toBattleSceneName}");
                     SceneController.TransitionToZone(toBattleSceneName, true, SceneTransitionDestination.DestinationTag.A, TransitionPoint.TransitionType.BattleScene, null);
                 }
                 else if (finishTransitionType == TransitionPoint.TransitionType.DifferentZone)

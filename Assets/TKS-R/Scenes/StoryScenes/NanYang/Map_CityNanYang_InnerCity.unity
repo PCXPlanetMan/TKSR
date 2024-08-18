@@ -421,6 +421,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 870159615}
+  - {fileID: 1697720415}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &131638280
@@ -928,17 +929,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1546210556423586811, guid: 22975d4249229dd478114f4f4c0b8dcc, type: 3}
   m_PrefabInstance: {fileID: 701117570}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &740491215 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
-  m_PrefabInstance: {fileID: 1556986684}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556986686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 458c3f6aef15a8b4ba8e7a951284d29c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &757866719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1157,6 +1147,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1830922297902884837, guid: b67e62d8e3633424bafd7832e8f8bac9, type: 3}
   m_PrefabInstance: {fileID: 870159614}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &870159617 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6344894534714102640, guid: b67e62d8e3633424bafd7832e8f8bac9, type: 3}
+  m_PrefabInstance: {fileID: 870159614}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870159616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6bea95d8ac8bb4428fb273aba1a448c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &870159620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,6 +1206,79 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   dlgActor: {fileID: 0}
+--- !u!1 &905211678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 905211680}
+  - component: {fileID: 905211679}
+  m_Layer: 0
+  m_Name: Dialogue System Scene Events
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &905211679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905211678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca55201633b97d3408f439eb84ecb249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueEntrySceneEvents:
+  - guid: 6a97d343-7e27-4d18-8e21-7fac85172baf
+    onExecute:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 870159617}
+          m_TargetAssemblyTypeName: TKSR.TransitionCollider, Assembly-CSharp
+          m_MethodName: CheckQuestsToOpenColliderByOrder
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1388739278}
+          m_TargetAssemblyTypeName: TKSR.TransitionPointQuests, Assembly-CSharp
+          m_MethodName: RunQuestToDisableCollider
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!4 &905211680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905211678}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &936693945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,13 +2188,42 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1388739278}
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
 --- !u!4 &1388739276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
   m_PrefabInstance: {fileID: 1388739275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1388739277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1388739275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1388739278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388739277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: 
+  listQuestStateItems:
+  - questName: 'Wei Return : JiaXu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'JiaXu Return : Get Notice'
+    questEntryState: 4
+  - questEntryName: 'JiaXu Return : Leave To Gate'
+    questEntryState: 3
 --- !u!1 &1391326681
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,6 +4179,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 317792275}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1697720414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 94671402}
+    m_Modifications:
+    - target: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_Name
+      value: TransitionDestinationFromBattle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: setState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: faceDirection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: facingDirection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: playerCharacter
+      value: 
+      objectReference: {fileID: 4195255582601103743}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: mainRoleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: setCharacterFacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: destinationTag
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+--- !u!4 &1697720415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1697720414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1762579368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4350,7 +4539,7 @@ PrefabInstance:
     - target: {fileID: 114375775778562426, guid: 06c5c56d99c9e194db056e41d8b8f99b, type: 3}
       propertyPath: initialSceneTransitionDestination
       value: 
-      objectReference: {fileID: 740491215}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4687,3 +4876,4 @@ SceneRoots:
   - {fileID: 1462319319}
   - {fileID: 1763149380}
   - {fileID: 445470192}
+  - {fileID: 905211680}
