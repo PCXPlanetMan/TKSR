@@ -31,6 +31,7 @@ namespace TKSR
         /// </summary>
         public void CheckQuestsToOpenColliderByOrder()
         {
+            Debug.Log($"[TKSR] CheckQuestsToOpenColliderByOrder");
             bool hasFoundQuest = FoundSatisfiedQuest();
             if (hasFoundQuest && m_foundQuestsList.Count > 0)
             {

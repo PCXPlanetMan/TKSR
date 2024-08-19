@@ -14478,8 +14478,8 @@ MonoBehaviour:
   questDescription: "\u6FC0\u6D3B\u523A\u6740\u90ED\u6C5C\u7684\u4EFB\u52A1\u540E\u5F00\u542F\u90ED\u6C5C\u519B\u8425\u5165\u53E3"
   listQuestStateItems: []
   listQuestEntryStateItems:
-  - questEntryName: 'JiaXu Return : Assist GuoSi'
-    questEntryState: 5
+  - questEntryName: 'JiaXu Return : Assassin GuoSi'
+    questEntryState: 1
 --- !u!1 &1238958087
 GameObject:
   m_ObjectHideFlags: 0
