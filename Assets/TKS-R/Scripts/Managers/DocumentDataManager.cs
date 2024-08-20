@@ -741,7 +741,7 @@ namespace TKSR
 
         public void DebugAddAllSchemaItems()
         {
-            int defaultCount = 1;
+            int defaultCount = 99;
             var allItems = ItemsController.Instance.dictAllItems;
             foreach (var kv in allItems)
             {
