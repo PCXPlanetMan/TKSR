@@ -23,15 +23,24 @@ namespace TKSR
             {
                 m_collider2D = this.gameObject.GetComponent<Collider2D>();
             }
+
+            if (m_collider2D == null)
+            {
+                Debug.LogError("[TKSR] No Collider 2D Exist.");
+                return;
+            }
+
+            bool initColliderEnabled = m_collider2D.enabled;
+
             if (base.AreConditionsSatisfied() && m_collider2D != null)
             {
-                m_collider2D.enabled = false;
+                m_collider2D.enabled = initColliderEnabled ? false : true;
                 return;
             }
 
             if (m_collider2D != null)
             {
-                m_collider2D.enabled = true;
+                m_collider2D.enabled = initColliderEnabled ? true : false;
             }
         }
     }

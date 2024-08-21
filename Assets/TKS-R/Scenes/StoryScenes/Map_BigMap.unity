@@ -2363,6 +2363,7 @@ Transform:
   - {fileID: 1302546367}
   - {fileID: 2022577160}
   - {fileID: 264825870}
+  - {fileID: 1427187362}
   - {fileID: 255091531}
   - {fileID: 1660285163}
   m_Father: {fileID: 1493723969}
@@ -5752,6 +5753,88 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1001 &383361423
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_Name
+      value: TransitionDestinationFrom_JuLu_HuangJinBattle_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: faceDirection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: facingDirection
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: playerCharacter
+      value: 
+      objectReference: {fileID: 4195255582601103743}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: mainRoleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: setCharacterFacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: destinationTag
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+--- !u!4 &383361424 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 383361423}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &394775407
 GameObject:
   m_ObjectHideFlags: 0
@@ -8141,6 +8224,88 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 704373677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &714184380
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_Name
+      value: TransitionDestinationFrom_JuLu_HuangJinBattle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: faceDirection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: facingDirection
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: playerCharacter
+      value: 
+      objectReference: {fileID: 4195255582601103743}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: mainRoleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: setCharacterFacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: destinationTag
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+--- !u!4 &714184381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 714184380}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &718309094
 GameObject:
@@ -11036,6 +11201,177 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 928149966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &935342244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_JuLu_HuangJinBattle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9507865
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30984685
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -36.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 0.67233574
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5818008
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.063666165
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.10632663
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: JuLu/Map_StoryMap_HuangJinBattle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 935342247}
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 935342248}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &935342245 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 935342244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &935342246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 935342244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!68 &935342247
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935342246}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 1.0975199, y: 1.6632601}
+  - {x: 1.4745117, y: 1.6896199}
+  - {x: 0.7991521, y: -0.57184625}
+  - {x: -1.8858044, y: -0.48195586}
+  - {x: -1.3335418, y: 0.8758684}
+  - {x: -0.9558173, y: 0.8873193}
+  - {x: -1.3187938, y: -0.026937656}
+  - {x: 0.5365933, y: -0.025900051}
+  - {x: 1.1027951, y: 1.6633458}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
+--- !u!114 &935342248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935342246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u4E66\u88AB\u5077\u540E\u4ECE\u5DE8\u9E7F\u6751\u51FA\u6765"
+  listQuestStateItems:
+  - questName: 'Other Return : ZhangJiao'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangJiao Return : Do Rain And Stolen Book'
+    questEntryState: 4
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 1'
+    questEntryState: 1
 --- !u!1001 &969745101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13715,6 +14051,129 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1001 &1147445866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_JuLu_HuangJinBattle_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0949821
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3365259
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011806488
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.09123182
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: JuLu/Map_StoryMap_HuangJinBattle_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1147445869}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &1147445867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1147445866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1147445868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1147445866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1147445869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147445868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u90BA\u57CE\u897F\u90E8\u7B2C\u4E8C\u6B21\u9047\u89C1\u9EC4\u5DFE\u8D3C"
+  listQuestStateItems:
+  - questName: 'Other Return : ZhangJiao'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 1'
+    questEntryState: 4
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 2'
+    questEntryState: 1
 --- !u!1001 &1149863332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15370,6 +15829,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 870159615}
+  - {fileID: 935342245}
+  - {fileID: 714184381}
+  - {fileID: 1147445867}
+  - {fileID: 383361424}
+  - {fileID: 1578782880}
+  - {fileID: 1693683891}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1307097393
@@ -17450,6 +17915,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   locTagName: "\u6B66\u9675"
+--- !u!1 &1427187361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427187362}
+  - component: {fileID: 1427187363}
+  m_Layer: 0
+  m_Name: Sub_Mountain_YeCheng_West
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427187362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427187361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9, y: 10.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 177532573}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &1427187363
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427187361}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 2.734457, y: -0.6133332}
+  - {x: -3.2473726, y: -0.27669525}
+  - {x: -2.4644105, y: 0.6423521}
+  - {x: -0.6833951, y: 0.92243385}
+  - {x: 0.8606839, y: 0.64287376}
+  - {x: 2.1647232, y: 0.11135006}
+  - {x: 2.7681522, y: -0.6177921}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1001 &1439122607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19118,6 +19661,129 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 8226621847245785357, guid: 68aa58b019f78e249b1cb3c8af12b1a8, type: 3}
   m_PrefabInstance: {fileID: 1573680384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1578782879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_JuLu_HuangJinBattle_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9971458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0755008
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -8.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0949821
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8035097
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.011806488
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.16087008
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: JuLu/Map_StoryMap_HuangJinBattle_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1578782882}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &1578782880 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1578782879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1578782881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1578782879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1578782882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578782881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u90BA\u57CE\u897F\u9EC4\u6CB3\u5317\u7B2C3\u6B21\u9047\u89C1\u9EC4\u5DFE\u8D3C"
+  listQuestStateItems:
+  - questName: 'Other Return : ZhangJiao'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 2'
+    questEntryState: 4
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 3'
+    questEntryState: 1
 --- !u!1 &1582950369
 GameObject:
   m_ObjectHideFlags: 0
@@ -19905,6 +20571,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1001 &1693683890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_Name
+      value: TransitionDestinationFrom_JuLu_HuangJinBattle_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: faceDirection
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: facingDirection
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: playerCharacter
+      value: 
+      objectReference: {fileID: 4195255582601103743}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: mainRoleController
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510199183654070, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: setCharacterFacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: destinationTag
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 114808708404685106, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+--- !u!4 &1693683891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1693683890}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1696380772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27314,11 +28062,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.39
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.7
+      value: 14.7
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27383,11 +28131,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.39
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.7
+      value: 14.7
       objectReference: {fileID: 0}
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27395,11 +28143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.39
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.7
+      value: 14.7
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.z

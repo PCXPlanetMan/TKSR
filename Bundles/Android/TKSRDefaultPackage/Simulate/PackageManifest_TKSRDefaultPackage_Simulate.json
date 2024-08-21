@@ -1346,1845 +1346,1887 @@
             "BundleID": 189
         },
         {
+            "Address": "Map_StoryMap_HuangJinBattle_1",
+            "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/JuLu/Map_StoryMap_HuangJinBattle_1.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 190
+        },
+        {
+            "Address": "Map_StoryMap_HuangJinBattle_2",
+            "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/JuLu/Map_StoryMap_HuangJinBattle_2.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 191
+        },
+        {
+            "Address": "Map_StoryMap_HuangJinBattle_3",
+            "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/JuLu/Map_StoryMap_HuangJinBattle_3.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 192
+        },
+        {
             "Address": "Map_CityLuoYang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 190
+            "BundleID": 193
         },
         {
             "Address": "Map_CityLuoYang_GamblingHouse",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_GamblingHouse.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 191
+            "BundleID": 194
         },
         {
             "Address": "Map_CityLuoYang_Hall",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Hall.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 192
+            "BundleID": 195
         },
         {
             "Address": "Map_CityLuoYang_Hotel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Hotel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 193
+            "BundleID": 196
         },
         {
             "Address": "Map_CityLuoYang_Hotel_2Floor",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Hotel_2Floor.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 194
+            "BundleID": 197
         },
         {
             "Address": "Map_CityLuoYang_InnerCity",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_InnerCity.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 195
+            "BundleID": 198
         },
         {
             "Address": "Map_CityLuoYang_JewelleryShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_JewelleryShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 196
+            "BundleID": 199
         },
         {
             "Address": "Map_CityLuoYang_LvBuRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_LvBuRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 197
+            "BundleID": 200
         },
         {
             "Address": "Map_CityLuoYang_Market",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Market.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 198
+            "BundleID": 201
         },
         {
             "Address": "Map_CityLuoYang_Region",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Region.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 199
+            "BundleID": 202
         },
         {
             "Address": "Map_CityLuoYang_Square",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/LuoYang/Map_CityLuoYang_Square.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 200
+            "BundleID": 203
         },
         {
             "Address": "Map_BigMap",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/Map_BigMap.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 201
+            "BundleID": 204
         },
         {
             "Address": "Map_NanMan",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanMan/Map_NanMan.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 202
+            "BundleID": 205
         },
         {
             "Address": "Map_NanMan_House1",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanMan/Map_NanMan_House1.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 203
+            "BundleID": 206
         },
         {
             "Address": "Map_NanMan_House2",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanMan/Map_NanMan_House2.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 204
+            "BundleID": 207
         },
         {
             "Address": "Map_NanMan_LeaderRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanMan/Map_NanMan_LeaderRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 205
+            "BundleID": 208
         },
         {
             "Address": "Map_CityNanYang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 206
+            "BundleID": 209
         },
         {
             "Address": "Map_CityNanYang_Gov",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang_Gov.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 207
+            "BundleID": 210
         },
         {
             "Address": "Map_CityNanYang_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 208
+            "BundleID": 211
         },
         {
             "Address": "Map_CityNanYang_InnerCity",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang_InnerCity.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 209
+            "BundleID": 212
         },
         {
             "Address": "Map_CityNanYang_MainStreet",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang_MainStreet.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 210
+            "BundleID": 213
         },
         {
             "Address": "Map_CityNanYang_Medic",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/NanYang/Map_CityNanYang_Medic.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 211
+            "BundleID": 214
         },
         {
             "Address": "Map_Ports_ChangJiang_North",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/Ports/Map_Ports_ChangJiang_North.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 212
+            "BundleID": 215
         },
         {
             "Address": "Map_Ports_ChangJiang_South",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/Ports/Map_Ports_ChangJiang_South.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 213
+            "BundleID": 216
         },
         {
             "Address": "Map_Ports_HuangHe_North",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/Ports/Map_Ports_HuangHe_North.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 214
+            "BundleID": 217
         },
         {
             "Address": "Map_Ports_HuangHe_South",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/Ports/Map_Ports_HuangHe_South.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 215
+            "BundleID": 218
         },
         {
             "Address": "Map_CityShangDang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShangDang/Map_CityShangDang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 216
+            "BundleID": 219
         },
         {
             "Address": "Map_CityShangDang_Region",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShangDang/Map_CityShangDang_Region.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 217
+            "BundleID": 220
         },
         {
             "Address": "Map_CityShangDang_Temple",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShangDang/Map_CityShangDang_Temple.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 218
+            "BundleID": 221
         },
         {
             "Address": "Map_ShanYue",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShanYue/Map_ShanYue.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 219
+            "BundleID": 222
         },
         {
             "Address": "Map_ShanYue_Hole",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShanYue/Map_ShanYue_Hole.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 220
+            "BundleID": 223
         },
         {
             "Address": "Map_ShanYue_Tunnel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ShanYue/Map_ShanYue_Tunnel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 221
+            "BundleID": 224
         },
         {
             "Address": "Map_CitySuiYang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 222
+            "BundleID": 225
         },
         {
             "Address": "Map_CitySuiYang_GuestRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_GuestRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 223
+            "BundleID": 226
         },
         {
             "Address": "Map_CitySuiYang_Hotel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_Hotel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 224
+            "BundleID": 227
         },
         {
             "Address": "Map_CitySuiYang_Jewellery",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_Jewellery.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 225
+            "BundleID": 228
         },
         {
             "Address": "Map_CitySuiYang_LiRoomFront",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_LiRoomFront.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 226
+            "BundleID": 229
         },
         {
             "Address": "Map_CitySuiYang_LiRoomHall",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_LiRoomHall.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 227
+            "BundleID": 230
         },
         {
             "Address": "Map_CitySuiYang_LiRoomSecret",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_LiRoomSecret.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 228
+            "BundleID": 231
         },
         {
             "Address": "Map_CitySuiYang_LiRoomTunnel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_LiRoomTunnel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 229
+            "BundleID": 232
         },
         {
             "Address": "Map_CitySuiYang_LiuRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_LiuRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 230
+            "BundleID": 233
         },
         {
             "Address": "Map_CitySuiYang_NormalRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_NormalRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 231
+            "BundleID": 234
         },
         {
             "Address": "Map_CitySuiYang_Suburb",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/SuiYang/Map_CitySuiYang_Suburb.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 232
+            "BundleID": 235
         },
         {
             "Address": "Map_RoomNanHua",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TaoYuanXiang/Map_RoomNanHua.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 233
+            "BundleID": 236
         },
         {
             "Address": "Map_RoomYuJi",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TaoYuanXiang/Map_RoomYuJi.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 234
+            "BundleID": 237
         },
         {
             "Address": "Map_RoomZuoCi",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TaoYuanXiang/Map_RoomZuoCi.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 235
+            "BundleID": 238
         },
         {
             "Address": "Map_TaoYuanXiang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TaoYuanXiang/Map_TaoYuanXiang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 236
+            "BundleID": 239
         },
         {
             "Address": "Map_Void",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TaoYuanXiang/Map_Void.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 237
+            "BundleID": 240
         },
         {
             "Address": "Map_TianShiTai",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TianShiZhong/Map_TianShiTai.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 238
+            "BundleID": 241
         },
         {
             "Address": "Map_TianShiZhong_MenKou",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TianShiZhong/Map_TianShiZhong_MenKou.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 239
+            "BundleID": 242
         },
         {
             "Address": "Map_TianShiZhong_NeiTing",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TianShiZhong/Map_TianShiZhong_NeiTing.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 240
+            "BundleID": 243
         },
         {
             "Address": "Map_TianShiZhong_ZouLang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/TianShiZhong/Map_TianShiZhong_ZouLang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 241
+            "BundleID": 244
         },
         {
             "Address": "Map_WuLin",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLin/Map_WuLin.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 242
+            "BundleID": 245
         },
         {
             "Address": "Map_WuLin_HuaRongDao",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLin/Map_WuLin_HuaRongDao.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 243
+            "BundleID": 246
         },
         {
             "Address": "Map_WuLin_Inner",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLin/Map_WuLin_Inner.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 244
+            "BundleID": 247
         },
         {
             "Address": "Map_CityWuLing",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 245
+            "BundleID": 248
         },
         {
             "Address": "Map_CityWuLing_BookStore",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing_BookStore.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 246
+            "BundleID": 249
         },
         {
             "Address": "Map_CityWuLing_Hotel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing_Hotel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 247
+            "BundleID": 250
         },
         {
             "Address": "Map_CityWuLing_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 248
+            "BundleID": 251
         },
         {
             "Address": "Map_CityWuLing_LvMengRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing_LvMengRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 249
+            "BundleID": 252
         },
         {
             "Address": "Map_CityWuLing_Street",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuLing/Map_CityWuLing_Street.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 250
+            "BundleID": 253
         },
         {
             "Address": "Map_CityWuWei",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuWei/Map_CityWuWei.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 251
+            "BundleID": 254
         },
         {
             "Address": "Map_CityWuWei_Hotel",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuWei/Map_CityWuWei_Hotel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 252
+            "BundleID": 255
         },
         {
             "Address": "Map_CityWuWei_MaTengHouse",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuWei/Map_CityWuWei_MaTengHouse.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 253
+            "BundleID": 256
         },
         {
             "Address": "Map_CityWuWei_MaTengHouse_Inner",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuWei/Map_CityWuWei_MaTengHouse_Inner.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 254
+            "BundleID": 257
         },
         {
             "Address": "Map_CityWuWei_Street",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/WuWei/Map_CityWuWei_Street.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 255
+            "BundleID": 258
         },
         {
             "Address": "Map_CityXiangYang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 256
+            "BundleID": 259
         },
         {
             "Address": "Map_CityXiangYang_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 257
+            "BundleID": 260
         },
         {
             "Address": "Map_CityXiangYang_MaLiangRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_MaLiangRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 258
+            "BundleID": 261
         },
         {
             "Address": "Map_CityXiangYang_Medic",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_Medic.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 259
+            "BundleID": 262
         },
         {
             "Address": "Map_CityXiangYang_Region",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_Region.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 260
+            "BundleID": 263
         },
         {
             "Address": "Map_CityXiangYang_XiangYang_LiuCongRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_XiangYang_LiuCongRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 261
+            "BundleID": 264
         },
         {
             "Address": "Map_CityXiangYang_XiangYangTaiShou_Hall",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiangYang/Map_CityXiangYang_XiangYangTaiShou_Hall.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 262
+            "BundleID": 265
         },
         {
             "Address": "Map_CityXiaPi",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiaPi/Map_CityXiaPi.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 263
+            "BundleID": 266
         },
         {
             "Address": "Map_CityXiaPi_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiaPi/Map_CityXiaPi_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 264
+            "BundleID": 267
         },
         {
             "Address": "Map_CityXiaPi_Medic",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiaPi/Map_CityXiaPi_Medic.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 265
+            "BundleID": 268
         },
         {
             "Address": "Map_CityXiaPi_Square",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiaPi/Map_CityXiaPi_Square.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 266
+            "BundleID": 269
         },
         {
             "Address": "Map_CityXiaPi_Street",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiaPi/Map_CityXiaPi_Street.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 267
+            "BundleID": 270
         },
         {
             "Address": "Map_CityXieLiang",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XieLiang/Map_CityXieLiang.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 268
+            "BundleID": 271
         },
         {
             "Address": "Map_CityXieLiang_GuanYuRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XieLiang/Map_CityXieLiang_GuanYuRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 269
+            "BundleID": 272
         },
         {
             "Address": "Map_CityXieLiang_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XieLiang/Map_CityXieLiang_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 270
+            "BundleID": 273
         },
         {
             "Address": "Map_CityXieLiang_Region",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XieLiang/Map_CityXieLiang_Region.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 271
+            "BundleID": 274
         },
         {
             "Address": "Map_CityXieLiang_Temple",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XieLiang/Map_CityXieLiang_Temple.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 272
+            "BundleID": 275
         },
         {
             "Address": "Map_CityXinYe",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XinYe/Map_CityXinYe.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 273
+            "BundleID": 276
         },
         {
             "Address": "Map_CityXinYe_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XinYe/Map_CityXinYe_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 274
+            "BundleID": 277
         },
         {
             "Address": "Map_CityXinYe_Jail",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XinYe/Map_CityXinYe_Jail.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 275
+            "BundleID": 278
         },
         {
             "Address": "Map_CityXinYe_PoliceStation",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XinYe/Map_CityXinYe_PoliceStation.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 276
+            "BundleID": 279
         },
         {
             "Address": "Map_CityXinYe_WeaponShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XinYe/Map_CityXinYe_WeaponShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 277
+            "BundleID": 280
         },
         {
             "Address": "Map_XiongNuBuLuo",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 278
+            "BundleID": 281
         },
         {
             "Address": "Map_XiongNuBuLuo_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 279
+            "BundleID": 282
         },
         {
             "Address": "Map_XiongNuBuLuo_JewelleryShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo_JewelleryShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 280
+            "BundleID": 283
         },
         {
             "Address": "Map_XiongNuBuLuo_LeaderRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo_LeaderRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 281
+            "BundleID": 284
         },
         {
             "Address": "Map_XiongNuBuLuo_North",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo_North.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 282
+            "BundleID": 285
         },
         {
             "Address": "Map_XiongNuBuLuo_WeaponShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiongNuBuLuo/Map_XiongNuBuLuo_WeaponShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 283
+            "BundleID": 286
         },
         {
             "Address": "Map_XiQiangBuLuo",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiQiangBuLuo/Map_XiQiangBuLuo.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 284
+            "BundleID": 287
         },
         {
             "Address": "Map_XiQiangBuLuo_JewelleryShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiQiangBuLuo/Map_XiQiangBuLuo_JewelleryShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 285
+            "BundleID": 288
         },
         {
             "Address": "Map_XiQiangBuLuo_LeaderRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiQiangBuLuo/Map_XiQiangBuLuo_LeaderRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 286
+            "BundleID": 289
         },
         {
             "Address": "Map_XiQiangBuLuo_Square",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiQiangBuLuo/Map_XiQiangBuLuo_Square.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 287
+            "BundleID": 290
         },
         {
             "Address": "Map_XiQiangBuLuo_WeaponShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XiQiangBuLuo/Map_XiQiangBuLuo_WeaponShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 288
+            "BundleID": 291
         },
         {
             "Address": "Map_XuJiaCun",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XuJiaCun/Map_XuJiaCun.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 289
+            "BundleID": 292
         },
         {
             "Address": "Map_XuJiaCun_House",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XuJiaCun/Map_XuJiaCun_House.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 290
+            "BundleID": 293
         },
         {
             "Address": "Map_XuJiaCun_Temple",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XuJiaCun/Map_XuJiaCun_Temple.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 291
+            "BundleID": 294
         },
         {
             "Address": "Map_XuJiaCun_Temple_Outside",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XuJiaCun/Map_XuJiaCun_Temple_Outside.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 292
+            "BundleID": 295
         },
         {
             "Address": "Map_XuJiaCun_XuChuRoom",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/XuJiaCun/Map_XuJiaCun_XuChuRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 293
+            "BundleID": 296
         },
         {
             "Address": "Map_CityYeCheng",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 294
+            "BundleID": 297
         },
         {
             "Address": "Map_CityYeCheng_BookStore",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_BookStore.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 295
+            "BundleID": 298
         },
         {
             "Address": "Map_CityYeCheng_Hall",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_Hall.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 296
+            "BundleID": 299
         },
         {
             "Address": "Map_CityYeCheng_House1",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_House1.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 297
+            "BundleID": 300
         },
         {
             "Address": "Map_CityYeCheng_House2",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_House2.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 298
+            "BundleID": 301
         },
         {
             "Address": "Map_CityYeCheng_Street",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_Street.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 299
+            "BundleID": 302
         },
         {
             "Address": "Map_CityYeCheng_WeaponShop",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YeCheng/Map_CityYeCheng_WeaponShop.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 300
+            "BundleID": 303
         },
         {
             "Address": "Map_RoomYingXiongTai",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YingXiongTai/Map_RoomYingXiongTai.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 301
+            "BundleID": 304
         },
         {
             "Address": "Map_RoomYingXiongTing",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/YingXiongTai/Map_RoomYingXiongTing.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 302
+            "BundleID": 305
         },
         {
             "Address": "Map_ZhongShan",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ZhongShan/Map_ZhongShan.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 303
+            "BundleID": 306
         },
         {
             "Address": "Map_ZhongShan_Center",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ZhongShan/Map_ZhongShan_Center.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 304
+            "BundleID": 307
         },
         {
             "Address": "Map_ZhongShan_Forest",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ZhongShan/Map_ZhongShan_Forest.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 305
+            "BundleID": 308
         },
         {
             "Address": "Map_ZhongShan_Hole",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ZhongShan/Map_ZhongShan_Hole.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 306
+            "BundleID": 309
         },
         {
             "Address": "Map_ZhongShan_South",
             "AssetPath": "Assets/TKS-R/Scenes/StoryScenes/ZhongShan/Map_ZhongShan_South.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 307
+            "BundleID": 310
         },
         {
             "Address": "Battle_BeiPing_FightOutSide",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BeiPing_FightOutSide.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 308
+            "BundleID": 311
         },
         {
             "Address": "Battle_BigMap_BeiPing_FightWithZhaoYun1",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_BeiPing_FightWithZhaoYun1.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 309
+            "BundleID": 312
         },
         {
             "Address": "Battle_BigMap_BeiPing_FightWithZhaoYun2",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_BeiPing_FightWithZhaoYun2.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 310
+            "BundleID": 313
         },
         {
             "Address": "Battle_BigMap_BeiPing_FightWithZhaoYun3",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_BeiPing_FightWithZhaoYun3.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 311
+            "BundleID": 314
         },
         {
             "Address": "Battle_BigMap_BeiPing_FightWithZhaoYun4",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_BeiPing_FightWithZhaoYun4.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 312
+            "BundleID": 315
+        },
+        {
+            "Address": "Battle_BigMap_JuLu_FightWithHuangJinSoldier1",
+            "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_JuLu_FightWithHuangJinSoldier1.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 316
+        },
+        {
+            "Address": "Battle_BigMap_JuLu_FightWithHuangJinSoldier2",
+            "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_JuLu_FightWithHuangJinSoldier2.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 317
+        },
+        {
+            "Address": "Battle_BigMap_JuLu_FightWithHuangJinSoldier3",
+            "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_JuLu_FightWithHuangJinSoldier3.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 318
         },
         {
             "Address": "Battle_BigMap_NanMan_FightWithMengHuo3",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_NanMan_FightWithMengHuo3.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 313
+            "BundleID": 319
         },
         {
             "Address": "Battle_BigMap_NanMan_FightWithMengHuo4",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_BigMap_NanMan_FightWithMengHuo4.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 314
+            "BundleID": 320
         },
         {
             "Address": "Battle_CampGuoSiMain_AssassinToGuoSi",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_CampGuoSiMain_AssassinToGuoSi.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 315
+            "BundleID": 321
         },
         {
             "Address": "Battle_CampYuanShao_FightWithZhaoYun5",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_CampYuanShao_FightWithZhaoYun5.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 316
+            "BundleID": 322
         },
         {
             "Address": "Battle_CampYuanShaoHall_FinalFightSaveGongSunZan",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_CampYuanShaoHall_FinalFightSaveGongSunZan.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 317
+            "BundleID": 323
         },
         {
             "Address": "Battle_CampYuanShaoHall_MakeUpSaveGongSunZan",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_CampYuanShaoHall_MakeUpSaveGongSunZan.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 318
+            "BundleID": 324
         },
         {
             "Address": "Battle_ChangSha",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_ChangSha.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 319
+            "BundleID": 325
         },
         {
             "Address": "Battle_Dev",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_Dev.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 320
+            "BundleID": 326
         },
         {
             "Address": "Battle_HuaShanTop_FightWithThieves",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_HuaShanTop_FightWithThieves.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 321
+            "BundleID": 327
         },
         {
             "Address": "Battle_NanMan_FightWithMengHuo1",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanMan_FightWithMengHuo1.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 322
+            "BundleID": 328
         },
         {
             "Address": "Battle_NanMan_FightWithMengHuo2",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanMan_FightWithMengHuo2.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 323
+            "BundleID": 329
         },
         {
             "Address": "Battle_NanMan_FightWithMengHuo5",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanMan_FightWithMengHuo5.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 324
+            "BundleID": 330
         },
         {
             "Address": "Battle_NanMan_FightWithMengHuo6",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanMan_FightWithMengHuo6.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 325
+            "BundleID": 331
         },
         {
             "Address": "Battle_NanMan_FightWithMengHuo7",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanMan_FightWithMengHuo7.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 326
+            "BundleID": 332
         },
         {
             "Address": "Battle_NanYangInnerCity_FightWithGuards",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanYangInnerCity_FightWithGuards.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 327
+            "BundleID": 333
         },
         {
             "Address": "Battle_NanYangMainStreet_AfterGongZiXianTou",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_NanYangMainStreet_AfterGongZiXianTou.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 328
+            "BundleID": 334
         },
         {
             "Address": "Battle_ShanYue_FightInShanYueTunnel",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_ShanYue_FightInShanYueTunnel.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 329
+            "BundleID": 335
         },
         {
             "Address": "Battle_ShanYue_FinalFightInShanYueCamp",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_ShanYue_FinalFightInShanYueCamp.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 330
+            "BundleID": 336
         },
         {
             "Address": "Battle_ShanYue_FirstFightInShanYue",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_ShanYue_FirstFightInShanYue.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 331
+            "BundleID": 337
         },
         {
             "Address": "Battle_SuiYangLiRoomFront",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_SuiYangLiRoomFront.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 332
+            "BundleID": 338
         },
         {
             "Address": "Battle_SuiYangLiRoomHall",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_SuiYangLiRoomHall.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 333
+            "BundleID": 339
         },
         {
             "Address": "Battle_SuiYangLiRoomSecret",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_SuiYangLiRoomSecret.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 334
+            "BundleID": 340
         },
         {
             "Address": "Battle_SuiYangLiuRoom",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_SuiYangLiuRoom.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 335
+            "BundleID": 341
         },
         {
             "Address": "Battle_WuWeiMaTengHouse",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_WuWeiMaTengHouse.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 336
+            "BundleID": 342
         },
         {
             "Address": "Battle_WuWeiMaTengHouseInner",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_WuWeiMaTengHouseInner.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 337
+            "BundleID": 343
         },
         {
             "Address": "Battle_XinYe_PoliceStation",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XinYe_PoliceStation.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 338
+            "BundleID": 344
         },
         {
             "Address": "Battle_XuJiaCun_TempleOutisde",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XuJiaCun_TempleOutisde.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 339
+            "BundleID": 345
         },
         {
             "Address": "Ability Menu Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Ability Menu Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "Conversation Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Conversation Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "Dev Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Dev Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "Facing Indicator",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Facing Indicator.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "GameUI",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/GameUI.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "GUIInputNamePanel",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/GUIInputNamePanel.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "ItemPrefab",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/ItemPrefab.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "NotePrefab",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/NotePrefab.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "Stat Panel Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Stat Panel Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 340
+            "BundleID": 346
         },
         {
             "Address": "Topaz-Mu_9-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_9-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_9-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_9-4",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_10-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_10-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_10-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_11-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_11-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_11-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_11-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_12-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_12-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_12-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_12-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_13-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_13-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_13-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_13-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_14-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_14-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_14-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_14-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_15-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_15-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_15-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_15-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_16-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_16-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_16-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_16-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_17-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_17-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_17-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_17-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_18-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_18-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_18-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_19-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_19-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_19-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_19-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_20-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_20-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_21-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_21-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_22-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_22-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_22-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_22-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_23-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_23-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_23-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_23-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_24-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_24-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_24-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_24-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_25-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_25-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_26-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_26-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_27-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_27-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_27-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_27-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_28-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_28-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_28-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_28-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_29-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_29-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_29-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_29-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_30-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_30-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_30-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_30-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_31-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_31-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_31-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_31-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_32-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_32-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_32-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_33-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_33-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_33-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_34-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_34-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_35-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_35-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_35-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_35-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_36-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_36-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_37-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_37-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_38-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_38-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_39-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_39-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_39-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_39-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_40-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_40-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_41-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_41-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_41-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_41-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_42-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_42-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_42-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_42-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_43-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_43-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_44-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_44-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_45-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_45-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_46-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_46-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_47-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_47-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_48-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_48-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_49-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_49-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_50-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_50-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_51-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_51-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "Topaz-Mu_52-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_52-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 341
+            "BundleID": 347
         },
         {
             "Address": "0000_开场(主界面)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0000_开场(主界面).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 342
+            "BundleID": 348
         },
         {
             "Address": "0001_大好河山(大地图)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0001_大好河山(大地图).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 343
+            "BundleID": 349
         },
         {
             "Address": "0002_纵横天下",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0002_纵横天下.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 344
+            "BundleID": 350
         },
         {
             "Address": "0003_桃源乡",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0003_桃源乡.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 345
+            "BundleID": 351
         },
         {
             "Address": "0004_集市(城镇游览)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0004_集市(城镇游览).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 346
+            "BundleID": 352
         },
         {
             "Address": "0005_喜气洋洋",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0005_喜气洋洋.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 347
+            "BundleID": 353
         },
         {
             "Address": "0006_热闹",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0006_热闹.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 348
+            "BundleID": 354
         },
         {
             "Address": "0007_闹市",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0007_闹市.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 349
+            "BundleID": 355
         },
         {
             "Address": "0008_繁荣",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0008_繁荣.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 350
+            "BundleID": 356
         },
         {
             "Address": "0009_英雄台",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0009_英雄台.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 351
+            "BundleID": 357
         },
         {
             "Address": "0010_钟山秘境",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0010_钟山秘境.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 352
+            "BundleID": 358
         },
         {
             "Address": "0011",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0011.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 353
+            "BundleID": 359
         },
         {
             "Address": "0012_异域风情",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0012_异域风情.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 354
+            "BundleID": 360
         },
         {
             "Address": "0013_良辰",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0013_良辰.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 355
+            "BundleID": 361
         },
         {
             "Address": "0014_形势严峻",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0014_形势严峻.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 356
+            "BundleID": 362
         },
         {
             "Address": "0015_虚空混沌",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0015_虚空混沌.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 357
+            "BundleID": 363
         },
         {
             "Address": "0016",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0016.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 358
+            "BundleID": 364
         },
         {
             "Address": "0017",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0017.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 359
+            "BundleID": 365
         },
         {
             "Address": "0018",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0018.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 360
+            "BundleID": 366
         },
         {
             "Address": "0019_战斗",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0019_战斗.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 361
+            "BundleID": 367
         },
         {
             "Address": "0020",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0020.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 362
+            "BundleID": 368
         },
         {
             "Address": "0021_激昂",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0021_激昂.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 363
+            "BundleID": 369
         },
         {
             "Address": "0022",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0022.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 364
+            "BundleID": 370
         },
         {
             "Address": "0023_战斗",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0023_战斗.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 371
         },
         {
             "Address": "0024",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0024.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 372
         },
         {
             "Address": "0025_紧急",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0025_紧急.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 367
+            "BundleID": 373
         },
         {
             "Address": "0027",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0027.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 368
+            "BundleID": 374
         },
         {
             "Address": "0028_沧溟登场",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0028_沧溟登场.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 369
+            "BundleID": 375
         },
         {
             "Address": "0100_浪漫穿越",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0100_浪漫穿越.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 370
+            "BundleID": 376
         }
     ],
     "BundleList": [
@@ -5063,7 +5105,7 @@
             "UnityCRC": 0,
             "FileHash": "4d2c2e2051655fbebf136a47241e89ce",
             "FileCRC": "00000000",
-            "FileSize": 94091,
+            "FileSize": 96862,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -5084,6 +5126,36 @@
             "FileHash": "dd2db8958350fa1a326a3587f7f5e5e2",
             "FileCRC": "00000000",
             "FileSize": 125252,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_storyscenes_julu_map_storymap_huangjinbattle_1.bundle",
+            "UnityCRC": 0,
+            "FileHash": "8e8ddd8660f7682ba8cf390f770eabee",
+            "FileCRC": "00000000",
+            "FileSize": 166331,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_storyscenes_julu_map_storymap_huangjinbattle_2.bundle",
+            "UnityCRC": 0,
+            "FileHash": "c446f5503268cfcda2bd00fbb976f9d7",
+            "FileCRC": "00000000",
+            "FileSize": 112918,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_storyscenes_julu_map_storymap_huangjinbattle_3.bundle",
+            "UnityCRC": 0,
+            "FileHash": "f8098cd187dfe0bb47c995bfa8aa08e9",
+            "FileCRC": "00000000",
+            "FileSize": 206636,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -5203,7 +5275,7 @@
             "UnityCRC": 0,
             "FileHash": "5e124656b69c54467125a7796e435b4b",
             "FileCRC": "00000000",
-            "FileSize": 1099701,
+            "FileSize": 1129513,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -6314,6 +6386,36 @@
             "FileHash": "72936b8b0706a8f29674fdf13a558119",
             "FileCRC": "00000000",
             "FileSize": 178945,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_battlescenes_battle_bigmap_julu_fightwithhuangjinsoldier1.bundle",
+            "UnityCRC": 0,
+            "FileHash": "213387e19c830ce80fb645fddb2babbd",
+            "FileCRC": "00000000",
+            "FileSize": 178953,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_battlescenes_battle_bigmap_julu_fightwithhuangjinsoldier2.bundle",
+            "UnityCRC": 0,
+            "FileHash": "9c020abdf507b123a9f2b34414c8f8f3",
+            "FileCRC": "00000000",
+            "FileSize": 178942,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_battlescenes_battle_bigmap_julu_fightwithhuangjinsoldier3.bundle",
+            "UnityCRC": 0,
+            "FileHash": "4c5a3487ca05c2afd00a9ba618c4b594",
+            "FileCRC": "00000000",
+            "FileSize": 178953,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
