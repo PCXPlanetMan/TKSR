@@ -29,6 +29,7 @@ namespace TKSR
 
         public void PlayDelayEffect(string strEffect, float delay = 0f, string strExtra = null)
         {
+            Debug.Log($"[TKSR] Effect Play : \"{strEffect}\" with delay = {delay} and Extra = {strExtra}");
             if (delay > 0f)
                 StartCoroutine(ConDoDelay(strEffect, delay));
             else

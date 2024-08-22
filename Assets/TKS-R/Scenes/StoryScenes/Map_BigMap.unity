@@ -22467,11 +22467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.12
+      value: 2.009
       objectReference: {fileID: 0}
     - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 13.87
+      value: 13.862
       objectReference: {fileID: 0}
     - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22506,6 +22506,10 @@ PrefabInstance:
       value: 0.6159792
       objectReference: {fileID: 0}
     - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
       propertyPath: m_Offset.x
       value: 0.035578728
       objectReference: {fileID: 0}
@@ -22532,13 +22536,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1788958106}
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
 --- !u!4 &1788958104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
   m_PrefabInstance: {fileID: 1788958103}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788958105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1788958103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1788958106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788958105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u7B2C\u4E09\u6B21\u548C\u9EC4\u5DFE\u8D3C\u6218\u6597\u540E\u5F00\u542F\u4E0A\u515A\u5165\u53E3"
+  listQuestStateItems: []
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangJiao Return : Fight HuangJin 3'
+    questEntryState: 4
 --- !u!1001 &1818092778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27915,14 +27944,14 @@ EdgeCollider2D:
   - {x: 2.8457599, y: 0.043483734}
   - {x: 3.0427725, y: -0.777647}
   - {x: 2.0330694, y: -0.6850672}
-  - {x: 1.672559, y: -0.29125023}
-  - {x: 1.1315726, y: -0.45830536}
+  - {x: 1.7603366, y: -0.5164194}
+  - {x: 1.2307996, y: -0.6682091}
   - {x: 1.4481045, y: -0.96985817}
   - {x: 0.6951926, y: -1.3851833}
   - {x: -0.089143634, y: -1.457861}
   - {x: -0.34018716, y: -0.86376476}
   - {x: -0.98991376, y: -0.6949711}
-  - {x: -2.4311957, y: -0.84843636}
+  - {x: -2.4177775, y: -0.8833246}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

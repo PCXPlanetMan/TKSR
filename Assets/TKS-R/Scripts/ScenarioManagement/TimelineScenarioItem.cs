@@ -757,6 +757,7 @@ namespace TKSR
         /// <param name="effectParam">特效名称:延迟播放时间:动画额外参数(例如In/Out动画)</param>
         public void TimelineShowEffect(string effectParam)
         {
+            Debug.Log($"[TKSR] TimelineShowEffect with effectParam = {effectParam}");
             var data = effectParam.Split(':');
             if (data.Length == 0)
             {
