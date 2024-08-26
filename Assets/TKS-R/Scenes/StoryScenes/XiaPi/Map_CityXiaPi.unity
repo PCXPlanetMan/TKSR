@@ -1418,11 +1418,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questDescription: "\u9996\u6B21\u6765\u5230\u4E0B\u90B3"
+  questDescription: "\u53D1\u73B0\u4E0B\u90B3\u88AB\u5F20\u98DE\u4E22\u4E86,\u5728\u590F\u4FAF\u60C7\u519B\u8425\u627E\u5230\u4E4B\u524D"
   listQuestStateItems:
   - questName: 'Shu Return : ZhangFei'
-    questState: 2
-  listQuestEntryStateItems: []
+    questState: 6
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 3
+  listQuestEntryStateItems:
+  - questEntryName: 'XiaoHouDun Return : Find Camp'
+    questEntryState: 3
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
   OnReachQuest:
@@ -2534,11 +2538,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questDescription: "\u9996\u6B21\u6765\u5230\u4E0B\u90B3"
+  questDescription: "\u53D1\u73B0\u4E0B\u90B3\u88AB\u5F20\u98DE\u4E22\u4E86,\u5728\u590F\u4FAF\u60C7\u519B\u8425\u627E\u5230\u4E4B\u524D"
   listQuestStateItems:
   - questName: 'Shu Return : ZhangFei'
-    questState: 2
-  listQuestEntryStateItems: []
+    questState: 6
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 3
+  listQuestEntryStateItems:
+  - questEntryName: 'XiaoHouDun Return : Find Camp'
+    questEntryState: 3
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
   OnReachQuest:
