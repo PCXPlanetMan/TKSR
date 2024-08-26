@@ -6044,6 +6044,248 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1001 &429778554
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_XiaPi_FinalCaptureZhangFei
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5354748
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.43050587
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08144474
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.025631845
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: XiaPi/Map_StoryMap_XiaPi_CaptureZhangFei_Final
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 429778557}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &429778555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 429778554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &429778556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 429778554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &429778557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429778556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u4E0B\u90B3\u57CE\u5916\u7B2C\u56DB\u6B21\u6700\u7EC8\u9047\u5230\u5F20\u98DE"
+  listQuestStateItems:
+  - questName: 'Shu Return : ZhangFei'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangFei Return : 4th Capture ZhangFei'
+    questEntryState: 2
+--- !u!1001 &456963404
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_XiaPi_ThirdCaptureZhangFei
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5354748
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.43050587
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08144474
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.025631845
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: XiaPi/Map_StoryMap_XiaPi_CaptureZhangFei_Third
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 456963407}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &456963405 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 456963404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &456963406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 456963404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &456963407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456963406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u4E0B\u90B3\u57CE\u5916\u7B2C\u4E09\u6B21\u9047\u5230\u5F20\u98DE"
+  listQuestStateItems:
+  - questName: 'Shu Return : ZhangFei'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangFei Return : 3rd Capture ZhangFei'
+    questEntryState: 2
 --- !u!1001 &457317192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14250,6 +14492,127 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5790833866683810766, guid: 2715a77946bd9db41b8d2a8883af9780, type: 3}
   m_PrefabInstance: {fileID: 1149863332}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1160261732
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_XiaPi_FirstCaptureZhangFei
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5354748
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.43050587
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08144474
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.025631845
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: XiaPi/Map_StoryMap_XiaPi_CaptureZhangFei_First
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1160261735}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &1160261733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1160261732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1160261734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1160261732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1160261735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160261734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u4E0B\u90B3\u57CE\u5916\u9996\u6B21\u9047\u5230\u5F20\u98DE"
+  listQuestStateItems:
+  - questName: 'Shu Return : ZhangFei'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangFei Return : 1st Capture ZhangFei'
+    questEntryState: 2
 --- !u!1001 &1174036743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15835,6 +16198,10 @@ Transform:
   - {fileID: 383361424}
   - {fileID: 1578782880}
   - {fileID: 1693683891}
+  - {fileID: 1160261733}
+  - {fileID: 1491494328}
+  - {fileID: 456963405}
+  - {fileID: 429778555}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1307097393
@@ -18866,6 +19233,127 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1001 &1491494327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1302623209}
+    m_Modifications:
+    - target: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Name
+      value: TransitionStartToZone_XiaPi_SecondCaptureZhangFei
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5354748
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Size.y
+      value: 0.43050587
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08144474
+      objectReference: {fileID: 0}
+    - target: {fileID: 61522613122602300, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.025631845
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: newSceneName
+      value: XiaPi/Map_StoryMap_XiaPi_CaptureZhangFei_Second
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitioningGameObject
+      value: 
+      objectReference: {fileID: 1324802681}
+    - target: {fileID: 114634906093864604, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      propertyPath: transitionDestinationTag
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1491494330}
+  m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+--- !u!4 &1491494328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1491494327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1491494329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 1491494327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1491494330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491494329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6777892462c134ba352853905e5714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u5728\u4E0B\u90B3\u57CE\u5916\u7B2C\u4E8C\u6B21\u9047\u5230\u5F20\u98DE"
+  listQuestStateItems:
+  - questName: 'Shu Return : ZhangFei'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'ZhangFei Return : 2nd Capture ZhangFei'
+    questEntryState: 2
 --- !u!1 &1493723967
 GameObject:
   m_ObjectHideFlags: 0
@@ -28091,11 +28579,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.7
+      value: 16.86
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.7
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28160,11 +28648,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.7
+      value: 16.86
       objectReference: {fileID: 0}
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.7
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 874691921947768933, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28172,11 +28660,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.7
+      value: 16.86
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.7
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 5994284191607290949, guid: 9bbbb8c54cac4b949ba5220ebabb65ef, type: 3}
       propertyPath: m_LocalPosition.z

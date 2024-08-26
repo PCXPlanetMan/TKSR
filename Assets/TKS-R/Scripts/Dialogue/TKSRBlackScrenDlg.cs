@@ -15,8 +15,26 @@ namespace TKSR
 		
 		[Multiline]
 		public string MessageValue;
+
+
+		private bool isNoContent = false;
+		private float m_NoContentCountDown = 0f;
+
 		public bool BindMessageValue(string value)
 		{
+			// [TKSR] 专门用于显示无内容的黑屏
+			if (value.Length > 0) 
+			{
+				if (value.CompareTo("[[[BLACK]]]") == 0)
+				{
+					MessageValue = "";
+					MessageComponent.text = "";
+					isNoContent = true;
+					m_NoContentCountDown = 0.5f; // 默认保持倒计时1s的纯黑屏
+                    return true;
+				}
+			}
+
 			MessageValue = value;
 			if (!MessageComponent || MessageComponent.text == value)
 				return false;
@@ -50,6 +68,22 @@ namespace TKSR
                     return;
 				}
 #endif
+			
+				// [TKSR] 如果是没有内容的黑屏,则在倒计时结束后直接Fade
+				if (isNoContent)
+				{
+					if (m_NoContentCountDown <= 0f)
+					{
+                        HideBlack();
+                        if (parentPanel && parentPanel.halfBlack)
+                        {
+                            AnimationReturnFinished();
+                        }
+                    }
+
+					m_NoContentCountDown -= Time.deltaTime;
+					return;
+                }
 				
 				
 #if UNITY_EDITOR || UNITY_STANDALONE

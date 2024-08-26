@@ -163,7 +163,7 @@ namespace TKSR
 				// delay
 				yield return new WaitForSeconds(Profile.CompletionDelay);
 			}
-			
+
 			// [TKSR] TODO:通过Touch触发说明当前对话结束
 			if (parentChatPanel != null)
 			{

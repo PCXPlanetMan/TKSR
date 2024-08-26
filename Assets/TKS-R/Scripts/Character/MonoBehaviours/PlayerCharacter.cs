@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using DigitalRubyShared;
 using PixelCrushers.DialogueSystem;
+using TKSRPlayables;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
 using UnityEngine;
+using static TKSRPlayables.FaceParam;
 
 namespace TKSR
 {
@@ -570,6 +572,12 @@ namespace TKSR
             }
 
             m_lastLogOutTimeline = null;
+        }
+
+
+        public void StandFaceToTargetForDlgEvent(Transform target)
+        {
+            base.StandFaceToTarget(new FaceParam(FaceType.ToTransform, target));
         }
     }
 }
