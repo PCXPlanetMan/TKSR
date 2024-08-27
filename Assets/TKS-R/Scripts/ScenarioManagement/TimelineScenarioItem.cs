@@ -356,6 +356,11 @@ namespace TKSR
             {
                 DoEndTimeline();
                 m_isInited = false;
+
+                if (CallBackTimelineEnd != null)
+                {
+                    CallBackTimelineEnd.Invoke(0);
+                }
             }
         }
 
@@ -551,6 +556,24 @@ namespace TKSR
             }
 
             m_isDialogueClipContinued = false;
+        }
+
+        public void TimelineSimHideMultiDialoguesSametime(string strMultiDlgs)
+        {
+            if (string.IsNullOrEmpty(strMultiDlgs))
+            {
+                Debug.LogError("[TKSR] Error parameters format of TimelineSimHideMultiDialoguesSametime");
+                return;
+            }
+
+            var paramsMultiDlgs = strMultiDlgs.Split(',');
+            foreach (var entry in paramsMultiDlgs)
+            {
+                if (int.TryParse(entry, out int entryId))
+                {
+                    TimelineSimHideDialogue(entryId);
+                }
+            }
         }
 
         /// <summary>
@@ -1046,6 +1069,7 @@ namespace TKSR
         /// </summary>
         public void ResumeMainTimeline()
         {
+            // Debug.Log("[TKSR] ResumeMainTimeline");
             if (m_playableDirector != null)
             {
                 //m_playableDirector.playableGraph.GetRootPlayable(0).Play();
@@ -1127,5 +1151,8 @@ namespace TKSR
             }
             this.gameObject.SetActive(false);
         }
+
+
+        public Action<int> CallBackTimelineEnd;
     }
 }

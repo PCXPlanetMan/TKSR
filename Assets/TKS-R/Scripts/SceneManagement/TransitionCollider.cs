@@ -62,6 +62,7 @@ namespace TKSR
             {
                 Transition();
                 m_TransitioningGameObjectPresent = true;
+                //Debug.Log($"[TKSR] OnTriggerEnter2D, m_TransitioningGameObjectPresent = {m_TransitioningGameObjectPresent}");
             }
         }
 
@@ -70,12 +71,14 @@ namespace TKSR
             if (other.CompareTag("Player"))
             {
                 m_TransitioningGameObjectPresent = false;
+                //Debug.Log($"[TKSR] OnTriggerExit2D, m_TransitioningGameObjectPresent = {m_TransitioningGameObjectPresent}");
             }
         }
         
         public void Transition()
         {
-            if(m_TransitioningGameObjectPresent)
+            //Debug.Log($"[TKSR] Transition, m_TransitioningGameObjectPresent = {m_TransitioningGameObjectPresent}");
+            if (m_TransitioningGameObjectPresent)
                 return;
             
             
@@ -98,8 +101,12 @@ namespace TKSR
                 // 而SetEnteringGameObjectLocation会自动同步transitioningGameObject(即MainPlayer)的位置和Entrance一致,这对于Collider是不合理的.
                 transitioningGameObject = null;
                 SceneController.Instance.SetEnteringGameObjectLocation(this);
+                // [TKSR] 用于修正如下的m_TransitioningGameObjectPresent相关BUG
+                CurrentTimeline.CallBackTimelineEnd = ActionFixedTraggerExit;
                 CurrentTimeline.InitTimeline();
                 SceneController.Instance.EnableMainPlayerInput(false);
+                // [TKSR] BUG:Disable Player的Collider会直接导致OnTriggerExit2D优先OnTriggerEnter2D结束,导致再次进入
+                // TransitionCollider时m_TransitioningGameObjectPresent的状态不对而无法执行Transition
                 SceneController.Instance.EnableMainPlayerPhysicAndGesture(false);
             }
             else if (SatisfiedTimelineQuest.dlgActor != null && player != null)
@@ -108,6 +115,16 @@ namespace TKSR
                 var npc = SatisfiedTimelineQuest.dlgActor.GetComponent<NPCCharacter>();
                 npc.DoConversationWithMainPlayer();
                 player.DoConversationWithNPC(npc);
+            }
+        }
+
+        private void ActionFixedTraggerExit(int code)
+        {
+            Debug.Log("[TKSR] Try to Fixed m_TransitioningGameObjectPresent BUG");
+            m_TransitioningGameObjectPresent = false;
+            if (CurrentTimeline != null)
+            {
+                CurrentTimeline.CallBackTimelineEnd = null;
             }
         }
     }
