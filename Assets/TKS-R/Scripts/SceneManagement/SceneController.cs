@@ -486,6 +486,17 @@ namespace TKSR
             {
                 m_CurrentEntrance.CurrentTimeline.ResumeMainTimeline();
             }
+            else
+            {
+                if (m_CurrentEntrance == null)
+                {
+                    Debug.LogError($"[TKSR] Resume timeline but Something wrong with m_CurrentEntrance == null");
+                }
+                else if (m_CurrentEntrance.CurrentTimeline == null)
+                {
+                    Debug.LogError($"[TKSR] Resume timeline but Something wrong with m_CurrentEntrance.CurrentTimeline == null");
+                }
+            }
         }
 
         public void ResetMainPlayerControlledStatus()

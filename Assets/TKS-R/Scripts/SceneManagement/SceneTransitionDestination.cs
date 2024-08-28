@@ -117,6 +117,7 @@ namespace TKSR
                 }
                 else
                 {
+                    Debug.LogWarning($"[TKSR] Found {m_foundQuestsList.Count} quests, Please check and confirm.");
                     found = true;
                 }
             }
