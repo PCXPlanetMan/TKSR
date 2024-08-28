@@ -893,6 +893,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 17325480}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17325481}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &17325478 stripped
 Transform:
@@ -921,7 +924,7 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : To XiaPi'
+  - questEntryName: 'XiaHouDun Return : To XiaPi'
     questEntryState: 2
   timeline: {fileID: 1236249221}
   deployment: {fileID: 0}
@@ -929,6 +932,31 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   dlgActor: {fileID: 0}
+--- !u!114 &17325481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17325479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u590F\u4FAF\u60C7\u6253\u5305\u5B8C\u6210\u56DE\u5F52"
+  listQuestStateItemsCondition:
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'XiaHouDun Return : Packaging'
+    questEntryState: 2
+  listQuestStateItemsResult:
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 4
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'XiaHouDun Return : Packaging'
+    questEntryState: 4
 --- !u!1 &33603596
 GameObject:
   m_ObjectHideFlags: 0
@@ -13698,7 +13726,7 @@ MonoBehaviour:
   questDescription: "\u76F4\u5230\u4ECE\u4E0B\u90B3\u8001\u5976\u5976\u5904\u5F97\u77E5\u590F\u4FAF\u60C7\u519B\u8425\u5904\u624D\u5F00\u542F"
   listQuestStateItems: []
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : Find Camp'
+  - questEntryName: 'XiaHouDun Return : Find Camp'
     questEntryState: 1
 --- !u!1 &1065640287
 GameObject:
@@ -17851,7 +17879,7 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : To XiaPi'
+  - questEntryName: 'XiaHouDun Return : To XiaPi'
     questEntryState: 2
   timeline: {fileID: 1872847494}
   deployment: {fileID: 0}

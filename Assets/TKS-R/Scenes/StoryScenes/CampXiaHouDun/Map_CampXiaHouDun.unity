@@ -372,7 +372,7 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : Guard Open Door'
+  - questEntryName: 'XiaHouDun Return : Guard Open Door'
     questEntryState: 1
   timeline: {fileID: 1512380436}
   deployment: {fileID: 0}
@@ -7370,6 +7370,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2088010859}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2088010860}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1543587615 stripped
 Transform:
@@ -7462,6 +7465,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1556986688}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986689}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
@@ -7490,7 +7496,7 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : Find Camp'
+  - questEntryName: 'XiaHouDun Return : Find Camp'
     questEntryState: 2
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
@@ -7515,9 +7521,34 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : To XiaPi'
+  - questEntryName: 'XiaHouDun Return : To XiaPi'
     questEntryState: 2
   timeline: {fileID: 851886452}
+  deployment: {fileID: 2047049825}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1556986689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6CBB\u597D\u590F\u4FAF\u60C7\u4F46\u8FD8\u672A\u56DE\u5F52\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'XiaHouDun Return : XiaHouDun Be Trapped'
+    questEntryState: 4
+  timeline: {fileID: 0}
   deployment: {fileID: 2047049825}
   OnReachQuest:
     m_PersistentCalls:
@@ -10398,10 +10429,35 @@ MonoBehaviour:
   - questName: 'Wei Return : XiaHouDun'
     questState: 2
   listQuestEntryStateItems:
-  - questEntryName: 'XiaoHouDun Return : Find Camp'
+  - questEntryName: 'XiaHouDun Return : Find Camp'
     questEntryState: 2
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &2088010860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088010856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u6CBB\u597D\u590F\u4FAF\u60C7\u4F46\u8FD8\u672A\u56DE\u5F52\u4E4B\u524D"
+  listQuestStateItems:
+  - questName: 'Wei Return : XiaHouDun'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'XiaHouDun Return : XiaHouDun Be Trapped'
+    questEntryState: 4
+  timeline: {fileID: 0}
+  deployment: {fileID: 2047049825}
   OnReachQuest:
     m_PersistentCalls:
       m_Calls: []
