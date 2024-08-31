@@ -4711,6 +4711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OldWoman_Green
       objectReference: {fileID: 0}
+    - target: {fileID: 4661299563447010855, guid: eff2996e9b91f0c4a9989a5cbd2ae780, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6661089621271200937, guid: eff2996e9b91f0c4a9989a5cbd2ae780, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.19

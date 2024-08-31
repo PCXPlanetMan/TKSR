@@ -7458,13 +7458,106 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 544399425}
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 544399426}
+    - targetCorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 544399427}
   m_SourcePrefab: {fileID: 100100000, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
 --- !u!4 &544399423 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4696248495692548, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
   m_PrefabInstance: {fileID: 544399422}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &544399424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1357201792586988, guid: b38e9ca90e4033c4bb4554a41a283698, type: 3}
+  m_PrefabInstance: {fileID: 544399422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &544399425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544399424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u7B2C\u4E8C\u6B21\u6765\u89E3\u826F\u6FC0\u6D3B\u5BF9\u8BDD\u5B50\u4EFB\u52A1"
+  listQuestStateItemsCondition:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 1'
+    questEntryState: 40
+  listQuestStateItemsResult:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 2'
+    questEntryState: 2
+  - questEntryName: 'GuanYu Return : Come In XieLiang 1'
+    questEntryState: 4
+--- !u!114 &544399426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544399424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u7B2C\u4E09\u6B21\u6765\u89E3\u826F\u6FC0\u6D3B\u5BF9\u8BDD\u5B50\u4EFB\u52A1"
+  listQuestStateItemsCondition:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 2'
+    questEntryState: 40
+  listQuestStateItemsResult:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 3'
+    questEntryState: 2
+  - questEntryName: 'GuanYu Return : Come In XieLiang 2'
+    questEntryState: 4
+--- !u!114 &544399427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544399424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u6301\u7EED\u4FEE\u6B63\u68C0\u6D4B\u6765\u89E3\u826F\u6FC0\u6D3B\u5BF9\u8BDD\u5B50\u4EFB\u52A1"
+  listQuestStateItemsCondition:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 3'
+    questEntryState: 8
+  listQuestStateItemsResult:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'GuanYu Return : Come In XieLiang 3'
+    questEntryState: 2
 --- !u!1001 &554052997
 PrefabInstance:
   m_ObjectHideFlags: 0
