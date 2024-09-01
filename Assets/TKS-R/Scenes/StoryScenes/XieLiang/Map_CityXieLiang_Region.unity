@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VillageFatMan
       objectReference: {fileID: 0}
+    - target: {fileID: 2543934245566361059, guid: eaceba0c19ee5f94aa093f1a5b0f65ec, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4559854308143688043, guid: eaceba0c19ee5f94aa093f1a5b0f65ec, type: 3}
       propertyPath: m_FlipX
       value: 1
@@ -226,7 +230,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 226445686}
   - {fileID: 7566559}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -489,11 +492,11 @@ PrefabInstance:
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
-      objectReference: {fileID: 226445687}
+      objectReference: {fileID: 0}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[5].value
       value: 
-      objectReference: {fileID: 226445687}
+      objectReference: {fileID: 0}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[6].value
       value: 
@@ -1086,7 +1089,7 @@ MonoBehaviour:
   allowBarksDuringConversations: 0
   skipBarkIfNoValidEntries: 0
   cacheBarkLines: 0
-  conversation: XiaPi/DailyTalk_CityXiaPi_TalkWithSoldierGuard
+  conversation: XieLiang/XieLiangRegion/DailyTalk_XieLiangRegion_FatMan
   conversationConversant: {fileID: 0}
   conversationActor: {fileID: 0}
   startConversationEntryID: -1
@@ -1135,90 +1138,6 @@ MonoBehaviour:
   animatorStateName: 
   setParameters: 0
   parameterSetters: []
---- !u!1001 &226445685
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 9928935}
-    m_Modifications:
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -5.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3635121664341304667, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 526ee624e77a59c43bbd5f5daddb0d8d, type: 3}
-    - target: {fileID: 6308701028020823540, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_Name
-      value: XiaHouDun
-      objectReference: {fileID: 0}
-    - target: {fileID: 6308701028020823540, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7697484887739432114, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 22100000, guid: 1184eb6db09ec36499e5e2d2d5d0f1c9, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
---- !u!4 &226445686 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1455795318574634020, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-  m_PrefabInstance: {fileID: 226445685}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &226445687 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 7697484887739432114, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-  m_PrefabInstance: {fileID: 226445685}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &226445688 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6308701028020823540, guid: 80cb8c63e8abf034cb758bed0cb38105, type: 3}
-  m_PrefabInstance: {fileID: 226445685}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &232988838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2111,13 +2030,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1313434901}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1313434899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1313434898}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1313434900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1313434898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1313434901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313434900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u672A\u9047\u5230\u9ED1\u793E\u4F1A\u4E4B\u524D"
+  listQuestStateItems: []
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Attack HeiSheHui'
+    questEntryState: 1
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1 &1314030342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,13 +2359,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1386579442}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1386579440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1386579439}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1386579441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1386579439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1386579442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386579441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u672A\u9047\u5230\u9ED1\u793E\u4F1A\u4E4B\u524D"
+  listQuestStateItems: []
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Attack HeiSheHui'
+    questEntryState: 1
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1 &1391326681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,13 +3460,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986687}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 1556986684}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1556986686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 1556986684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556986687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u672A\u9047\u5230\u9ED1\u793E\u4F1A\u4E4B\u524D"
+  listQuestStateItems: []
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Attack HeiSheHui'
+    questEntryState: 1
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1001 &1596548707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4275,15 +4293,15 @@ PrefabInstance:
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[4].value
       value: 
-      objectReference: {fileID: 226445687}
+      objectReference: {fileID: 0}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[5].value
       value: 
-      objectReference: {fileID: 226445687}
+      objectReference: {fileID: 0}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[6].value
       value: 
-      objectReference: {fileID: 226445688}
+      objectReference: {fileID: 0}
     - target: {fileID: 6506230915559224180, guid: def547a71fe00fb4387af9bf7460d864, type: 3}
       propertyPath: m_SceneBindings.Array.data[7].value
       value: 
@@ -4846,13 +4864,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024047294}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &2024047292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 2024047291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024047293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 2024047291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2024047294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024047293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u672A\u9047\u5230\u9ED1\u793E\u4F1A\u4E4B\u524D"
+  listQuestStateItems: []
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Attack HeiSheHui'
+    questEntryState: 1
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
 --- !u!1 &2035646389
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,13 +4948,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 3358389228788285526, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.34
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.51
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.z
