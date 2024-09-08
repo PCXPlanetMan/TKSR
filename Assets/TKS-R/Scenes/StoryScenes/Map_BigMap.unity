@@ -8770,13 +8770,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 704373680}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &704373678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
   m_PrefabInstance: {fileID: 704373677}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &704373679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+  m_PrefabInstance: {fileID: 704373677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &704373680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704373679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f688f8945da8c4cbc47a2ef320ef9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugDescription: "\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u7236\u6BCD\u53CC\u4EA1,\u4E3B\u89D2\u6210\u529F\u529D\u89E3\u5176\u56DE\u5F52"
+  listQuestStateItemsCondition:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItemsCondition:
+  - questEntryName: 'GuanYu Return : Packaging'
+    questEntryState: 2
+  listQuestStateItemsResult:
+  - questName: 'Shu Return : GuanYu'
+    questState: 4
+  listQuestEntryStateItemsResult:
+  - questEntryName: 'GuanYu Return : Packaging'
+    questEntryState: 4
 --- !u!1001 &714184380
 PrefabInstance:
   m_ObjectHideFlags: 0
