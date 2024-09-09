@@ -254,7 +254,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 667779450842236052}
   maxSpeed: 3.5
+  isMainPlayer: 0
   faceDirection: 3
+  stillKeepAnimation: 0
+  sceneIndependentTimeline: {fileID: 0}
 --- !u!114 &189399620472982344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,7 +424,7 @@ MonoBehaviour:
   m_actorOverridingPanel: {fileID: 0}
   canvas: {fileID: 0}
   chatBubble: {fileID: 0}
-  chatBubblePrefab: {fileID: 1769281435921897445, guid: 69c33421dd6e9324486fb58e88c1dafc, type: 3}
+  chatBubblePrefab: {fileID: 5809374915253922463, guid: ee3a81446e3cf9c4fad2c400caf8a220, type: 3}
   chatAnchor: {fileID: 1664673355008078743}
   chatOutputProfile: {fileID: 11400000, guid: a22b5eddfe234484c9225f188d3d920c, type: 2}
   filterContinueByUI: 0

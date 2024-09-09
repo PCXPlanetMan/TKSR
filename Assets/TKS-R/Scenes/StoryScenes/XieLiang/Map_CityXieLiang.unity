@@ -2350,7 +2350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7970908156886462976, guid: bc67f3becadf3cc46821001f0163b19d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7624,6 +7624,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1386579443}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1386579444}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1386579440 stripped
 Transform:
@@ -7679,6 +7682,33 @@ MonoBehaviour:
     questEntryState: 4
   timeline: {fileID: 0}
   deployment: {fileID: 64834641}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1386579444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386579441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 460593239}
   OnReachQuest:
     m_PersistentCalls:
       m_Calls: []
@@ -9296,6 +9326,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1556986691}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986692}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
@@ -9425,6 +9458,33 @@ MonoBehaviour:
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
     questEntryState: 2
   timeline: {fileID: 1252060457}
+  deployment: {fileID: 460593239}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1556986692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
   deployment: {fileID: 460593239}
   OnReachQuest:
     m_PersistentCalls:
@@ -10541,7 +10601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3042461483757440908, guid: 4c95981296a3aec40a6bb4a6aa87ea3d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3847113047460979945, guid: 4c95981296a3aec40a6bb4a6aa87ea3d, type: 3}
       propertyPath: faceDirection
@@ -11786,7 +11846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7250745344621633666, guid: 99416e20d8c7ac044a3f520dad8c6b82, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11807,7 +11867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3358389228788285526, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4143231669337668392, guid: 17ea52785e4938e4c86394c405a35c96, type: 3}
       propertyPath: m_LocalPosition.x

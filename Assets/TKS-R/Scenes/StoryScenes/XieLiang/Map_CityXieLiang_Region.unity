@@ -2927,6 +2927,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1313434903}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1313434904}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1313434899 stripped
 Transform:
@@ -3011,6 +3014,33 @@ MonoBehaviour:
     questEntryState: 1
   timeline: {fileID: 1084979657}
   deployment: {fileID: 0}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1313434904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313434900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
   OnReachQuest:
     m_PersistentCalls:
       m_Calls: []
@@ -3308,6 +3338,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1386579442}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1386579443}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1386579440 stripped
 Transform:
@@ -3337,6 +3370,33 @@ MonoBehaviour:
   - questEntryName: 'GuanYu Return : Attack HeiSheHui'
     questEntryState: 1
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1386579443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386579441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
     questEntryState: 1
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
@@ -4425,6 +4485,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1556986687}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1556986688}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &1556986685 stripped
 Transform:
@@ -4454,6 +4517,33 @@ MonoBehaviour:
   - questEntryName: 'GuanYu Return : Attack HeiSheHui'
     questEntryState: 1
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &1556986688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556986686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
     questEntryState: 1
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
@@ -5323,6 +5413,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2024047294}
+    - targetCorrespondingSourceObject: {fileID: 1279191050118028, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024047295}
   m_SourcePrefab: {fileID: 100100000, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
 --- !u!4 &2024047292 stripped
 Transform:
@@ -5352,6 +5445,33 @@ MonoBehaviour:
   - questEntryName: 'GuanYu Return : Attack HeiSheHui'
     questEntryState: 1
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 1
+  timeline: {fileID: 0}
+  deployment: {fileID: 1391326681}
+  OnReachQuest:
+    m_PersistentCalls:
+      m_Calls: []
+  dlgActor: {fileID: 0}
+--- !u!114 &2024047295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024047293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3da7f4ac23b5948b458d43f98f486d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDescription: "\u963B\u6B62\u5173\u7FBD\u6253\u6740\u9ED1\u793E\u4F1A\u540E"
+  listQuestStateItems:
+  - questName: 'Shu Return : GuanYu'
+    questState: 2
+  listQuestEntryStateItems:
+  - questEntryName: 'GuanYu Return : Help HeiSheHui'
+    questEntryState: 4
+  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
     questEntryState: 1
   timeline: {fileID: 0}
   deployment: {fileID: 1391326681}
