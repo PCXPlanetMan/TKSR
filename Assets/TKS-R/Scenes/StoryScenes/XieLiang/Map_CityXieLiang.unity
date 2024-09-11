@@ -7705,8 +7705,8 @@ MonoBehaviour:
   listQuestEntryStateItems:
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
     questEntryState: 4
-  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
-    questEntryState: 1
+  - questEntryName: 'GuanYu Return : GuanYuMotherSick'
+    questEntryState: 3
   timeline: {fileID: 0}
   deployment: {fileID: 460593239}
   OnReachQuest:
@@ -9482,8 +9482,8 @@ MonoBehaviour:
   listQuestEntryStateItems:
   - questEntryName: 'GuanYu Return : Help HeiSheHui'
     questEntryState: 4
-  - questEntryName: 'GuanYu Return : Defeat HeiSheHui'
-    questEntryState: 1
+  - questEntryName: 'GuanYu Return : GuanYuMotherSick'
+    questEntryState: 3
   timeline: {fileID: 0}
   deployment: {fileID: 460593239}
   OnReachQuest:
