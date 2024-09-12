@@ -441,6 +441,8 @@ namespace TKSR
                 Debug.LogError("[TKSR] Wrong entry id of dialogues");
                 return;
             }
+
+            Debug.Log($"[TKSR] TimelineSimShowDialogue wieh entryId = {entryId}");
             
             var db = DialogueManager.masterDatabase;
             if (m_curConversation != null)
@@ -474,7 +476,10 @@ namespace TKSR
                                 var formattedText = FormattedText.Parse(localizedText, db.emphasisSettings);
                                 dialogue.ShowSubtitleByTimeline(actorDisplayName, formattedText.text, actorPortrait);
                             }
-                            
+                            else
+                            {
+                                Debug.LogError($"[TKSR] Current Dialog Subtitle Text is NULL");
+                            }
 
                             // [TKSR] 注意顺序:先模拟执行Lua再调用事件
                             if (!string.IsNullOrEmpty(entry.userScript))
@@ -504,7 +509,19 @@ namespace TKSR
                             Debug.LogError($"[TKSR] Can't found TKSRChat by Actor = {actor.Name}");
                         }
                     }
+                    else
+                    {
+                        Debug.LogError($"[TKSR] Actor Name is null");
+                    }
                 }
+                else
+                {
+                    Debug.LogError($"[TKSR] Not found Dialog Entry with id = {entryId}");
+                }
+            }
+            else
+            {
+                Debug.LogError("[TKSR] Current Conversation is Empty.");
             }
 
             m_isDialogueClipContinued = false;
