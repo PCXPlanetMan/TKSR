@@ -2550,816 +2550,823 @@
             "BundleID": 361
         },
         {
+            "Address": "Battle_XieLiangRegion_DefeatZhouCang",
+            "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XieLiangRegion_DefeatZhouCang.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 362
+        },
+        {
             "Address": "Battle_XieLiangRegion_KillAllBlackSheHuiBro",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XieLiangRegion_KillAllBlackSheHuiBro.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 362
+            "BundleID": 363
         },
         {
             "Address": "Battle_XinYe_PoliceStation",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XinYe_PoliceStation.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 363
+            "BundleID": 364
         },
         {
             "Address": "Battle_XuJiaCun_TempleOutisde",
             "AssetPath": "Assets/TKS-R/Scenes/BattleScenes/Battle_XuJiaCun_TempleOutisde.unity",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 364
+            "BundleID": 365
         },
         {
             "Address": "Ability Menu Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Ability Menu Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "Conversation Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Conversation Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "Dev Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Dev Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "Facing Indicator",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Facing Indicator.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "GameUI",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/GameUI.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "GUIInputNamePanel",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/GUIInputNamePanel.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "ItemPrefab",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/ItemPrefab.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "NotePrefab",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/NotePrefab.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "Stat Panel Controller",
             "AssetPath": "Assets/TKS-R/Prefabs/UI/Stat Panel Controller.prefab",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 365
+            "BundleID": 366
         },
         {
             "Address": "Topaz-Mu_9-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_9-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_9-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_9-4",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_9-4.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_10-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_10-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_10-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_10-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_11-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_11-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_11-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_11-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_12-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_12-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_12-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_12-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_13-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_13-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_13-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_13-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_14-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_14-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_14-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_14-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_15-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_15-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_15-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_15-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_16-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_16-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_16-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_16-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_17-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_17-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_17-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_17-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_18-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_18-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_18-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_18-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_19-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_19-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_19-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_19-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_20-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_20-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_21-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_21-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_22-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_22-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_22-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_22-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_23-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_23-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_23-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_23-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_24-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_24-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_24-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_24-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_25-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_25-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_26-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_26-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_27-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_27-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_27-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_27-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_28-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_28-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_28-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_28-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_29-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_29-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_29-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_29-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_30-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_30-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_30-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_30-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_31-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_31-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_31-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_31-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_32-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_32-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_32-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_32-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_33-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_33-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_33-3",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_33-3.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_34-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_34-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_35-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_35-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_35-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_35-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_36-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_36-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_37-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_37-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_38-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_38-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_39-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_39-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_39-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_39-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_40-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_40-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_41-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_41-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_41-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_41-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_42-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_42-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_42-2",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_42-2.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_43-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_43-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_44-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_44-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_45-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_45-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_46-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_46-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_47-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_47-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_48-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_48-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_49-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_49-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_50-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_50-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_51-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_51-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "Topaz-Mu_52-1",
             "AssetPath": "Assets/TKS-R/Art/Sprites/UI/Item/Topaz-Mu_52-1.png",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 366
+            "BundleID": 367
         },
         {
             "Address": "0000_开场(主界面)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0000_开场(主界面).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 367
+            "BundleID": 368
         },
         {
             "Address": "0001_大好河山(大地图)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0001_大好河山(大地图).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 368
+            "BundleID": 369
         },
         {
             "Address": "0002_纵横天下",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0002_纵横天下.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 369
+            "BundleID": 370
         },
         {
             "Address": "0003_桃源乡",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0003_桃源乡.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 370
+            "BundleID": 371
         },
         {
             "Address": "0004_集市(城镇游览)",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0004_集市(城镇游览).mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 371
+            "BundleID": 372
         },
         {
             "Address": "0005_喜气洋洋",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0005_喜气洋洋.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 372
+            "BundleID": 373
         },
         {
             "Address": "0006_热闹",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0006_热闹.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 373
+            "BundleID": 374
         },
         {
             "Address": "0007_闹市",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0007_闹市.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 374
+            "BundleID": 375
         },
         {
             "Address": "0008_繁荣",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0008_繁荣.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 375
+            "BundleID": 376
         },
         {
             "Address": "0009_英雄台",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0009_英雄台.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 376
+            "BundleID": 377
         },
         {
             "Address": "0010_钟山秘境",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0010_钟山秘境.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 377
+            "BundleID": 378
         },
         {
             "Address": "0011",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0011.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 378
+            "BundleID": 379
         },
         {
             "Address": "0012_异域风情",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0012_异域风情.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 379
+            "BundleID": 380
         },
         {
             "Address": "0013_良辰",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0013_良辰.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 380
+            "BundleID": 381
         },
         {
             "Address": "0014_形势严峻",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0014_形势严峻.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 381
+            "BundleID": 382
         },
         {
             "Address": "0015_虚空混沌",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0015_虚空混沌.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 382
+            "BundleID": 383
         },
         {
             "Address": "0016",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0016.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 383
+            "BundleID": 384
         },
         {
             "Address": "0017",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0017.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 384
+            "BundleID": 385
         },
         {
             "Address": "0018",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0018.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 385
+            "BundleID": 386
         },
         {
             "Address": "0019_战斗",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0019_战斗.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 386
+            "BundleID": 387
         },
         {
             "Address": "0020",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0020.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 387
+            "BundleID": 388
         },
         {
             "Address": "0021_激昂",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0021_激昂.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 388
+            "BundleID": 389
         },
         {
             "Address": "0022",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0022.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 389
+            "BundleID": 390
         },
         {
             "Address": "0023_战斗",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0023_战斗.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 390
+            "BundleID": 391
         },
         {
             "Address": "0024",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0024.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 391
+            "BundleID": 392
         },
         {
             "Address": "0025_紧急",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0025_紧急.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 392
+            "BundleID": 393
         },
         {
             "Address": "0027",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0027.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 393
+            "BundleID": 394
         },
         {
             "Address": "0028_沧溟登场",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0028_沧溟登场.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 394
+            "BundleID": 395
         },
         {
             "Address": "0100_浪漫穿越",
             "AssetPath": "Assets/TKS-R/Audio/BGM/0100_浪漫穿越.mp3",
             "AssetGUID": "",
             "AssetTags": [],
-            "BundleID": 395
+            "BundleID": 396
         }
     ],
     "BundleList": [
@@ -6178,7 +6185,7 @@
             "UnityCRC": 0,
             "FileHash": "3a2b5377a8f4718fea355f3f2ce910da",
             "FileCRC": "00000000",
-            "FileSize": 301024,
+            "FileSize": 361036,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
@@ -6979,6 +6986,16 @@
             "FileHash": "0a2bf583a885b5c78e566785fcf45ec9",
             "FileCRC": "00000000",
             "FileSize": 178941,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_tks-r_scenes_battlescenes_battle_xieliangregion_defeatzhoucang.bundle",
+            "UnityCRC": 0,
+            "FileHash": "e7957510fe18cfb8da360b8bb57ae642",
+            "FileCRC": "00000000",
+            "FileSize": 178954,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
