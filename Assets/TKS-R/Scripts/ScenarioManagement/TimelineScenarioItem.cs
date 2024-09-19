@@ -116,6 +116,14 @@ namespace TKSR
                     {
                         animator = go.GetComponent<Animator>();
                     }
+                    //else
+                    //{
+                    //    go = bindingObj as HideCharacter;
+                    //    if (go != null)
+                    //    {
+                    //        animator = go.GetComponent<Animator>();
+                    //    }
+                    //}
                 }
                 if (animator != null)
                 {
