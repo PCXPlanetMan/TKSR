@@ -4291,9 +4291,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_battle tech_first aid.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_battle_tech_first_aid.bundle",
             "UnityCRC": 0,
-            "FileHash": "3bcbd657c7f672489989ee7270a94abc",
+            "FileHash": "6113f2790eb467b3de37b1c5ee631906",
             "FileCRC": "00000000",
             "FileSize": 6147,
             "Encrypted": false,
@@ -4311,9 +4311,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_fighter tech_air blast.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_fighter_tech_air_blast.bundle",
             "UnityCRC": 0,
-            "FileHash": "c6c8b4bcad849a56e066f6951e3992b7",
+            "FileHash": "6d363dc2988b50f50c042810f5025f1d",
             "FileCRC": "00000000",
             "FileSize": 4446,
             "Encrypted": false,
@@ -4321,9 +4321,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_monk tech_earth render.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_monk_tech_earth_render.bundle",
             "UnityCRC": 0,
-            "FileHash": "20e7255e861ef7f803e04b45f564df26",
+            "FileHash": "8a94ca73e8166e0da3a512ef237ea025",
             "FileCRC": "00000000",
             "FileSize": 4351,
             "Encrypted": false,
@@ -4331,9 +4331,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_phantasm skill_prominence.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_phantasm_skill_prominence.bundle",
             "UnityCRC": 0,
-            "FileHash": "61a5c0e84db0965c150054643049dcc8",
+            "FileHash": "f9bd30558796fae441839f9f77280b5d",
             "FileCRC": "00000000",
             "FileSize": 4719,
             "Encrypted": false,
@@ -4341,9 +4341,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity skill_blind.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity_skill_blind.bundle",
             "UnityCRC": 0,
-            "FileHash": "3e731b2e541ca9fbc5e8b61b1f0842a1",
+            "FileHash": "5720ecbda512d9a468f5caca820b9c9e",
             "FileCRC": "00000000",
             "FileSize": 4392,
             "Encrypted": false,
@@ -4351,9 +4351,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity skill_drain.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity_skill_drain.bundle",
             "UnityCRC": 0,
-            "FileHash": "ec112650a662c99a580fd82ffc80bf91",
+            "FileHash": "3ca1fc5bd5a200810545335d02cde2fd",
             "FileCRC": "00000000",
             "FileSize": 6551,
             "Encrypted": false,
@@ -4361,9 +4361,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity skill_water.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_sagacity_skill_water.bundle",
             "UnityCRC": 0,
-            "FileHash": "d1cbf49b8303dc4bdc9894dc6a6bca63",
+            "FileHash": "f24dc897177b2f647acab0d997d2f6a7",
             "FileCRC": "00000000",
             "FileSize": 4746,
             "Encrypted": false,
@@ -4371,9 +4371,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white magic_cure.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white_magic_cure.bundle",
             "UnityCRC": 0,
-            "FileHash": "f43868f528192e39eb0c7d8d5c291021",
+            "FileHash": "c31885ab7c70300704e6712c0581588d",
             "FileCRC": "00000000",
             "FileSize": 6579,
             "Encrypted": false,
@@ -4381,9 +4381,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white magic_esuna.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white_magic_esuna.bundle",
             "UnityCRC": 0,
-            "FileHash": "7d7760221e569cc34aa2b9d1c37bdb1b",
+            "FileHash": "ffcd808dbd2d58cf17585144a485f205",
             "FileCRC": "00000000",
             "FileSize": 4367,
             "Encrypted": false,
@@ -4391,9 +4391,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white magic_holy.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white_magic_holy.bundle",
             "UnityCRC": 0,
-            "FileHash": "5ce1a7a1e1b5174560b34cdc1e19b029",
+            "FileHash": "342ed3d5e09a9a5f36e61682c57bd827",
             "FileCRC": "00000000",
             "FileSize": 4745,
             "Encrypted": false,
@@ -4401,9 +4401,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white magic_raise.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_abilities_white_magic_raise.bundle",
             "UnityCRC": 0,
-            "FileHash": "1aa9ecb6b4009e92c5b36fa771bfb975",
+            "FileHash": "f7cbc7480f9665533a515212c90784fa",
             "FileCRC": "00000000",
             "FileSize": 8408,
             "Encrypted": false,
@@ -4411,9 +4411,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_democatalog.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_democatalog.bundle",
             "UnityCRC": 0,
-            "FileHash": "d6690feee1df02ec901d6ef5f0637753",
+            "FileHash": "d656ca12b01c7f4d6202afa5bb9da131",
             "FileCRC": "00000000",
             "FileSize": 558,
             "Encrypted": false,
@@ -4421,9 +4421,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_enemy rogue.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_enemy_rogue.bundle",
             "UnityCRC": 0,
-            "FileHash": "f548b1d0682a9a53cdff075a89f81612",
+            "FileHash": "e0eb070bc9d5dd7b2444aba108d8bad9",
             "FileCRC": "00000000",
             "FileSize": 513,
             "Encrypted": false,
@@ -4431,9 +4431,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_enemy warrior.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_enemy_warrior.bundle",
             "UnityCRC": 0,
-            "FileHash": "c1eae648fc320fc322b2a5ade6394d29",
+            "FileHash": "657183b405c39b61e49508f66add4e9d",
             "FileCRC": "00000000",
             "FileSize": 503,
             "Encrypted": false,
@@ -4441,9 +4441,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_enemy wizard.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_enemy_wizard.bundle",
             "UnityCRC": 0,
-            "FileHash": "5609af3c343e01d46dbad9be98237b5a",
+            "FileHash": "847fe300e4ad6069165f3cb33c5e712a",
             "FileCRC": "00000000",
             "FileSize": 553,
             "Encrypted": false,
@@ -4451,9 +4451,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_enemythief.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_enemythief.bundle",
             "UnityCRC": 0,
-            "FileHash": "b1ac483a84ea3b1dc2a68e26d342663d",
+            "FileHash": "2aaa2077dc98f6ccfc958ff5382430c9",
             "FileCRC": "00000000",
             "FileSize": 480,
             "Encrypted": false,
@@ -4461,9 +4461,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_ability catalog recipes_mainplayercatalog.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_ability_catalog_recipes_mainplayercatalog.bundle",
             "UnityCRC": 0,
-            "FileHash": "b94d71ef66d7705db827b9d84a1a25a6",
+            "FileHash": "376e38b0b7915ae06eb28930ad3deb07",
             "FileCRC": "00000000",
             "FileSize": 539,
             "Encrypted": false,
@@ -4471,9 +4471,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_attack pattern_mage attack pattern.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_attack_pattern_mage_attack_pattern.bundle",
             "UnityCRC": 0,
-            "FileHash": "ab7c706f8459b8e52f7e2a9eec5365c5",
+            "FileHash": "6581e256aa1d9a0f0972394d43226fae",
             "FileCRC": "00000000",
             "FileSize": 5968,
             "Encrypted": false,
@@ -4481,9 +4481,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_attack pattern_rogue attack pattern.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_attack_pattern_rogue_attack_pattern.bundle",
             "UnityCRC": 0,
-            "FileHash": "d6736bb730cbb35f0628878edd4ed40a",
+            "FileHash": "abed9b4530959f9320d89fb2ac1635e1",
             "FileCRC": "00000000",
             "FileSize": 7077,
             "Encrypted": false,
@@ -4491,9 +4491,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_attack pattern_warrior attack pattern.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_attack_pattern_warrior_attack_pattern.bundle",
             "UnityCRC": 0,
-            "FileHash": "08fa602ba8d73d8b150614bda1cbe8d2",
+            "FileHash": "18594f0af7fcd66c6bb18c428ed3dcac",
             "FileCRC": "00000000",
             "FileSize": 5987,
             "Encrypted": false,
@@ -4521,9 +4521,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_unit recipes_mainplayer.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_unit_recipes_mainplayer.bundle",
             "UnityCRC": 0,
-            "FileHash": "9a4d7f0efdf07b6e7c3e6c6bde41c95f",
+            "FileHash": "8836df76058a30312417ff92b0f08df4",
             "FileCRC": "00000000",
             "FileSize": 549,
             "Encrypted": false,
@@ -4531,9 +4531,9 @@
             "DependIDs": []
         },
         {
-            "BundleName": "assets_tks-r_tacticalrpgresources_unit recipes_thief.bundle",
+            "BundleName": "assets_tks-r_tacticalrpgresources_unit_recipes_thief.bundle",
             "UnityCRC": 0,
-            "FileHash": "5e976ab23b8ae1d93c78f6e21598c378",
+            "FileHash": "a858174ac8bbd206e29f268f78800bb3",
             "FileCRC": "00000000",
             "FileSize": 547,
             "Encrypted": false,
@@ -5365,7 +5365,7 @@
             "UnityCRC": 0,
             "FileHash": "d91b6494c66606ccde5a96faf10c65cb",
             "FileCRC": "00000000",
-            "FileSize": 110321,
+            "FileSize": 112708,
             "Encrypted": false,
             "Tags": [],
             "DependIDs": []
