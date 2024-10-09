@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using DigitalRubyShared;
 using PixelCrushers.DialogueSystem;
 using TKSRPlayables;
-using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 using static TKSRPlayables.FaceParam;
 

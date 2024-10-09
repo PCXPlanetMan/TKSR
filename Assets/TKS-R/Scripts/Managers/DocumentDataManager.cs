@@ -104,19 +104,33 @@ namespace TKSR
 
             // 创建默认的资源包
             var package = YooAssets.CreatePackage(ResourceUtils.AB_YOO_PACKAGE);
-
+            
             // 设置该资源包为默认的资源包，可以使用YooAssets相关加载接口加载该资源包内容。
             YooAssets.SetDefaultPackage(package);
-
+            
 #if UNITY_EDITOR
+            var buildPipeline = EDefaultBuildPipeline.BuiltinBuildPipeline; 
+            var simulateBuildResult = EditorSimulateModeHelper.SimulateBuild(buildPipeline, ResourceUtils.AB_YOO_PACKAGE);
+            var editorFileSystem = FileSystemParameters.CreateDefaultEditorFileSystemParameters(simulateBuildResult);
             var initParameters = new EditorSimulateModeParameters();
-            var simulateManifestFilePath =
-                EditorSimulateModeHelper.SimulateBuild(EDefaultBuildPipeline.BuiltinBuildPipeline,
-                    ResourceUtils.AB_YOO_PACKAGE);
-            initParameters.SimulateManifestFilePath = simulateManifestFilePath;
-            yield return package.InitializeAsync(initParameters);
+            initParameters.EditorFileSystemParameters = editorFileSystem;
+            var initializationOperation = package.InitializeAsync(initParameters);
+            yield return initializationOperation;
+            
+            if (initializationOperation.Status == EOperationStatus.Succeed)
+                Debug.Log("[TKSR] YooAsset 资源包初始化成功！");
+            else 
+                Debug.LogError($"[TKSR] YooAsset 资源包初始化失败：{initializationOperation.Error}");
+            
+            var operationPackage = package.RequestPackageVersionAsync();
+            yield return operationPackage;
+        
+            Debug.Log($"[TKSR] YooAsset Request package version : {operationPackage.PackageVersion}");
+            
+            var operationManifest = package.UpdatePackageManifestAsync(operationPackage.PackageVersion);
+            yield return operationManifest;
 #else
-        yield return null;
+            yield return null;
 #endif
         }
         

@@ -185,7 +185,7 @@ namespace TKSR
                 newSceneName = splitPath[splitPath.Length - 1];
             }
             
-            BeforeTransition();
+            yield return BeforeTransition();
             
             m_Transitioning = true;
             PersistentDataManager.SaveAllData();
@@ -198,11 +198,13 @@ namespace TKSR
             yield return StartCoroutine(ScreenFader.FadeSceneOut(ScreenFader.FadeType.Loading, strPauseSceneLoading));
             PersistentDataManager.ClearPersisters();
             ClearExistChatBubbles();
-            // yield return SceneManager.LoadSceneAsync(newSceneName);
             var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
             var sceneMode = LoadSceneMode.Single;
+            var physicsMode = LocalPhysicsMode.None;
             bool suspendLoad = false;
-            sceneHandle = package.LoadSceneAsync(newSceneName, sceneMode, suspendLoad);
+            SceneHandle handle = package.LoadSceneAsync(newSceneName, sceneMode, physicsMode, suspendLoad);
+            
+            
             yield return sceneHandle;
             Debug.Log($"[TKSR] [YooAssets] LoadScene name is {sceneHandle.SceneName}");
 
@@ -266,7 +268,7 @@ namespace TKSR
             TransitionPoint.TransitionType transitionType = TransitionPoint.TransitionType.DifferentZone;
             
             
-            BeforeTransition();
+            yield return BeforeTransition();
             
             m_Transitioning = true;
             PersistentDataManager.SaveAllData();
@@ -283,11 +285,11 @@ namespace TKSR
             var curSceneName = SceneManager.GetActiveScene().name;
             if (curSceneName.CompareTo(newSceneName) != 0)
             {
-                // yield return SceneManager.LoadSceneAsync(newSceneName);
                 var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
                 var sceneMode = LoadSceneMode.Single;
+                var physicsMode = LocalPhysicsMode.None;
                 bool suspendLoad = false;
-                sceneHandle = package.LoadSceneAsync(newSceneName, sceneMode, suspendLoad);
+                sceneHandle = package.LoadSceneAsync(newSceneName, sceneMode, physicsMode, suspendLoad);
                 yield return sceneHandle;
                 Debug.Log($"[TKSR] [YooAssets] LoadScene name is {sceneHandle.SceneName}");
             }
@@ -375,12 +377,13 @@ namespace TKSR
         
         #region 扩展场景管理功能
 
-        private void BeforeTransition()
+        private IEnumerator BeforeTransition()
         {
             if (YooAssets.Initialized)
             {
                 var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
-                package.UnloadUnusedAssets();
+                var operation = package.UnloadUnusedAssetsAsync();
+                yield return operation;
             }
             
             var mainPlayer = FindFirstObjectByType<PlayerCharacter>(FindObjectsInactive.Include);
