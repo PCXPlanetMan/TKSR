@@ -1,13 +1,15 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class AbilityCatalogRecipe : ScriptableObject 
-{
-	[System.Serializable]
-	public class Category
+namespace TacticalRPG {	
+	public class AbilityCatalogRecipe : ScriptableObject 
 	{
-		public string name;
-		public string[] entries;
+		[System.Serializable]
+		public class Category
+		{
+			public string name;
+			public string[] entries;
+		}
+		public Category[] categories;
 	}
-	public Category[] categories;
 }

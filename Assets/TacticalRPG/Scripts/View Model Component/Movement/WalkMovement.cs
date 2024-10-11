@@ -1,88 +1,90 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class WalkMovement : Movement 
-{
+namespace TacticalRPG {	
+	public class WalkMovement : Movement 
+	{
 	#region Protected
-	protected override bool ExpandSearch (Tile from, Tile to)
-	{
-		// Skip if the distance in height between the two tiles is more than the unit can jump
-		if ((Mathf.Abs(from.height - to.height) > jumpHeight))
-			return false;
-
-		// Skip if the tile is occupied by an enemy
-		if (to.content != null)
-			return false;
-
-		return base.ExpandSearch(from, to);
-	}
+		protected override bool ExpandSearch (Tile from, Tile to)
+		{
+			// Skip if the distance in height between the two tiles is more than the unit can jump
+			if ((Mathf.Abs(from.height - to.height) > jumpHeight))
+				return false;
 	
-	public override IEnumerator Traverse (Tile tile)
-	{
-		unit.Place(tile);
-
-		// Build a list of way points from the unit's 
-		// starting tile to the destination tile
-		List<Tile> targets = new List<Tile>();
-		while (tile != null)
-		{
-			targets.Insert(0, tile);
-			tile = tile.prev;
+			// Skip if the tile is occupied by an enemy
+			if (to.content != null)
+				return false;
+	
+			return base.ExpandSearch(from, to);
 		}
-
-		// Move to each way point in succession
-		for (int i = 1; i < targets.Count; ++i)
-		{
-			Tile from = targets[i-1];
-			Tile to = targets[i];
-			
-			Directions dir = from.GetDirection(to);
-			if (unit.dir != dir)
-				yield return StartCoroutine(Turn(dir));
-
-			if (from.height == to.height)
-				yield return StartCoroutine(Walk(to));
-			else
-				yield return StartCoroutine(Jump(to));
-		}
-
-		yield return null;
 		
+		public override IEnumerator Traverse (Tile tile)
+		{
+			unit.Place(tile);
+	
+			// Build a list of way points from the unit's 
+			// starting tile to the destination tile
+			List<Tile> targets = new List<Tile>();
+			while (tile != null)
+			{
+				targets.Insert(0, tile);
+				tile = tile.prev;
+			}
+	
+			// Move to each way point in succession
+			for (int i = 1; i < targets.Count; ++i)
+			{
+				Tile from = targets[i-1];
+				Tile to = targets[i];
+				
+				Directions dir = from.GetDirection(to);
+				if (unit.dir != dir)
+					yield return StartCoroutine(Turn(dir));
+	
+				if (from.height == to.height)
+					yield return StartCoroutine(Walk(to));
+				else
+					yield return StartCoroutine(Jump(to));
+			}
+	
+			yield return null;
+			
 		#if !OLD_TRPG
-		unit.DisplayAnimation(Unit.EnumBattleAnim.Idle);
+			unit.DisplayAnimation(Unit.EnumBattleAnim.Idle);
 		#endif
-	}
-	#endregion
-
-	#region Private
-	IEnumerator Walk (Tile target)
-	{
-#if OLD_TRPG		
-		Tweener tweener = transform.MoveTo(target.center, 0.5f, EasingEquations.Linear);
-#else
-		Tweener tweener = transform.MoveTo(target.center, walkSpeedDuration, EasingEquations.Linear);
-		unit.DisplayAnimation(Unit.EnumBattleAnim.Walk);
-#endif
-		while (tweener != null)
-			yield return null;
-	}
-
-	IEnumerator Jump (Tile to)
-	{
-		Tweener tweener = transform.MoveTo(to.center, 0.5f, EasingEquations.Linear);
-
-		Tweener t2 = jumper.MoveToLocal(new Vector3(0, Tile.stepHeight * 2f, 0), tweener.duration / 2f, EasingEquations.EaseOutQuad);
-		t2.loopCount = 1;
-		t2.loopType = EasingControl.LoopType.PingPong;
-
-		while (tweener != null)
-			yield return null;
-	}
+		}
 	#endregion
 	
-#if !OLD_TRPG
-	[SerializeField]
-	private float walkSpeedDuration = 0.3f;
+	#region Private
+		IEnumerator Walk (Tile target)
+		{
+#if OLD_TRPG		
+			Tweener tweener = transform.MoveTo(target.center, 0.5f, EasingEquations.Linear);
+#else
+			Tweener tweener = transform.MoveTo(target.center, walkSpeedDuration, EasingEquations.Linear);
+			unit.DisplayAnimation(Unit.EnumBattleAnim.Walk);
 #endif
+			while (tweener != null)
+				yield return null;
+		}
+	
+		IEnumerator Jump (Tile to)
+		{
+			Tweener tweener = transform.MoveTo(to.center, 0.5f, EasingEquations.Linear);
+	
+			Tweener t2 = jumper.MoveToLocal(new Vector3(0, Tile.stepHeight * 2f, 0), tweener.duration / 2f, EasingEquations.EaseOutQuad);
+			t2.loopCount = 1;
+			t2.loopType = EasingControl.LoopType.PingPong;
+	
+			while (tweener != null)
+				yield return null;
+		}
+	#endregion
+		
+#if !OLD_TRPG
+		[SerializeField]
+		private float walkSpeedDuration = 0.3f;
+#endif
+	}
 }

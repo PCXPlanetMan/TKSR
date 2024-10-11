@@ -1,15 +1,17 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class RandomAbilityPicker : BaseAbilityPicker
-{
-	public List<BaseAbilityPicker> pickers;
-
-	public override void Pick (PlanOfAttack plan)
+namespace TacticalRPG {	
+	public class RandomAbilityPicker : BaseAbilityPicker
 	{
-		int index = Random.Range(0, pickers.Count);
-		BaseAbilityPicker p = pickers[index];
-		p.Pick(plan);
+		public List<BaseAbilityPicker> pickers;
+	
+		public override void Pick (PlanOfAttack plan)
+		{
+			int index = Random.Range(0, pickers.Count);
+			BaseAbilityPicker p = pickers[index];
+			p.Pick(plan);
+		}
 	}
 }

@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class TransformScaleTweener : Vector3Tweener 
-{
-	protected override void OnUpdate ()
+namespace TacticalRPG {	
+	public class TransformScaleTweener : Vector3Tweener 
 	{
-		base.OnUpdate ();
-		transform.localScale = currentTweenValue;
+		protected override void OnUpdate ()
+		{
+			base.OnUpdate ();
+			transform.localScale = currentTweenValue;
+		}
 	}
 }

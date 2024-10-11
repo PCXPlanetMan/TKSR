@@ -1,23 +1,25 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEditor;
 
-public class YourClassAsset
-{
-	[MenuItem("Assets/Create/Conversation Data")]
-	public static void CreateConversationData ()
+namespace TacticalRPG {	
+	public class YourClassAsset
 	{
-		ScriptableObjectUtility.CreateAsset<ConversationData> ();
-	}
-
-	[MenuItem("Assets/Create/Unit Recipe")]
-	public static void CreateUnitRecipe ()
-	{
-		ScriptableObjectUtility.CreateAsset<UnitRecipe> ();
-	}
+		[MenuItem("Assets/Create/Conversation Data")]
+		public static void CreateConversationData ()
+		{
+			ScriptableObjectUtility.CreateAsset<ConversationData> ();
+		}
 	
-	[MenuItem("Assets/Create/Ability Catalog Recipe")]
-	public static void CreateAbilityCatalogRecipe ()
-	{
-		ScriptableObjectUtility.CreateAsset<AbilityCatalogRecipe> ();
+		[MenuItem("Assets/Create/Unit Recipe")]
+		public static void CreateUnitRecipe ()
+		{
+			ScriptableObjectUtility.CreateAsset<UnitRecipe> ();
+		}
+		
+		[MenuItem("Assets/Create/Ability Catalog Recipe")]
+		public static void CreateAbilityCatalogRecipe ()
+		{
+			ScriptableObjectUtility.CreateAsset<AbilityCatalogRecipe> ();
+		}
 	}
 }

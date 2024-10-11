@@ -1,51 +1,53 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class LineAbilityRange : AbilityRange 
-{
-	public override bool directionOriented { get { return true; }}
-	
-	public override List<Tile> GetTilesInRange (Board board)
+namespace TacticalRPG {	
+	public class LineAbilityRange : AbilityRange 
 	{
-		Point startPos = unit.tile.pos;
-		Point endPos;
-		List<Tile> retValue = new List<Tile>();
+		public override bool directionOriented { get { return true; }}
 		
-		switch (unit.dir)
+		public override List<Tile> GetTilesInRange (Board board)
 		{
-		case Directions.North:
-			endPos = new Point(startPos.x, board.max.y);
-			break;
-		case Directions.East:
-			endPos = new Point(board.max.x, startPos.y);
-			break;
-		case Directions.South:
-			endPos = new Point(startPos.x, board.min.y);
-			break;
-		default: // West
-			endPos = new Point(board.min.x, startPos.y);
-			break;
-		}
-
-		int dist = 0;
-		while (startPos != endPos)
-		{
-			if (startPos.x < endPos.x) startPos.x++;
-			else if (startPos.x > endPos.x) startPos.x--;
+			Point startPos = unit.tile.pos;
+			Point endPos;
+			List<Tile> retValue = new List<Tile>();
 			
-			if (startPos.y < endPos.y) startPos.y++;
-			else if (startPos.y > endPos.y) startPos.y--;
-			
-			Tile t = board.GetTile(startPos);
-			if (t != null && Mathf.Abs(t.height - unit.tile.height) <= vertical)
-				retValue.Add(t);
-
-			dist++;
-			if (dist >= horizontal)
+			switch (unit.dir)
+			{
+			case Directions.North:
+				endPos = new Point(startPos.x, board.max.y);
 				break;
+			case Directions.East:
+				endPos = new Point(board.max.x, startPos.y);
+				break;
+			case Directions.South:
+				endPos = new Point(startPos.x, board.min.y);
+				break;
+			default: // West
+				endPos = new Point(board.min.x, startPos.y);
+				break;
+			}
+	
+			int dist = 0;
+			while (startPos != endPos)
+			{
+				if (startPos.x < endPos.x) startPos.x++;
+				else if (startPos.x > endPos.x) startPos.x--;
+				
+				if (startPos.y < endPos.y) startPos.y++;
+				else if (startPos.y > endPos.y) startPos.y--;
+				
+				Tile t = board.GetTile(startPos);
+				if (t != null && Mathf.Abs(t.height - unit.tile.height) <= vertical)
+					retValue.Add(t);
+	
+				dist++;
+				if (dist >= horizontal)
+					break;
+			}
+			
+			return retValue;
 		}
-		
-		return retValue;
 	}
 }

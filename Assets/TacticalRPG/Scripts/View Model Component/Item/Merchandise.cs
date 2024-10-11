@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class Merchandise : MonoBehaviour
-{
-	public int buy;
-	public int sell;
+namespace TacticalRPG {	
+	public class Merchandise : MonoBehaviour
+	{
+		public int buy;
+		public int sell;
+	}
 }

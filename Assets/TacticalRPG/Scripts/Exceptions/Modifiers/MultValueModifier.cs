@@ -1,17 +1,19 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class MultValueModifier : ValueModifier 
-{
-	public readonly float toMultiply;
-
-	public MultValueModifier (int sortOrder, float toMultiply) : base (sortOrder)
+namespace TacticalRPG {	
+	public class MultValueModifier : ValueModifier 
 	{
-		this.toMultiply = toMultiply;
-	}
-
-	public override float Modify (float fromValue, float toValue)
-	{
-		return toValue * toMultiply;
+		public readonly float toMultiply;
+	
+		public MultValueModifier (int sortOrder, float toMultiply) : base (sortOrder)
+		{
+			this.toMultiply = toMultiply;
+		}
+	
+		public override float Modify (float fromValue, float toValue)
+		{
+			return toValue * toMultiply;
+		}
 	}
 }

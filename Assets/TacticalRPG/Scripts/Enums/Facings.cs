@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public enum Facings
-{
-	Front,
-	Side,
-	Back
+namespace TacticalRPG {	
+	public enum Facings
+	{
+		Front,
+		Side,
+		Back
+	}
 }

@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ConversationData : ScriptableObject 
-{
-	public List<SpeakerData> list;
+namespace TacticalRPG {	
+	public class ConversationData : ScriptableObject 
+	{
+		public List<SpeakerData> list;
+	}
 }

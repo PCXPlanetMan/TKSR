@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class TransformPositionTweener : Vector3Tweener 
-{
-	protected override void OnUpdate ()
+namespace TacticalRPG {	
+	public class TransformPositionTweener : Vector3Tweener 
 	{
-		base.OnUpdate ();
-		transform.position = currentTweenValue;
+		protected override void OnUpdate ()
+		{
+			base.OnUpdate ();
+			transform.position = currentTweenValue;
+		}
 	}
 }

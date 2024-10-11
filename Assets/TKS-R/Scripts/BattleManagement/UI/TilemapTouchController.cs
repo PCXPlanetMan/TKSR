@@ -1,4 +1,5 @@
 using DigitalRubyShared;
+using TacticalRPG;
 using UnityEngine;
 
 namespace TKSR

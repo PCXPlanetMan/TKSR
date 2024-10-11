@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class Undead : MonoBehaviour 
-{
-
+namespace TacticalRPG {	
+	public class Undead : MonoBehaviour 
+	{
+	
+	}
 }

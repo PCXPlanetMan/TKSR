@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public enum Targets
-{
-	None,
-	Self,
-	Ally,
-	Foe,
-	Tile
+namespace TacticalRPG {	
+	public enum Targets
+	{
+		None,
+		Self,
+		Ally,
+		Foe,
+		Tile
+	}
 }

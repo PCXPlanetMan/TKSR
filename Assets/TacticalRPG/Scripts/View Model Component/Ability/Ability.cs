@@ -1,53 +1,55 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Ability : MonoBehaviour 
-{
-	public const string CanPerformCheck = "Ability.CanPerformCheck";
-	public const string FailedNotification = "Ability.FailedNotification";
-	public const string DidPerformNotification = "Ability.DidPerformNotification";
-
-	public bool CanPerform ()
+namespace TacticalRPG {	
+	public class Ability : MonoBehaviour 
 	{
-		BaseException exc = new BaseException(true);
-		this.PostNotification(CanPerformCheck, exc);
-		return exc.toggle;
-	}
-
-	public void Perform (List<Tile> targets)
-	{
-		if (!CanPerform())
+		public const string CanPerformCheck = "Ability.CanPerformCheck";
+		public const string FailedNotification = "Ability.FailedNotification";
+		public const string DidPerformNotification = "Ability.DidPerformNotification";
+	
+		public bool CanPerform ()
 		{
-			this.PostNotification(FailedNotification);
-			return;
+			BaseException exc = new BaseException(true);
+			this.PostNotification(CanPerformCheck, exc);
+			return exc.toggle;
 		}
-
-		for (int i = 0; i < targets.Count; ++i)
-			Perform(targets[i]);
-
-		this.PostNotification(DidPerformNotification);
-	}
-
-	public bool IsTarget (Tile tile)
-	{
-		Transform obj = transform;
-		for (int i = 0; i < obj.childCount; ++i)
+	
+		public void Perform (List<Tile> targets)
 		{
-			AbilityEffectTarget targeter = obj.GetChild(i).GetComponent<AbilityEffectTarget>();
-			if (targeter.IsTarget(tile))
-				return true;
+			if (!CanPerform())
+			{
+				this.PostNotification(FailedNotification);
+				return;
+			}
+	
+			for (int i = 0; i < targets.Count; ++i)
+				Perform(targets[i]);
+	
+			this.PostNotification(DidPerformNotification);
 		}
-		return false;
-	}
-
-	void Perform (Tile target)
-	{
-		for (int i = 0; i < transform.childCount; ++i)
+	
+		public bool IsTarget (Tile tile)
 		{
-			Transform child = transform.GetChild(i);
-			BaseAbilityEffect effect = child.GetComponent<BaseAbilityEffect>();
-			effect.Apply(target);
+			Transform obj = transform;
+			for (int i = 0; i < obj.childCount; ++i)
+			{
+				AbilityEffectTarget targeter = obj.GetChild(i).GetComponent<AbilityEffectTarget>();
+				if (targeter.IsTarget(tile))
+					return true;
+			}
+			return false;
+		}
+	
+		void Perform (Tile target)
+		{
+			for (int i = 0; i < transform.childCount; ++i)
+			{
+				Transform child = transform.GetChild(i);
+				BaseAbilityEffect effect = child.GetComponent<BaseAbilityEffect>();
+				effect.Apply(target);
+			}
 		}
 	}
 }

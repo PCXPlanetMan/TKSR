@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class Poolable : MonoBehaviour 
-{
-	public string key;
-	public bool isPooled;
+namespace TacticalRPG {	
+	public class Poolable : MonoBehaviour 
+	{
+		public string key;
+		public bool isPooled;
+	}
 }

@@ -1,20 +1,22 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class FixedAbilityPicker : BaseAbilityPicker
-{
-	public Targets target;
-	public string ability;
-
-	public override void Pick (PlanOfAttack plan)
+namespace TacticalRPG {	
+	public class FixedAbilityPicker : BaseAbilityPicker
 	{
-		plan.target = target;
-		plan.ability = Find(ability);
-
-		if (plan.ability == null)
+		public Targets target;
+		public string ability;
+	
+		public override void Pick (PlanOfAttack plan)
 		{
-			plan.ability = Default();
-			plan.target = Targets.Foe;
+			plan.target = target;
+			plan.ability = Find(ability);
+	
+			if (plan.ability == null)
+			{
+				plan.ability = Default();
+				plan.target = Targets.Foe;
+			}
 		}
 	}
 }

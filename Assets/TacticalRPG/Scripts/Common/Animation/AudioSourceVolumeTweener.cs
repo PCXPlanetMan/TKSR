@@ -1,26 +1,28 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class AudioSourceVolumeTweener : Tweener 
-{
-	public AudioSource source 
+namespace TacticalRPG {	
+	public class AudioSourceVolumeTweener : Tweener 
 	{
-		get 
+		public AudioSource source 
 		{
-			if (_source == null)
-				_source = GetComponent<AudioSource>();
-			return _source;
+			get 
+			{
+				if (_source == null)
+					_source = GetComponent<AudioSource>();
+				return _source;
+			}
+			set
+			{
+				_source = value;
+			}
 		}
-		set
+		protected AudioSource _source;
+	
+		protected override void OnUpdate () 
 		{
-			_source = value;
+			base.OnUpdate ();
+			source.volume = currentValue;
 		}
-	}
-	protected AudioSource _source;
-
-	protected override void OnUpdate () 
-	{
-		base.OnUpdate ();
-		source.volume = currentValue;
 	}
 }

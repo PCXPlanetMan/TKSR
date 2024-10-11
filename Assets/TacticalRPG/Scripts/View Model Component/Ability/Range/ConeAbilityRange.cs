@@ -1,56 +1,58 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class ConeAbilityRange : AbilityRange 
-{
-	public override bool directionOriented { get { return true; }}
-	
-	public override List<Tile> GetTilesInRange (Board board)
+namespace TacticalRPG {	
+	public class ConeAbilityRange : AbilityRange 
 	{
-		Point pos = unit.tile.pos;
-		List<Tile> retValue = new List<Tile>();
-		int dir = (unit.dir == Directions.North || unit.dir == Directions.East) ? 1 : -1;
-		int lateral = 1;
+		public override bool directionOriented { get { return true; }}
 		
-		if (unit.dir == Directions.North || unit.dir == Directions.South)
+		public override List<Tile> GetTilesInRange (Board board)
 		{
-			for (int y = 1; y <= horizontal; ++y)
+			Point pos = unit.tile.pos;
+			List<Tile> retValue = new List<Tile>();
+			int dir = (unit.dir == Directions.North || unit.dir == Directions.East) ? 1 : -1;
+			int lateral = 1;
+			
+			if (unit.dir == Directions.North || unit.dir == Directions.South)
 			{
-				int min = -(lateral / 2);
-				int max = (lateral / 2);
-				for (int x = min; x <= max; ++x)
+				for (int y = 1; y <= horizontal; ++y)
 				{
-					Point next = new Point(pos.x + x, pos.y + (y * dir));
-					Tile tile = board.GetTile(next);
-					if (ValidTile(tile))
-						retValue.Add(tile);
+					int min = -(lateral / 2);
+					int max = (lateral / 2);
+					for (int x = min; x <= max; ++x)
+					{
+						Point next = new Point(pos.x + x, pos.y + (y * dir));
+						Tile tile = board.GetTile(next);
+						if (ValidTile(tile))
+							retValue.Add(tile);
+					}
+					lateral += 2;
 				}
-				lateral += 2;
 			}
-		}
-		else
-		{
-			for (int x = 1; x <= horizontal; ++x)
+			else
 			{
-				int min = -(lateral / 2);
-				int max = (lateral / 2);
-				for (int y = min; y <= max; ++y)
+				for (int x = 1; x <= horizontal; ++x)
 				{
-					Point next = new Point(pos.x + (x * dir), pos.y + y);
-					Tile tile = board.GetTile(next);
-					if (ValidTile(tile))
-						retValue.Add(tile);
+					int min = -(lateral / 2);
+					int max = (lateral / 2);
+					for (int y = min; y <= max; ++y)
+					{
+						Point next = new Point(pos.x + (x * dir), pos.y + y);
+						Tile tile = board.GetTile(next);
+						if (ValidTile(tile))
+							retValue.Add(tile);
+					}
+					lateral += 2;
 				}
-				lateral += 2;
 			}
+			
+			return retValue;
 		}
 		
-		return retValue;
-	}
-	
-	bool ValidTile (Tile t)
-	{
-		return t != null && Mathf.Abs(t.height - unit.tile.height) <= vertical;
+		bool ValidTile (Tile t)
+		{
+			return t != null && Mathf.Abs(t.height - unit.tile.height) <= vertical;
+		}
 	}
 }

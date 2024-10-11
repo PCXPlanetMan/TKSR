@@ -1,14 +1,16 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class DefeatTargetVictoryCondition : BaseVictoryCondition 
-{
-	public Unit target;
-	
-	protected override void CheckForGameOver ()
+namespace TacticalRPG {	
+	public class DefeatTargetVictoryCondition : BaseVictoryCondition 
 	{
-		base.CheckForGameOver ();
-		if (Victor == Alliances.None && IsDefeated(target))
-			Victor = Alliances.Hero;
+		public Unit target;
+		
+		protected override void CheckForGameOver ()
+		{
+			base.CheckForGameOver ();
+			if (Victor == Alliances.None && IsDefeated(target))
+				Victor = Alliances.Hero;
+		}
 	}
 }

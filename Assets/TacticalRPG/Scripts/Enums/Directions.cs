@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public enum Directions
-{
-	North,
-	East,
-	South,
-	West
+namespace TacticalRPG {	
+	public enum Directions
+	{
+		North,
+		East,
+		South,
+		West
+	}
 }

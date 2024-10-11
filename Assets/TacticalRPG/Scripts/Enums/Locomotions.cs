@@ -1,9 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public enum Locomotions
-{
-	Walk,
-	Fly,
-	Teleport
+namespace TacticalRPG {	
+	public enum Locomotions
+	{
+		Walk,
+		Fly,
+		Teleport
+	}
 }

@@ -1,17 +1,19 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class AttackPattern : MonoBehaviour 
-{
-	public List<BaseAbilityPicker> pickers;
-	int index;
-	
-	public void Pick (PlanOfAttack plan)
+namespace TacticalRPG {	
+	public class AttackPattern : MonoBehaviour 
 	{
-		pickers[index].Pick(plan);
-		index++;
-		if (index >= pickers.Count)
-			index = 0;
+		public List<BaseAbilityPicker> pickers;
+		int index;
+		
+		public void Pick (PlanOfAttack plan)
+		{
+			pickers[index].Pick(plan);
+			index++;
+			if (index >= pickers.Count)
+				index = 0;
+		}
 	}
 }

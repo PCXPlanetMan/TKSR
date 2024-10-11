@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class AddPoisonStatusFeature : AddStatusFeature<PoisonStatusEffect> 
-{
-
+namespace TacticalRPG {	
+	public class AddPoisonStatusFeature : AddStatusFeature<PoisonStatusEffect> 
+	{
+	
+	}
 }
