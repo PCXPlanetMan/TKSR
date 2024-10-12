@@ -230,8 +230,7 @@ namespace TKSR
 
         private IEnumerator LoadInputNamePanelAsync()
         {
-            var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
-            m_InputNameHandle = package.LoadAssetAsync<GameObject>("GUIInputNamePanel");
+            m_InputNameHandle = YooAssets.LoadAssetAsync<GameObject>("GUIInputNamePanel");
             yield return m_InputNameHandle;
             
             var goHandle = m_InputNameHandle.InstantiateAsync();

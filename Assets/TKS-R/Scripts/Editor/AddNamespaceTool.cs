@@ -24,7 +24,7 @@ public class AddNamespaceTool : ScriptableWizard {
 		}
 	}
  
-	[MenuItem("Comb Project/Add Namespace",false,10)]
+	[MenuItem("Tools/TKS-R/Add Namespace For Scripts")]
 	static void CreateWizard () {
 		AddNamespaceTool editor = ScriptableWizard.DisplayWizard<AddNamespaceTool>("Add Namespace", "Add");
 		editor.minSize = new Vector2(300,200);

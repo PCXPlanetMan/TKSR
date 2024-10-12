@@ -70,28 +70,32 @@ namespace TKSR
         
         public IEnumerator LoadItemsSchemaAsync()
         {
-            var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
-            AssetHandle textAssetHandleItems = package.LoadAssetAsync<TextAsset>(ResourceUtils.AB_SCHEMA_ITEMS);
-            // m_requests.Add(textAssetHandleItems);
+            AssetHandle textAssetHandleItems = YooAssets.LoadAssetAsync<TextAsset>(ResourceUtils.AB_SCHEMA_ITEMS);
             yield return textAssetHandleItems;
 
-            var jsonPropsSchema = textAssetHandleItems.AssetObject as TextAsset;
-            if (jsonPropsSchema != null)
+            if (textAssetHandleItems.Status == EOperationStatus.Succeed)
             {
-                try
+                var jsonPropsSchema = textAssetHandleItems.AssetObject as TextAsset;
+                if (jsonPropsSchema != null)
                 {
-                    m_schemaItems = JsonConvert.DeserializeObject<SchemaItems>(jsonPropsSchema.text);
+                    try
+                    {
+                        m_schemaItems = JsonConvert.DeserializeObject<SchemaItems>(jsonPropsSchema.text);
+                    }
+                    catch (Exception e)
+                    {
+                        Debug.LogError($"[TKSR] Read Items Schema failed with exception = {e.ToString()}");
+                    }
                 }
-                catch (Exception e)
-                {
-                    Debug.LogError($"[TKSR] Read Items Schema failed with exception = {e.ToString()}");
-                }
-            }
 
-            ParseAllItemsFromSchema();
+                ParseAllItemsFromSchema();
             
-            textAssetHandleItems.Release();
-            textAssetHandleItems = null;
+                textAssetHandleItems.Release();
+            }
+            else
+            {
+                Debug.LogError($"[TKSR] YooAssets Load Text Failed : {textAssetHandleItems.LastError}");
+            }
         }
 
         public void UnloadAllAssets()

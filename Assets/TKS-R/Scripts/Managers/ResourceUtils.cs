@@ -10,7 +10,7 @@ namespace TKSR
     {
         #region 游戏资源常量
 
-        public static string AB_YOO_PACKAGE = "TKSRDefaultPackage";
+        public static string AB_YOO_PACKAGE = "TKSRPackage";
         public static string AB_SCHEMA_CHARACTERS = "SchemaCharacters";
         public static string AB_SCHEMA_ITEMS = "SchemaItems";
         #endregion

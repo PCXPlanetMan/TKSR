@@ -9,6 +9,7 @@ using I2.Loc;
 using Newtonsoft.Json;
 using PixelCrushers;
 using PixelCrushers.DialogueSystem;
+using UniFramework.Event;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using YooAsset;
@@ -97,41 +98,35 @@ namespace TKSR
             NewDefaultDocument();
         }
 
+        public EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
+        
         private IEnumerator InitializeYooAsset()
         {
+            GameManager.Instance.Behaviour = this;
+
+            // 初始化事件系统
+            UniEvent.Initalize();
+
             // 初始化资源系统
             YooAssets.Initialize();
 
-            // 创建默认的资源包
-            var package = YooAssets.CreatePackage(ResourceUtils.AB_YOO_PACKAGE);
+            // 加载更新页面
+            // var go = Resources.Load<GameObject>("PatchWindow");
+            // GameObject.Instantiate(go);
+
+            // 开始补丁更新流程
+            PatchOperation operation = new PatchOperation(ResourceUtils.AB_YOO_PACKAGE, EDefaultBuildPipeline.BuiltinBuildPipeline.ToString(), PlayMode);
+            YooAssets.StartOperation(operation);
+            yield return operation;
             
-            // 设置该资源包为默认的资源包，可以使用YooAssets相关加载接口加载该资源包内容。
-            YooAssets.SetDefaultPackage(package);
-            
-#if UNITY_EDITOR
-            var buildPipeline = EDefaultBuildPipeline.BuiltinBuildPipeline; 
-            var simulateBuildResult = EditorSimulateModeHelper.SimulateBuild(buildPipeline, ResourceUtils.AB_YOO_PACKAGE);
-            var editorFileSystem = FileSystemParameters.CreateDefaultEditorFileSystemParameters(simulateBuildResult);
-            var initParameters = new EditorSimulateModeParameters();
-            initParameters.EditorFileSystemParameters = editorFileSystem;
-            var initializationOperation = package.InitializeAsync(initParameters);
-            yield return initializationOperation;
-            
-            if (initializationOperation.Status == EOperationStatus.Succeed)
-                Debug.Log("[TKSR] YooAsset 资源包初始化成功！");
+            if (operation.Status == EOperationStatus.Succeed)
+                Debug.Log("[TKSR] YooAssets Load Patch Succeed!");
             else 
-                Debug.LogError($"[TKSR] YooAsset 资源包初始化失败：{initializationOperation.Error}");
-            
-            var operationPackage = package.RequestPackageVersionAsync();
-            yield return operationPackage;
-        
-            Debug.Log($"[TKSR] YooAsset Request package version : {operationPackage.PackageVersion}");
-            
-            var operationManifest = package.UpdatePackageManifestAsync(operationPackage.PackageVersion);
-            yield return operationManifest;
-#else
-            yield return null;
-#endif
+                Debug.LogError($"[TKSR] YooAssets Update Patch Failed：{operation.Error}");
+
+            // 设置默认的资源包
+            var gamePackage = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
+            YooAssets.SetDefaultPackage(gamePackage);
         }
         
         private IEnumerator LoadingSchemasAsync()

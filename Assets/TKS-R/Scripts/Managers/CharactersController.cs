@@ -60,8 +60,7 @@ namespace TKSR
         
         public IEnumerator LoadCharactersSchemaAsync()
         {
-            var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
-            AssetHandle textAssetHandleCharacters = package.LoadAssetAsync<TextAsset>(ResourceUtils.AB_SCHEMA_CHARACTERS);
+            AssetHandle textAssetHandleCharacters = YooAssets.LoadAssetAsync<TextAsset>(ResourceUtils.AB_SCHEMA_CHARACTERS);
             m_requests.Add(textAssetHandleCharacters);
             yield return textAssetHandleCharacters;
 
@@ -88,8 +87,7 @@ namespace TKSR
         /// <returns></returns>
         private Sprite LoadPortraitSprite(string portraitName)
         {
-            var package = YooAssets.GetPackage(ResourceUtils.AB_YOO_PACKAGE);
-            var assetHandle = package.LoadAssetSync<Sprite>(portraitName);
+            var assetHandle = YooAssets.LoadAssetSync<Sprite>(portraitName);
             m_requests.Add(assetHandle);
             
             var charSprite = assetHandle.AssetObject as Sprite;
