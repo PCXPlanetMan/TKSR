@@ -202,9 +202,7 @@ namespace TKSR
             var sceneMode = LoadSceneMode.Single;
             var physicsMode = LocalPhysicsMode.None;
             bool suspendLoad = false;
-            SceneHandle handle = package.LoadSceneAsync(newSceneName, sceneMode, physicsMode, suspendLoad);
-            
-            
+            sceneHandle = package.LoadSceneAsync(newSceneName, sceneMode, physicsMode, suspendLoad);
             yield return sceneHandle;
             Debug.Log($"[TKSR] [YooAssets] LoadScene name is {sceneHandle.SceneName}");
 
