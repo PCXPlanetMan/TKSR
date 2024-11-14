@@ -696,6 +696,7 @@ namespace PixelCrushers.DialogueSystem.ArcweaveSupport
 
         protected virtual void TryLoadPortrait(string assetName, out Sprite sprite, out Texture2D texture)
         {
+#if UNITY_EDITOR
             string assetPath = GetAssetPath(assetName);
             texture = null;
             sprite = UnityEditor.AssetDatabase.LoadAssetAtPath(assetPath, typeof(Sprite)) as Sprite;
@@ -703,6 +704,10 @@ namespace PixelCrushers.DialogueSystem.ArcweaveSupport
             {
                 texture = UnityEditor.AssetDatabase.LoadAssetAtPath(assetPath, typeof(Texture2D)) as Texture2D;
             }
+#else
+            sprite = null;
+            texture = null;
+#endif
         }
 
         protected virtual string GetAssetPath(string assetName)
@@ -1282,7 +1287,7 @@ namespace PixelCrushers.DialogueSystem.ArcweaveSupport
             }
         }
 
-        #endregion
+#endregion
 
         #region Touch Up Database
 

@@ -315,6 +315,22 @@ namespace PixelCrushers.DialogueSystem
             }
         }
 
+        protected virtual void StopFocusWhenOpenCoroutine()
+        {
+            if (m_focusWhenOpenCoroutine != null)
+            {
+                StopCoroutine(m_focusWhenOpenCoroutine);
+                m_focusWhenOpenCoroutine = null;
+            }
+        }
+
+        public virtual void StopShowSubtitleCoroutines()
+        {
+            StopShowAfterClosingCoroutine();
+            StopFocusWhenOpenCoroutine();
+
+        }
+
         /// <summary>
         /// Hides a subtitle, playing the unfocus and close animations.
         /// </summary>
@@ -367,7 +383,7 @@ namespace PixelCrushers.DialogueSystem
         {
             if (panelState == PanelState.Opening && enabled && gameObject.activeInHierarchy)
             {
-                if (m_focusWhenOpenCoroutine != null) StopCoroutine(m_focusWhenOpenCoroutine);
+                StopFocusWhenOpenCoroutine();
                 m_focusWhenOpenCoroutine = StartCoroutine(FocusWhenOpen());
             }
             else
@@ -416,11 +432,7 @@ namespace PixelCrushers.DialogueSystem
         public virtual void Unfocus()
         {
             if (m_panelAnimator != null && !string.IsNullOrEmpty(focusAnimationTrigger)) m_panelAnimator.ResetTrigger(focusAnimationTrigger);
-            if (m_focusWhenOpenCoroutine != null)
-            {
-                StopCoroutine(m_focusWhenOpenCoroutine);
-                m_focusWhenOpenCoroutine = null;
-            }
+            StopShowSubtitleCoroutines();
             if (!string.IsNullOrEmpty(focusAnimationTrigger) && animatorMonitor.currentTrigger == focusAnimationTrigger)
             {
                 animatorMonitor.CancelCurrentAnimation();
@@ -467,16 +479,31 @@ namespace PixelCrushers.DialogueSystem
             numAccumulatedLines = 0;
         }
 
+        private Coroutine m_ShowContinueButtonCoroutine;
+
         public virtual void ShowContinueButton()
         {
+            if (m_ShowContinueButtonCoroutine != null)
+            {
+                DialogueManager.instance.StopCoroutine(m_ShowContinueButtonCoroutine);
+            }
             if (blockInputDuration > 0)
             {
-                DialogueManager.instance.StartCoroutine(ShowContinueButtonAfterBlockDuration());
+                m_ShowContinueButtonCoroutine = DialogueManager.instance.StartCoroutine(ShowContinueButtonAfterBlockDuration());
             }
             else
             {
                 ShowContinueButtonNow();
             }
+        }
+
+        public virtual void HideContinueButton()
+        {
+            if (m_ShowContinueButtonCoroutine != null)
+            {
+                DialogueManager.instance.StopCoroutine(m_ShowContinueButtonCoroutine);
+            }
+            Tools.SetGameObjectActive(continueButton, false);
         }
 
         protected virtual IEnumerator ShowContinueButtonAfterBlockDuration()
@@ -494,6 +521,7 @@ namespace PixelCrushers.DialogueSystem
             yield return DialogueManager.instance.StartCoroutine(DialogueTime.WaitForSeconds(blockInputDuration));
             continueButton.interactable = true;
             ShowContinueButtonNow();
+            m_ShowContinueButtonCoroutine = null;
         }
 
         protected virtual void ShowContinueButtonNow()
@@ -514,11 +542,6 @@ namespace PixelCrushers.DialogueSystem
                 }
             }
             shouldShowContinueButton = true;
-        }
-
-        public virtual void HideContinueButton()
-        {
-            Tools.SetGameObjectActive(continueButton, false);
         }
 
         /// <summary>
@@ -596,6 +619,11 @@ namespace PixelCrushers.DialogueSystem
 
         protected virtual void SetSubtitleTextContent(Subtitle subtitle)
         {
+            if (addSpeakerName && !string.IsNullOrEmpty(subtitle.speakerInfo.Name))
+            {
+                subtitle.formattedText.text = FormattedText.Parse(string.Format(addSpeakerNameFormat, new object[] { subtitle.speakerInfo.Name, subtitle.formattedText.text })).text;
+            }
+
             TypewriterUtility.StopTyping(subtitleText);
             var previousText = accumulateText ? m_accumulatedText : string.Empty;
             if (accumulateText && !string.IsNullOrEmpty(subtitle.formattedText.text))
@@ -676,11 +704,6 @@ namespace PixelCrushers.DialogueSystem
         protected virtual void SetFormattedText(UITextField textField, string previousText, Subtitle subtitle)
         {
             var currentText = UITools.GetUIFormattedText(subtitle.formattedText);
-            if (addSpeakerName && !string.IsNullOrEmpty(subtitle.speakerInfo.Name))
-            {
-                currentText = FormattedText.Parse(string.Format(addSpeakerNameFormat, new object[] { subtitle.speakerInfo.Name, currentText })).text;
-            }
-
             textField.text = previousText + currentText;
             UITools.SendTextChangeMessage(textField);
             if (!haveSavedOriginalColor)

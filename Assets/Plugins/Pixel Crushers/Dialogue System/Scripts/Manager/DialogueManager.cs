@@ -206,6 +206,16 @@ namespace PixelCrushers.DialogueSystem
         public static ConversationView conversationView { get { return hasInstance ? instance.conversationView : null; } }
 
         /// <summary>
+        /// Reevaluate links after showing subtitle in case subtitle Sequence or OnConversationLine changes link conditions. If you know this can't happen, you can UNtick this checkbox to improve performance.
+        /// </summary>
+        public static bool reevaluateLinksAfterSubtitle { get { return hasInstance ? instance.reevaluateLinksAfterSubtitle : true; } }
+
+        /// <summary>
+        /// If a group node's Conditions are true, don't evaluate sibling group nodes.
+        /// </summary>
+        public static bool useLinearGroupMode { get { return hasInstance ? instance.useLinearGroupMode : false; } }
+
+        /// <summary>
         /// If <c>true</c>, Dialogue System Triggers set to OnStart should wait until save data has been applied or variables initialized.
         /// </summary>
         public static bool onStartTriggerWaitForSaveDataApplied
@@ -463,6 +473,39 @@ namespace PixelCrushers.DialogueSystem
         /// <example>
         /// StartConversation("Shopkeeper Conversation", player, shopkeeper);
         /// </example>
+        public static void StartConversation(string title, Transform actor, Transform conversant, 
+            int initialDialogueEntryID, IDialogueUI overrideDialogueUI)
+        {
+            if (!hasInstance) return;
+            instance.StartConversation(title, actor, conversant, initialDialogueEntryID, overrideDialogueUI);
+        }
+
+        /// <summary>
+        /// Starts a conversation, which also broadcasts an OnConversationStart message to the 
+        /// actor and conversant. Your scripts can listen for OnConversationStart to do anything
+        /// necessary at the beginning of a conversation, such as pausing other gameplay or 
+        /// temporarily disabling player control. See the Feature Demo scene, which uses the
+        /// SetEnabledOnDialogueEvent component to disable player control during conversations.
+        /// </summary>
+        /// <param name='title'>
+        /// The title of the conversation to look up in the master database.
+        /// </param>
+        /// <param name='actor'>
+        /// The transform of the actor (primary participant). The sequencer uses this to direct 
+        /// camera angles and perform other actions. In PC-NPC conversations, the actor is usually
+        /// the PC.
+        /// </param>
+        /// <param name='conversant'>
+        /// The transform of the conversant (the other participant). The sequencer uses this to 
+        /// direct camera angles and perform other actions. In PC-NPC conversations, the conversant
+        /// is usually the NPC.
+        /// </param>
+        /// <param name='initialDialogueEntryID'> 
+        /// The initial dialogue entry ID, or -1 to start from the beginning.
+        /// </param>
+        /// <example>
+        /// StartConversation("Shopkeeper Conversation", player, shopkeeper);
+        /// </example>
         public static void StartConversation(string title, Transform actor, Transform conversant, int initialDialogueEntryID)
         {
             if (!hasInstance) return;
@@ -561,6 +604,34 @@ namespace PixelCrushers.DialogueSystem
         {
             if (!hasInstance) return;
             instance.UpdateResponses();
+        }
+
+        /// <summary>
+        /// Sets continue button mode to Always (true) or Never (false). 
+        /// Before changing, records current mode so you can use
+        /// SetOriginalContinueMode() to revert the setting.
+        /// </summary>
+        public static void SetContinueMode(bool value)
+        {
+            if (instance != null) instance.SetContinueMode(value);
+        }
+
+        /// <summary>
+        /// Sets continue button mode.
+        /// Before changing, records current mode so you can use
+        /// SetOriginalContinueMode() to revert the setting.
+        /// </summary>
+        public static void SetContinueMode(DisplaySettings.SubtitleSettings.ContinueButtonMode mode)
+        {
+            if (instance != null) instance.SetContinueMode(mode);
+        }
+
+        /// <summary>
+        /// Reverts continue button mode to the previously-saved mode.
+        /// </summary>
+        public static void SetOriginalContinueMode()
+        {
+            if (instance != null) instance.SetOriginalContinueMode();
         }
 
         /// <summary>

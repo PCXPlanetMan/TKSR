@@ -433,7 +433,7 @@ namespace PixelCrushers.DialogueSystem
                 }
 
                 // Abandon button:
-                if (currentQuestStateMask == QuestState.Active && QuestLog.IsQuestAbandonable(quest.Title))
+                if (isShowingActiveQuests && QuestLog.IsQuestAbandonable(quest.Title))
                 {
                     var abandonButtonInstance = detailsPanelContentManager.Instantiate<StandardUIButtonTemplate>(abandonButtonTemplate);
                     detailsPanelContentManager.Add(abandonButtonInstance, questDetailsContentContainer);
@@ -500,13 +500,11 @@ namespace PixelCrushers.DialogueSystem
                 // Record most recent selected quest in category for when we return to category:
                 if (currentQuestStateMask == ActiveQuestStateMask)
                 {
-                    Debug.Log($"Changing to completed. save active={selectedQuest}, restore {mostRecentSelectedCompletedQuest}");
                     mostRecentSelectedActiveQuest = selectedQuest;
                     selectedQuest = mostRecentSelectedCompletedQuest;
                 }
                 else
                 {
-                    Debug.Log($"Changing to active. save completed={selectedQuest}, restore {mostRecentSelectedActiveQuest}");
                     mostRecentSelectedCompletedQuest = selectedQuest;
                     selectedQuest = mostRecentSelectedActiveQuest;
                 }
